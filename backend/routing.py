@@ -20,8 +20,8 @@ from typing import Literal
 
 import networkx as nx
 
-from src.city import node_distance_m, signal_wait_time, MAX_SPEED_KMH_FOR_HEURISTIC
-from src.traffic import travel_time_s, KMH_TO_MS
+from backend.city import node_distance_m, signal_wait_time, MAX_SPEED_KMH_FOR_HEURISTIC
+from backend.traffic import travel_time_s, KMH_TO_MS
 
 RoutingMode = Literal["distance", "traffic", "smart"]
 

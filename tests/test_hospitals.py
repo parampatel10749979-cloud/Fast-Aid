@@ -2,8 +2,8 @@
 
 import pytest
 
-from src.city import build_city, Hospital
-from src.hospitals import select_hospital, admit_patient
+from backend.city import build_city, Hospital
+from backend.hospitals import select_hospital, admit_patient
 
 
 @pytest.fixture

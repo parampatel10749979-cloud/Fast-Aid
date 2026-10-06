@@ -20,7 +20,7 @@ import matplotlib.pyplot as plt
 import numpy as np
 import pandas as pd
 
-from src.metrics import run_benchmark, RESULTS_DIR
+from backend.metrics import run_benchmark, RESULTS_DIR
 
 SCENARIOS = ["Light", "Moderate", "Heavy", "Gridlock"]
 N_TRIALS  = 100
@@ -169,10 +169,10 @@ def _plot_algorithm_comparison(df: pd.DataFrame) -> None:
     We collect this data here rather than storing it in the main benchmark CSV
     to keep the main benchmark fast.
     """
-    from src.city import build_city
-    from src.hospitals import select_hospital
-    from src.routing import dijkstra_route, astar_route
-    from src.traffic import TrafficEngine
+    from backend.city import build_city
+    from backend.hospitals import select_hospital
+    from backend.routing import dijkstra_route, astar_route
+    from backend.traffic import TrafficEngine
 
     rng   = np.random.default_rng(SEED + 1)
     graph, hospitals = build_city(seed=42)

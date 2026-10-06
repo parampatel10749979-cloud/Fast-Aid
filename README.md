@@ -50,25 +50,30 @@ Emergency call → Pick hospital → Compute route (Dijkstra / A*)
 
 Python 3.10+, NetworkX, NumPy, Pandas, Matplotlib, Plotly, Streamlit, pytest
 
-## Project Structure
+## Project Structure (Frontend / Backend Architecture)
 
 ```
 fast-aid/
-├── app.py                  # Streamlit dashboard
+├── backend/                        # Backend Simulation & Computation Engine
+│   ├── __init__.py
+│   ├── city.py                     # Synthetic city grid, hospitals, signals
+│   ├── traffic.py                  # BPR congestion and incident dynamics
+│   ├── routing.py                  # Dijkstra, A*, time-cost routing
+│   ├── preemption.py               # Green corridor signal preemption
+│   ├── hospitals.py                # Multi-criteria hospital selection
+│   ├── simulation.py               # Step-by-step ambulance trip traversal
+│   └── metrics.py                  # Trip comparison and benchmark suite
+├── frontend/                       # Frontend Presentation & Dashboard Layer
+│   ├── __init__.py
+│   ├── app.py                      # Interactive Streamlit dashboard
+│   └── visualize.py                # Plotly city network & metrics visualizer
+├── app.py                          # Root launcher shim (forwards to frontend/app.py)
+├── experiments/
+│   └── run_benchmarks.py           # Headless benchmark experiment runner
+├── tests/                          # 51 unit tests covering all backend modules
+├── results/                        # Benchmark CSV logs and generated figures
 ├── requirements.txt
-├── README.md
-├── src/
-│   ├── city.py             # grid city, hospitals, signals
-│   ├── traffic.py          # congestion and incidents
-│   ├── routing.py          # Dijkstra, A*, cost modes
-│   ├── preemption.py       # green corridor
-│   ├── hospitals.py        # hospital selection
-│   ├── simulation.py       # one ambulance trip
-│   ├── metrics.py          # comparison and benchmarks
-│   └── visualize.py        # maps and charts
-├── experiments/run_benchmarks.py
-├── tests/
-└── results/
+└── README.md
 ```
 
 ## Installation
@@ -83,10 +88,11 @@ pip install -r requirements.txt
 
 ## Usage
 
-**Run the dashboard**
+**Run the frontend dashboard**
 ```bash
-streamlit run app.py
+streamlit run frontend/app.py
 ```
+*(or run `streamlit run app.py` from root)*
 
 **Run benchmarks**
 ```bash

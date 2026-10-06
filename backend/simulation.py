@@ -20,10 +20,10 @@ from typing import Literal
 import networkx as nx
 import numpy as np
 
-from src.city import signal_wait_time
-from src.preemption import preempt_signals, restore_signals, clear_all_preemptions
-from src.routing import dijkstra_route, astar_route, RoutingMode
-from src.traffic import travel_time_s
+from backend.city import signal_wait_time
+from backend.preemption import preempt_signals, restore_signals, clear_all_preemptions
+from backend.routing import dijkstra_route, astar_route, RoutingMode
+from backend.traffic import travel_time_s
 
 Algorithm = Literal["dijkstra", "astar"]
 

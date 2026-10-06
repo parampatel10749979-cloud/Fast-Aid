@@ -16,7 +16,7 @@ import pandas as pd
 import plotly.graph_objects as go
 import plotly.express as px
 
-from src.city import BLOCK_LENGTH_M, Hospital
+from backend.city import BLOCK_LENGTH_M, Hospital
 
 # ── colour helpers ────────────────────────────────────────────────────────────
 

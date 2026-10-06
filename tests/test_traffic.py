@@ -4,8 +4,8 @@ import pytest
 import numpy as np
 import networkx as nx
 
-from src.city import build_city
-from src.traffic import TrafficEngine, SCENARIOS, travel_time_s
+from backend.city import build_city
+from backend.traffic import TrafficEngine, SCENARIOS, travel_time_s
 
 
 @pytest.fixture

@@ -17,11 +17,11 @@ import numpy as np
 import pandas as pd
 import networkx as nx
 
-from src.city import build_city, Hospital
-from src.hospitals import select_hospital
-from src.routing import RoutingMode
-from src.simulation import run_ambulance, TripResult
-from src.traffic import TrafficEngine, ScenarioName
+from backend.city import build_city, Hospital
+from backend.hospitals import select_hospital
+from backend.routing import RoutingMode
+from backend.simulation import run_ambulance, TripResult
+from backend.traffic import TrafficEngine, ScenarioName
 
 RESULTS_DIR = Path("results")
 

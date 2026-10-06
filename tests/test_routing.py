@@ -3,8 +3,8 @@
 import pytest
 import networkx as nx
 
-from src.city import build_city
-from src.routing import dijkstra_route, astar_route, RouteResult
+from backend.city import build_city
+from backend.routing import dijkstra_route, astar_route, RouteResult
 
 
 # ── tiny known graph fixture ──────────────────────────────────────────────────

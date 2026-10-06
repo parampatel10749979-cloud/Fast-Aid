@@ -3,8 +3,8 @@
 import pytest
 import networkx as nx
 
-from src.city import build_city, signal_wait_time
-from src.preemption import preempt_signals, restore_signals, clear_all_preemptions
+from backend.city import build_city, signal_wait_time
+from backend.preemption import preempt_signals, restore_signals, clear_all_preemptions
 
 
 @pytest.fixture

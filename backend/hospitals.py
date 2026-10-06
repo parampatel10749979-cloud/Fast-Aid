@@ -13,8 +13,8 @@ No global mutable state; caller passes graph and hospital list.
 
 from __future__ import annotations
 
-from src.city import Hospital
-from src.routing import dijkstra_route, RoutingMode
+from backend.city import Hospital
+from backend.routing import dijkstra_route, RoutingMode
 import networkx as nx
 
 

@@ -4,7 +4,7 @@ import pytest
 import networkx as nx
 import numpy as np
 
-from src.city import build_city, signal_wait_time, GRID_ROWS, GRID_COLS, SIGNAL_CYCLE_S, SIGNAL_GREEN_S
+from backend.city import build_city, signal_wait_time, GRID_ROWS, GRID_COLS, SIGNAL_CYCLE_S, SIGNAL_GREEN_S
 
 
 @pytest.fixture
@@ -49,7 +49,7 @@ def test_hospital_capacity_positive(city):
 
 def test_hospital_specialties_valid(city):
     """All hospital specialties must come from the allowed set."""
-    from src.city import SPECIALTIES
+    from backend.city import SPECIALTIES
     _, hospitals = city
     for h in hospitals:
         for s in h.specialties:
