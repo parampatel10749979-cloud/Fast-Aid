@@ -136,7 +136,7 @@ Add your screenshots here (map, simulation, comparison chart).
 
 ## Author
 
-[Your Name] | [Roll No.] | [Institute] | [Guide]
+[Param Patel] | [Roll No:117]
 
 ## License
 
