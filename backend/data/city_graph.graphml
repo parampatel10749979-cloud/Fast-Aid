@@ -1,0 +1,6259 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d16" for="edge" attr.name="name" attr.type="string"/>
+<key id="d15" for="edge" attr.name="congestion" attr.type="double"/>
+<key id="d14" for="edge" attr.name="speed_limit" attr.type="double"/>
+<key id="d13" for="edge" attr.name="length" attr.type="double"/>
+<key id="d12" for="node" attr.name="intersection_label" attr.type="string"/>
+<key id="d11" for="node" attr.name="hospital_specialties" attr.type="string"/>
+<key id="d10" for="node" attr.name="hospital_capacity" attr.type="long"/>
+<key id="d9" for="node" attr.name="hospital_name" attr.type="string"/>
+<key id="d8" for="node" attr.name="hospital_id" attr.type="string"/>
+<key id="d7" for="node" attr.name="is_hospital" attr.type="boolean"/>
+<key id="d6" for="node" attr.name="preempted" attr.type="boolean"/>
+<key id="d5" for="node" attr.name="phase_offset" attr.type="double"/>
+<key id="d4" for="node" attr.name="has_signal" attr.type="boolean"/>
+<key id="d3" for="node" attr.name="lon" attr.type="double"/>
+<key id="d2" for="node" attr.name="lat" attr.type="double"/>
+<key id="d1" for="node" attr.name="col" attr.type="long"/>
+<key id="d0" for="node" attr.name="row" attr.type="long"/>
+<graph edgedefault="directed"><node id="n_0_0">
+  <data key="d0">0</data>
+  <data key="d1">0</data>
+  <data key="d2">37.79058218681457</data>
+  <data key="d3">-122.42051833646808</data>
+  <data key="d4">True</data>
+  <data key="d5">25.757937597341474</data>
+  <data key="d6">False</data>
+  <data key="d7">False</data>
+  <data key="d8"></data>
+  <data key="d9"></data>
+  <data key="d10">0</data>
+  <data key="d11"></data>
+  <data key="d12">Bush St &amp; Van Ness Ave</data>
+</node>
+<node id="n_0_1">
+  <data key="d0">0</data>
+  <data key="d1">1</data>
+  <data key="d2">37.790559210408716</data>
+  <data key="d3">-122.41862174679562</data>
+  <data key="d4">False</data>
+  <data key="d5">0.0</data>
+  <data key="d6">False</data>
+  <data key="d7">False</data>
+  <data key="d8"></data>
+  <data key="d9"></data>
+  <data key="d10">0</data>
+  <data key="d11"></data>
+  <data key="d12">Bush St &amp; Polk St</data>
+</node>
+<node id="n_0_2">
+  <data key="d0">0</data>
+  <data key="d1">2</data>
+  <data key="d2">37.790578341910596</data>
+  <data key="d3">-122.41641418070841</data>
+  <data key="d4">True</data>
+  <data key="d5">13.511578136867014</data>
+  <data key="d6">False</data>
+  <data key="d7">False</data>
+  <data key="d8"></data>
+  <data key="d9"></data>
+  <data key="d10">0</data>
+  <data key="d11"></data>
+  <data key="d12">Bush St &amp; Larkin St</data>
+</node>
+<node id="n_0_3">
+  <data key="d0">0</data>
+  <data key="d1">3</data>
+  <data key="d2">37.79046123940727</data>
+  <data key="d3">-122.41437197050335</data>
+  <data key="d4">False</data>
+  <data key="d5">0.0</data>
+  <data key="d6">False</data>
+  <data key="d7">False</data>
+  <data key="d8"></data>
+  <data key="d9"></data>
+  <data key="d10">0</data>
+  <data key="d11"></data>
+  <data key="d12">Bush St &amp; Hyde St</data>
+</node>
+<node id="n_0_4">
+  <data key="d0">0</data>
+  <data key="d1">4</data>
+  <data key="d2">37.790596828483984</data>
+  <data key="d3">-122.41251697574035</data>
+  <data key="d4">True</data>
+  <data key="d5">16.637543610475046</data>
+  <data key="d6">False</data>
+  <data key="d7">False</data>
+  <data key="d8"></data>
+  <data key="d9"></data>
+  <data key="d10">0</data>
+  <data key="d11"></data>
+  <data key="d12">Bush St &amp; Leavenworth St</data>
+</node>
+<node id="n_0_5">
+  <data key="d0">0</data>
+  <data key="d1">5</data>
+  <data key="d2">37.79036914517683</data>
+  <data key="d3">-122.4104017106484</data>
+  <data key="d4">False</data>
+  <data key="d5">0.0</data>
+  <data key="d6">False</data>
+  <data key="d7">False</data>
+  <data key="d8"></data>
+  <data key="d9"></data>
+  <data key="d10">0</data>
+  <data key="d11"></data>
+  <data key="d12">Bush St &amp; Jones St</data>
+</node>
+<node id="n_0_6">
+  <data key="d0">0</data>
+  <data key="d1">6</data>
+  <data key="d2">37.790577426322024</data>
+  <data key="d3">-122.40854364220957</data>
+  <data key="d4">False</data>
+  <data key="d5">0.0</data>
+  <data key="d6">False</data>
+  <data key="d7">False</data>
+  <data key="d8"></data>
+  <data key="d9"></data>
+  <data key="d10">0</data>
+  <data key="d11"></data>
+  <data key="d12">Bush St &amp; Taylor St</data>
+</node>
+<node id="n_0_7">
+  <data key="d0">0</data>
+  <data key="d1">7</data>
+  <data key="d2">37.790617936336396</data>
+  <data key="d3">-122.40641648495087</data>
+  <data key="d4">True</data>
+  <data key="d5">14.001630111811025</data>
+  <data key="d6">False</data>
+  <data key="d7">False</data>
+  <data key="d8"></data>
+  <data key="d9"></data>
+  <data key="d10">0</data>
+  <data key="d11"></data>
+  <data key="d12">Bush St &amp; Mason St</data>
+</node>
+<node id="n_0_8">
+  <data key="d0">0</data>
+  <data key="d1">8</data>
+  <data key="d2">37.79036314112974</data>
+  <data key="d3">-122.40460371315238</data>
+  <data key="d4">False</data>
+  <data key="d5">0.0</data>
+  <data key="d6">False</data>
+  <data key="d7">False</data>
+  <data key="d8"></data>
+  <data key="d9"></data>
+  <data key="d10">0</data>
+  <data key="d11"></data>
+  <data key="d12">Bush St &amp; Powell St</data>
+</node>
+<node id="n_0_9">
+  <data key="d0">0</data>
+  <data key="d1">9</data>
+  <data key="d2">37.79057342864677</data>
+  <data key="d3">-122.40235974708027</data>
+  <data key="d4">True</data>
+  <data key="d5">11.113791181046066</data>
+  <data key="d6">False</data>
+  <data key="d7">False</data>
+  <data key="d8"></data>
+  <data key="d9"></data>
+  <data key="d10">0</data>
+  <data key="d11"></data>
+  <data key="d12">Bush St &amp; Stockton St</data>
+</node>
+<node id="n_0_10">
+  <data key="d0">0</data>
+  <data key="d1">10</data>
+  <data key="d2">37.79049086674338</data>
+  <data key="d3">-122.40059315859227</data>
+  <data key="d4">True</data>
+  <data key="d5">14.271147786778013</data>
+  <data key="d6">False</data>
+  <data key="d7">False</data>
+  <data key="d8"></data>
+  <data key="d9"></data>
+  <data key="d10">0</data>
+  <data key="d11"></data>
+  <data key="d12">Bush St &amp; Grant Ave</data>
+</node>
+<node id="n_0_11">
+  <data key="d0">0</data>
+  <data key="d1">11</data>
+  <data key="d2">37.79041807280472</data>
+  <data key="d3">-122.39844905580159</data>
+  <data key="d4">False</data>
+  <data key="d5">0.0</data>
+  <data key="d6">False</data>
+  <data key="d7">False</data>
+  <data key="d8"></data>
+  <data key="d9"></data>
+  <data key="d10">0</data>
+  <data key="d11"></data>
+  <data key="d12">Bush St &amp; Kearny St</data>
+</node>
+<node id="n_0_12">
+  <data key="d0">0</data>
+  <data key="d1">12</data>
+  <data key="d2">37.79059980345882</data>
+  <data key="d3">-122.3964399204694</data>
+  <data key="d4">True</data>
+  <data key="d5">9.370999241461233</data>
+  <data key="d6">False</data>
+  <data key="d7">False</data>
+  <data key="d8"></data>
+  <data key="d9"></data>
+  <data key="d10">0</data>
+  <data key="d11"></data>
+  <data key="d12">Bush St &amp; Montgomery St</data>
+</node>
+<node id="n_0_13">
+  <data key="d0">0</data>
+  <data key="d1">13</data>
+  <data key="d2">37.79059967794042</data>
+  <data key="d3">-122.39440857069275</data>
+  <data key="d4">True</data>
+  <data key="d5">8.649843117907324</data>
+  <data key="d6">False</data>
+  <data key="d7">False</data>
+  <data key="d8"></data>
+  <data key="d9"></data>
+  <data key="d10">0</data>
+  <data key="d11"></data>
+  <data key="d12">Bush St &amp; Sansome St</data>
+</node>
+<node id="n_1_0">
+  <data key="d0">1</data>
+  <data key="d1">0</data>
+  <data key="d2">37.7888547486512</data>
+  <data key="d3">-122.42060807425491</data>
+  <data key="d4">True</data>
+  <data key="d5">5.997246074253249</data>
+  <data key="d6">False</data>
+  <data key="d7">False</data>
+  <data key="d8"></data>
+  <data key="d9"></data>
+  <data key="d10">0</data>
+  <data key="d11"></data>
+  <data key="d12">Sutter St &amp; Van Ness Ave</data>
+</node>
+<node id="n_1_1">
+  <data key="d0">1</data>
+  <data key="d1">1</data>
+  <data key="d2">37.78865220868093</data>
+  <data key="d3">-122.41841392268674</data>
+  <data key="d4">False</data>
+  <data key="d5">0.0</data>
+  <data key="d6">False</data>
+  <data key="d7">False</data>
+  <data key="d8"></data>
+  <data key="d9"></data>
+  <data key="d10">0</data>
+  <data key="d11"></data>
+  <data key="d12">Sutter St &amp; Polk St</data>
+</node>
+<node id="n_1_2">
+  <data key="d0">1</data>
+  <data key="d1">2</data>
+  <data key="d2">37.78886154961359</data>
+  <data key="d3">-122.4164157812907</data>
+  <data key="d4">False</data>
+  <data key="d5">0.0</data>
+  <data key="d6">False</data>
+  <data key="d7">False</data>
+  <data key="d8"></data>
+  <data key="d9"></data>
+  <data key="d10">0</data>
+  <data key="d11"></data>
+  <data key="d12">Sutter St &amp; Larkin St</data>
+</node>
+<node id="n_1_3">
+  <data key="d0">1</data>
+  <data key="d1">3</data>
+  <data key="d2">37.788820622358784</data>
+  <data key="d3">-122.41460806090056</data>
+  <data key="d4">True</data>
+  <data key="d5">20.05208885371415</data>
+  <data key="d6">False</data>
+  <data key="d7">False</data>
+  <data key="d8"></data>
+  <data key="d9"></data>
+  <data key="d10">0</data>
+  <data key="d11"></data>
+  <data key="d12">Sutter St &amp; Hyde St</data>
+</node>
+<node id="n_1_4">
+  <data key="d0">1</data>
+  <data key="d1">4</data>
+  <data key="d2">37.78879132886185</data>
+  <data key="d3">-122.41248042916806</data>
+  <data key="d4">False</data>
+  <data key="d5">0.0</data>
+  <data key="d6">False</data>
+  <data key="d7">False</data>
+  <data key="d8"></data>
+  <data key="d9"></data>
+  <data key="d10">0</data>
+  <data key="d11"></data>
+  <data key="d12">Sutter St &amp; Leavenworth St</data>
+</node>
+<node id="n_1_5">
+  <data key="d0">1</data>
+  <data key="d1">5</data>
+  <data key="d2">37.788840415496004</data>
+  <data key="d3">-122.41048392617981</data>
+  <data key="d4">False</data>
+  <data key="d5">0.0</data>
+  <data key="d6">False</data>
+  <data key="d7">False</data>
+  <data key="d8"></data>
+  <data key="d9"></data>
+  <data key="d10">0</data>
+  <data key="d11"></data>
+  <data key="d12">Sutter St &amp; Jones St</data>
+</node>
+<node id="n_1_6">
+  <data key="d0">1</data>
+  <data key="d1">6</data>
+  <data key="d2">37.78874118502942</data>
+  <data key="d3">-122.40864075464964</data>
+  <data key="d4">False</data>
+  <data key="d5">0.0</data>
+  <data key="d6">False</data>
+  <data key="d7">False</data>
+  <data key="d8"></data>
+  <data key="d9"></data>
+  <data key="d10">0</data>
+  <data key="d11"></data>
+  <data key="d12">Sutter St &amp; Taylor St</data>
+</node>
+<node id="n_1_7">
+  <data key="d0">1</data>
+  <data key="d1">7</data>
+  <data key="d2">37.788714375401845</data>
+  <data key="d3">-122.40652744140688</data>
+  <data key="d4">False</data>
+  <data key="d5">0.0</data>
+  <data key="d6">False</data>
+  <data key="d7">False</data>
+  <data key="d8"></data>
+  <data key="d9"></data>
+  <data key="d10">0</data>
+  <data key="d11"></data>
+  <data key="d12">Sutter St &amp; Mason St</data>
+</node>
+<node id="n_1_8">
+  <data key="d0">1</data>
+  <data key="d1">8</data>
+  <data key="d2">37.78872018184576</data>
+  <data key="d3">-122.40463250917749</data>
+  <data key="d4">True</data>
+  <data key="d5">8.807812733000508</data>
+  <data key="d6">False</data>
+  <data key="d7">False</data>
+  <data key="d8"></data>
+  <data key="d9"></data>
+  <data key="d10">0</data>
+  <data key="d11"></data>
+  <data key="d12">Sutter St &amp; Powell St</data>
+</node>
+<node id="n_1_9">
+  <data key="d0">1</data>
+  <data key="d1">9</data>
+  <data key="d2">37.78884857495442</data>
+  <data key="d3">-122.4024828903543</data>
+  <data key="d4">False</data>
+  <data key="d5">0.0</data>
+  <data key="d6">False</data>
+  <data key="d7">False</data>
+  <data key="d8"></data>
+  <data key="d9"></data>
+  <data key="d10">0</data>
+  <data key="d11"></data>
+  <data key="d12">Sutter St &amp; Stockton St</data>
+</node>
+<node id="n_1_10">
+  <data key="d0">1</data>
+  <data key="d1">10</data>
+  <data key="d2">37.7888492940621</data>
+  <data key="d3">-122.40052808394157</data>
+  <data key="d4">False</data>
+  <data key="d5">0.0</data>
+  <data key="d6">False</data>
+  <data key="d7">True</data>
+  <data key="d8">hosp_sf_memorial</data>
+  <data key="d9">Saint Francis Memorial Hospital</data>
+  <data key="d10">14</data>
+  <data key="d11">cardiac,trauma</data>
+  <data key="d12">Sutter St &amp; Grant Ave</data>
+</node>
+<node id="n_1_11">
+  <data key="d0">1</data>
+  <data key="d1">11</data>
+  <data key="d2">37.788700091875974</data>
+  <data key="d3">-122.39864318637805</data>
+  <data key="d4">True</data>
+  <data key="d5">21.67078051789351</data>
+  <data key="d6">False</data>
+  <data key="d7">False</data>
+  <data key="d8"></data>
+  <data key="d9"></data>
+  <data key="d10">0</data>
+  <data key="d11"></data>
+  <data key="d12">Sutter St &amp; Kearny St</data>
+</node>
+<node id="n_1_12">
+  <data key="d0">1</data>
+  <data key="d1">12</data>
+  <data key="d2">37.78878856316908</data>
+  <data key="d3">-122.39660161846629</data>
+  <data key="d4">True</data>
+  <data key="d5">15.031343253100907</data>
+  <data key="d6">False</data>
+  <data key="d7">False</data>
+  <data key="d8"></data>
+  <data key="d9"></data>
+  <data key="d10">0</data>
+  <data key="d11"></data>
+  <data key="d12">Sutter St &amp; Montgomery St</data>
+</node>
+<node id="n_1_13">
+  <data key="d0">1</data>
+  <data key="d1">13</data>
+  <data key="d2">37.788695693630814</data>
+  <data key="d3">-122.39444110388747</data>
+  <data key="d4">False</data>
+  <data key="d5">0.0</data>
+  <data key="d6">False</data>
+  <data key="d7">False</data>
+  <data key="d8"></data>
+  <data key="d9"></data>
+  <data key="d10">0</data>
+  <data key="d11"></data>
+  <data key="d12">Sutter St &amp; Sansome St</data>
+</node>
+<node id="n_2_0">
+  <data key="d0">2</data>
+  <data key="d1">0</data>
+  <data key="d2">37.78716430636783</data>
+  <data key="d3">-122.42055954637325</data>
+  <data key="d4">True</data>
+  <data key="d5">18.908477793566654</data>
+  <data key="d6">False</data>
+  <data key="d7">False</data>
+  <data key="d8"></data>
+  <data key="d9"></data>
+  <data key="d10">0</data>
+  <data key="d11"></data>
+  <data key="d12">Post St &amp; Van Ness Ave</data>
+</node>
+<node id="n_2_1">
+  <data key="d0">2</data>
+  <data key="d1">1</data>
+  <data key="d2">37.787158543783164</data>
+  <data key="d3">-122.4186237050242</data>
+  <data key="d4">True</data>
+  <data key="d5">28.856929936485436</data>
+  <data key="d6">False</data>
+  <data key="d7">False</data>
+  <data key="d8"></data>
+  <data key="d9"></data>
+  <data key="d10">0</data>
+  <data key="d11"></data>
+  <data key="d12">Post St &amp; Polk St</data>
+</node>
+<node id="n_2_2">
+  <data key="d0">2</data>
+  <data key="d1">2</data>
+  <data key="d2">37.78732257420721</data>
+  <data key="d3">-122.41644008785985</data>
+  <data key="d4">True</data>
+  <data key="d5">29.075291320431717</data>
+  <data key="d6">False</data>
+  <data key="d7">False</data>
+  <data key="d8"></data>
+  <data key="d9"></data>
+  <data key="d10">0</data>
+  <data key="d11"></data>
+  <data key="d12">Post St &amp; Larkin St</data>
+</node>
+<node id="n_2_3">
+  <data key="d0">2</data>
+  <data key="d1">3</data>
+  <data key="d2">37.787283625271186</data>
+  <data key="d3">-122.41443493294325</data>
+  <data key="d4">False</data>
+  <data key="d5">0.0</data>
+  <data key="d6">False</data>
+  <data key="d7">False</data>
+  <data key="d8"></data>
+  <data key="d9"></data>
+  <data key="d10">0</data>
+  <data key="d11"></data>
+  <data key="d12">Post St &amp; Hyde St</data>
+</node>
+<node id="n_2_4">
+  <data key="d0">2</data>
+  <data key="d1">4</data>
+  <data key="d2">37.787131672468554</data>
+  <data key="d3">-122.41262108271135</data>
+  <data key="d4">False</data>
+  <data key="d5">0.0</data>
+  <data key="d6">False</data>
+  <data key="d7">False</data>
+  <data key="d8"></data>
+  <data key="d9"></data>
+  <data key="d10">0</data>
+  <data key="d11"></data>
+  <data key="d12">Post St &amp; Leavenworth St</data>
+</node>
+<node id="n_2_5">
+  <data key="d0">2</data>
+  <data key="d1">5</data>
+  <data key="d2">37.78718673288695</data>
+  <data key="d3">-122.41058929099056</data>
+  <data key="d4">True</data>
+  <data key="d5">17.376587068256878</data>
+  <data key="d6">False</data>
+  <data key="d7">False</data>
+  <data key="d8"></data>
+  <data key="d9"></data>
+  <data key="d10">0</data>
+  <data key="d11"></data>
+  <data key="d12">Post St &amp; Jones St</data>
+</node>
+<node id="n_2_6">
+  <data key="d0">2</data>
+  <data key="d1">6</data>
+  <data key="d2">37.78710303183488</data>
+  <data key="d3">-122.40839301571478</data>
+  <data key="d4">False</data>
+  <data key="d5">0.0</data>
+  <data key="d6">False</data>
+  <data key="d7">False</data>
+  <data key="d8"></data>
+  <data key="d9"></data>
+  <data key="d10">0</data>
+  <data key="d11"></data>
+  <data key="d12">Post St &amp; Taylor St</data>
+</node>
+<node id="n_2_7">
+  <data key="d0">2</data>
+  <data key="d1">7</data>
+  <data key="d2">37.78726583888678</data>
+  <data key="d3">-122.40652037208807</data>
+  <data key="d4">False</data>
+  <data key="d5">0.0</data>
+  <data key="d6">False</data>
+  <data key="d7">False</data>
+  <data key="d8"></data>
+  <data key="d9"></data>
+  <data key="d10">0</data>
+  <data key="d11"></data>
+  <data key="d12">Post St &amp; Mason St</data>
+</node>
+<node id="n_2_8">
+  <data key="d0">2</data>
+  <data key="d1">8</data>
+  <data key="d2">37.78722522939067</data>
+  <data key="d3">-122.40445504601954</data>
+  <data key="d4">True</data>
+  <data key="d5">12.474222065118289</data>
+  <data key="d6">False</data>
+  <data key="d7">False</data>
+  <data key="d8"></data>
+  <data key="d9"></data>
+  <data key="d10">0</data>
+  <data key="d11"></data>
+  <data key="d12">Post St &amp; Powell St</data>
+</node>
+<node id="n_2_9">
+  <data key="d0">2</data>
+  <data key="d1">9</data>
+  <data key="d2">37.787062484252154</data>
+  <data key="d3">-122.40250180275423</data>
+  <data key="d4">True</data>
+  <data key="d5">4.335725665981407</data>
+  <data key="d6">False</data>
+  <data key="d7">False</data>
+  <data key="d8"></data>
+  <data key="d9"></data>
+  <data key="d10">0</data>
+  <data key="d11"></data>
+  <data key="d12">Post St &amp; Stockton St</data>
+</node>
+<node id="n_2_10">
+  <data key="d0">2</data>
+  <data key="d1">10</data>
+  <data key="d2">37.78708102089031</data>
+  <data key="d3">-122.40047370662835</data>
+  <data key="d4">True</data>
+  <data key="d5">27.753603551303915</data>
+  <data key="d6">False</data>
+  <data key="d7">False</data>
+  <data key="d8"></data>
+  <data key="d9"></data>
+  <data key="d10">0</data>
+  <data key="d11"></data>
+  <data key="d12">Post St &amp; Grant Ave</data>
+</node>
+<node id="n_2_11">
+  <data key="d0">2</data>
+  <data key="d1">11</data>
+  <data key="d2">37.787224318341906</data>
+  <data key="d3">-122.39854593905864</data>
+  <data key="d4">False</data>
+  <data key="d5">0.0</data>
+  <data key="d6">False</data>
+  <data key="d7">False</data>
+  <data key="d8"></data>
+  <data key="d9"></data>
+  <data key="d10">0</data>
+  <data key="d11"></data>
+  <data key="d12">Post St &amp; Kearny St</data>
+</node>
+<node id="n_2_12">
+  <data key="d0">2</data>
+  <data key="d1">12</data>
+  <data key="d2">37.78705684116131</data>
+  <data key="d3">-122.39636243223603</data>
+  <data key="d4">True</data>
+  <data key="d5">14.469103108287007</data>
+  <data key="d6">False</data>
+  <data key="d7">False</data>
+  <data key="d8"></data>
+  <data key="d9"></data>
+  <data key="d10">0</data>
+  <data key="d11"></data>
+  <data key="d12">Post St &amp; Montgomery St</data>
+</node>
+<node id="n_2_13">
+  <data key="d0">2</data>
+  <data key="d1">13</data>
+  <data key="d2">37.787284820568175</data>
+  <data key="d3">-122.39462518100002</data>
+  <data key="d4">False</data>
+  <data key="d5">0.0</data>
+  <data key="d6">False</data>
+  <data key="d7">False</data>
+  <data key="d8"></data>
+  <data key="d9"></data>
+  <data key="d10">0</data>
+  <data key="d11"></data>
+  <data key="d12">Post St &amp; Sansome St</data>
+</node>
+<node id="n_3_0">
+  <data key="d0">3</data>
+  <data key="d1">0</data>
+  <data key="d2">37.78559721209831</data>
+  <data key="d3">-122.42036865206352</data>
+  <data key="d4">True</data>
+  <data key="d5">17.15184157128226</data>
+  <data key="d6">False</data>
+  <data key="d7">False</data>
+  <data key="d8"></data>
+  <data key="d9"></data>
+  <data key="d10">0</data>
+  <data key="d11"></data>
+  <data key="d12">Geary Blvd &amp; Van Ness Ave</data>
+</node>
+<node id="n_3_1">
+  <data key="d0">3</data>
+  <data key="d1">1</data>
+  <data key="d2">37.78559204682032</data>
+  <data key="d3">-122.41856990730106</data>
+  <data key="d4">True</data>
+  <data key="d5">15.620172074146133</data>
+  <data key="d6">False</data>
+  <data key="d7">False</data>
+  <data key="d8"></data>
+  <data key="d9"></data>
+  <data key="d10">0</data>
+  <data key="d11"></data>
+  <data key="d12">Geary Blvd &amp; Polk St</data>
+</node>
+<node id="n_3_2">
+  <data key="d0">3</data>
+  <data key="d1">2</data>
+  <data key="d2">37.785581673438095</data>
+  <data key="d3">-122.41664351637604</data>
+  <data key="d4">False</data>
+  <data key="d5">0.0</data>
+  <data key="d6">False</data>
+  <data key="d7">True</data>
+  <data key="d8">hosp_civic_center</data>
+  <data key="d9">Civic Center Care Center</data>
+  <data key="d10">9</data>
+  <data key="d11">cardiac,stroke</data>
+  <data key="d12">Geary Blvd &amp; Larkin St</data>
+</node>
+<node id="n_3_3">
+  <data key="d0">3</data>
+  <data key="d1">3</data>
+  <data key="d2">37.785718848231554</data>
+  <data key="d3">-122.4146079252733</data>
+  <data key="d4">False</data>
+  <data key="d5">0.0</data>
+  <data key="d6">False</data>
+  <data key="d7">False</data>
+  <data key="d8"></data>
+  <data key="d9"></data>
+  <data key="d10">0</data>
+  <data key="d11"></data>
+  <data key="d12">Geary Blvd &amp; Hyde St</data>
+</node>
+<node id="n_3_4">
+  <data key="d0">3</data>
+  <data key="d1">4</data>
+  <data key="d2">37.785482572722344</data>
+  <data key="d3">-122.41244832797209</data>
+  <data key="d4">True</data>
+  <data key="d5">19.782679040757053</data>
+  <data key="d6">False</data>
+  <data key="d7">False</data>
+  <data key="d8"></data>
+  <data key="d9"></data>
+  <data key="d10">0</data>
+  <data key="d11"></data>
+  <data key="d12">Geary Blvd &amp; Leavenworth St</data>
+</node>
+<node id="n_3_5">
+  <data key="d0">3</data>
+  <data key="d1">5</data>
+  <data key="d2">37.785668098384285</data>
+  <data key="d3">-122.41041940575242</data>
+  <data key="d4">True</data>
+  <data key="d5">27.48035535412824</data>
+  <data key="d6">False</data>
+  <data key="d7">False</data>
+  <data key="d8"></data>
+  <data key="d9"></data>
+  <data key="d10">0</data>
+  <data key="d11"></data>
+  <data key="d12">Geary Blvd &amp; Jones St</data>
+</node>
+<node id="n_3_6">
+  <data key="d0">3</data>
+  <data key="d1">6</data>
+  <data key="d2">37.785519064197274</data>
+  <data key="d3">-122.40863877623315</data>
+  <data key="d4">False</data>
+  <data key="d5">0.0</data>
+  <data key="d6">False</data>
+  <data key="d7">False</data>
+  <data key="d8"></data>
+  <data key="d9"></data>
+  <data key="d10">0</data>
+  <data key="d11"></data>
+  <data key="d12">Geary Blvd &amp; Taylor St</data>
+</node>
+<node id="n_3_7">
+  <data key="d0">3</data>
+  <data key="d1">7</data>
+  <data key="d2">37.78556127668516</data>
+  <data key="d3">-122.40640106307706</data>
+  <data key="d4">False</data>
+  <data key="d5">0.0</data>
+  <data key="d6">False</data>
+  <data key="d7">False</data>
+  <data key="d8"></data>
+  <data key="d9"></data>
+  <data key="d10">0</data>
+  <data key="d11"></data>
+  <data key="d12">Geary Blvd &amp; Mason St</data>
+</node>
+<node id="n_3_8">
+  <data key="d0">3</data>
+  <data key="d1">8</data>
+  <data key="d2">37.785545141667846</data>
+  <data key="d3">-122.40436413018148</data>
+  <data key="d4">True</data>
+  <data key="d5">15.451713876951436</data>
+  <data key="d6">False</data>
+  <data key="d7">False</data>
+  <data key="d8"></data>
+  <data key="d9"></data>
+  <data key="d10">0</data>
+  <data key="d11"></data>
+  <data key="d12">Geary Blvd &amp; Powell St</data>
+</node>
+<node id="n_3_9">
+  <data key="d0">3</data>
+  <data key="d1">9</data>
+  <data key="d2">37.785526789527175</data>
+  <data key="d3">-122.402369186929</data>
+  <data key="d4">True</data>
+  <data key="d5">1.3473185817698696</data>
+  <data key="d6">False</data>
+  <data key="d7">False</data>
+  <data key="d8"></data>
+  <data key="d9"></data>
+  <data key="d10">0</data>
+  <data key="d11"></data>
+  <data key="d12">Geary Blvd &amp; Stockton St</data>
+</node>
+<node id="n_3_10">
+  <data key="d0">3</data>
+  <data key="d1">10</data>
+  <data key="d2">37.785580529118</data>
+  <data key="d3">-122.40035228733078</data>
+  <data key="d4">False</data>
+  <data key="d5">0.0</data>
+  <data key="d6">False</data>
+  <data key="d7">False</data>
+  <data key="d8"></data>
+  <data key="d9"></data>
+  <data key="d10">0</data>
+  <data key="d11"></data>
+  <data key="d12">Geary Blvd &amp; Grant Ave</data>
+</node>
+<node id="n_3_11">
+  <data key="d0">3</data>
+  <data key="d1">11</data>
+  <data key="d2">37.78567458240584</data>
+  <data key="d3">-122.39838276225274</data>
+  <data key="d4">False</data>
+  <data key="d5">0.0</data>
+  <data key="d6">False</data>
+  <data key="d7">False</data>
+  <data key="d8"></data>
+  <data key="d9"></data>
+  <data key="d10">0</data>
+  <data key="d11"></data>
+  <data key="d12">Geary Blvd &amp; Kearny St</data>
+</node>
+<node id="n_3_12">
+  <data key="d0">3</data>
+  <data key="d1">12</data>
+  <data key="d2">37.78560565750812</data>
+  <data key="d3">-122.39655522128446</data>
+  <data key="d4">True</data>
+  <data key="d5">23.160372963329642</data>
+  <data key="d6">False</data>
+  <data key="d7">False</data>
+  <data key="d8"></data>
+  <data key="d9"></data>
+  <data key="d10">0</data>
+  <data key="d11"></data>
+  <data key="d12">Geary Blvd &amp; Montgomery St</data>
+</node>
+<node id="n_3_13">
+  <data key="d0">3</data>
+  <data key="d1">13</data>
+  <data key="d2">37.785648498378954</data>
+  <data key="d3">-122.39453790268134</data>
+  <data key="d4">True</data>
+  <data key="d5">22.40368834047078</data>
+  <data key="d6">False</data>
+  <data key="d7">False</data>
+  <data key="d8"></data>
+  <data key="d9"></data>
+  <data key="d10">0</data>
+  <data key="d11"></data>
+  <data key="d12">Geary Blvd &amp; Sansome St</data>
+</node>
+<node id="n_4_0">
+  <data key="d0">4</data>
+  <data key="d1">0</data>
+  <data key="d2">37.78392873815478</data>
+  <data key="d3">-122.42036895605484</data>
+  <data key="d4">True</data>
+  <data key="d5">7.2291172501705425</data>
+  <data key="d6">False</data>
+  <data key="d7">False</data>
+  <data key="d8"></data>
+  <data key="d9"></data>
+  <data key="d10">0</data>
+  <data key="d11"></data>
+  <data key="d12">O'Farrell St &amp; Van Ness Ave</data>
+</node>
+<node id="n_4_1">
+  <data key="d0">4</data>
+  <data key="d1">1</data>
+  <data key="d2">37.783886827379725</data>
+  <data key="d3">-122.41840066619835</data>
+  <data key="d4">True</data>
+  <data key="d5">5.378049244732173</data>
+  <data key="d6">False</data>
+  <data key="d7">False</data>
+  <data key="d8"></data>
+  <data key="d9"></data>
+  <data key="d10">0</data>
+  <data key="d11"></data>
+  <data key="d12">O'Farrell St &amp; Polk St</data>
+</node>
+<node id="n_4_2">
+  <data key="d0">4</data>
+  <data key="d1">2</data>
+  <data key="d2">37.78402981483745</data>
+  <data key="d3">-122.41638763138775</data>
+  <data key="d4">True</data>
+  <data key="d5">9.309710187002842</data>
+  <data key="d6">False</data>
+  <data key="d7">False</data>
+  <data key="d8"></data>
+  <data key="d9"></data>
+  <data key="d10">0</data>
+  <data key="d11"></data>
+  <data key="d12">O'Farrell St &amp; Larkin St</data>
+</node>
+<node id="n_4_3">
+  <data key="d0">4</data>
+  <data key="d1">3</data>
+  <data key="d2">37.784083221451475</data>
+  <data key="d3">-122.41435845207218</data>
+  <data key="d4">False</data>
+  <data key="d5">0.0</data>
+  <data key="d6">False</data>
+  <data key="d7">False</data>
+  <data key="d8"></data>
+  <data key="d9"></data>
+  <data key="d10">0</data>
+  <data key="d11"></data>
+  <data key="d12">O'Farrell St &amp; Hyde St</data>
+</node>
+<node id="n_4_4">
+  <data key="d0">4</data>
+  <data key="d1">4</data>
+  <data key="d2">37.78389316925077</data>
+  <data key="d3">-122.41264581911368</data>
+  <data key="d4">True</data>
+  <data key="d5">3.9546665335956313</data>
+  <data key="d6">False</data>
+  <data key="d7">False</data>
+  <data key="d8"></data>
+  <data key="d9"></data>
+  <data key="d10">0</data>
+  <data key="d11"></data>
+  <data key="d12">O'Farrell St &amp; Leavenworth St</data>
+</node>
+<node id="n_4_5">
+  <data key="d0">4</data>
+  <data key="d1">5</data>
+  <data key="d2">37.784053297602085</data>
+  <data key="d3">-122.4106134502486</data>
+  <data key="d4">False</data>
+  <data key="d5">0.0</data>
+  <data key="d6">False</data>
+  <data key="d7">False</data>
+  <data key="d8"></data>
+  <data key="d9"></data>
+  <data key="d10">0</data>
+  <data key="d11"></data>
+  <data key="d12">O'Farrell St &amp; Jones St</data>
+</node>
+<node id="n_4_6">
+  <data key="d0">4</data>
+  <data key="d1">6</data>
+  <data key="d2">37.78405827873069</data>
+  <data key="d3">-122.40847566501724</data>
+  <data key="d4">True</data>
+  <data key="d5">24.123735785467883</data>
+  <data key="d6">False</data>
+  <data key="d7">False</data>
+  <data key="d8"></data>
+  <data key="d9"></data>
+  <data key="d10">0</data>
+  <data key="d11"></data>
+  <data key="d12">O'Farrell St &amp; Taylor St</data>
+</node>
+<node id="n_4_7">
+  <data key="d0">4</data>
+  <data key="d1">7</data>
+  <data key="d2">37.784064622138885</data>
+  <data key="d3">-122.40642830479882</data>
+  <data key="d4">True</data>
+  <data key="d5">3.712614109510338</data>
+  <data key="d6">False</data>
+  <data key="d7">False</data>
+  <data key="d8"></data>
+  <data key="d9"></data>
+  <data key="d10">0</data>
+  <data key="d11"></data>
+  <data key="d12">O'Farrell St &amp; Mason St</data>
+</node>
+<node id="n_4_8">
+  <data key="d0">4</data>
+  <data key="d1">8</data>
+  <data key="d2">37.7841282687653</data>
+  <data key="d3">-122.40453072654185</data>
+  <data key="d4">True</data>
+  <data key="d5">14.657521360546</data>
+  <data key="d6">False</data>
+  <data key="d7">False</data>
+  <data key="d8"></data>
+  <data key="d9"></data>
+  <data key="d10">0</data>
+  <data key="d11"></data>
+  <data key="d12">O'Farrell St &amp; Powell St</data>
+</node>
+<node id="n_4_9">
+  <data key="d0">4</data>
+  <data key="d1">9</data>
+  <data key="d2">37.78404885926383</data>
+  <data key="d3">-122.40236331302289</data>
+  <data key="d4">True</data>
+  <data key="d5">27.744252879360815</data>
+  <data key="d6">False</data>
+  <data key="d7">False</data>
+  <data key="d8"></data>
+  <data key="d9"></data>
+  <data key="d10">0</data>
+  <data key="d11"></data>
+  <data key="d12">O'Farrell St &amp; Stockton St</data>
+</node>
+<node id="n_4_10">
+  <data key="d0">4</data>
+  <data key="d1">10</data>
+  <data key="d2">37.78385745784742</data>
+  <data key="d3">-122.4004834405873</data>
+  <data key="d4">False</data>
+  <data key="d5">0.0</data>
+  <data key="d6">False</data>
+  <data key="d7">False</data>
+  <data key="d8"></data>
+  <data key="d9"></data>
+  <data key="d10">0</data>
+  <data key="d11"></data>
+  <data key="d12">O'Farrell St &amp; Grant Ave</data>
+</node>
+<node id="n_4_11">
+  <data key="d0">4</data>
+  <data key="d1">11</data>
+  <data key="d2">37.783881769221125</data>
+  <data key="d3">-122.39860789812089</data>
+  <data key="d4">True</data>
+  <data key="d5">28.986957364295453</data>
+  <data key="d6">False</data>
+  <data key="d7">False</data>
+  <data key="d8"></data>
+  <data key="d9"></data>
+  <data key="d10">0</data>
+  <data key="d11"></data>
+  <data key="d12">O'Farrell St &amp; Kearny St</data>
+</node>
+<node id="n_4_12">
+  <data key="d0">4</data>
+  <data key="d1">12</data>
+  <data key="d2">37.78402881276597</data>
+  <data key="d3">-122.39637009303352</data>
+  <data key="d4">True</data>
+  <data key="d5">24.13082746838912</data>
+  <data key="d6">False</data>
+  <data key="d7">False</data>
+  <data key="d8"></data>
+  <data key="d9"></data>
+  <data key="d10">0</data>
+  <data key="d11"></data>
+  <data key="d12">O'Farrell St &amp; Montgomery St</data>
+</node>
+<node id="n_4_13">
+  <data key="d0">4</data>
+  <data key="d1">13</data>
+  <data key="d2">37.78399021448047</data>
+  <data key="d3">-122.39441457096522</data>
+  <data key="d4">True</data>
+  <data key="d5">3.2743199029720484</data>
+  <data key="d6">False</data>
+  <data key="d7">False</data>
+  <data key="d8"></data>
+  <data key="d9"></data>
+  <data key="d10">0</data>
+  <data key="d11"></data>
+  <data key="d12">O'Farrell St &amp; Sansome St</data>
+</node>
+<node id="n_5_0">
+  <data key="d0">5</data>
+  <data key="d1">0</data>
+  <data key="d2">37.782498828584465</data>
+  <data key="d3">-122.4204109548735</data>
+  <data key="d4">True</data>
+  <data key="d5">6.979222258993011</data>
+  <data key="d6">False</data>
+  <data key="d7">False</data>
+  <data key="d8"></data>
+  <data key="d9"></data>
+  <data key="d10">0</data>
+  <data key="d11"></data>
+  <data key="d12">Ellis St &amp; Van Ness Ave</data>
+</node>
+<node id="n_5_1">
+  <data key="d0">5</data>
+  <data key="d1">1</data>
+  <data key="d2">37.782409230877185</data>
+  <data key="d3">-122.41846819525378</data>
+  <data key="d4">False</data>
+  <data key="d5">0.0</data>
+  <data key="d6">False</data>
+  <data key="d7">False</data>
+  <data key="d8"></data>
+  <data key="d9"></data>
+  <data key="d10">0</data>
+  <data key="d11"></data>
+  <data key="d12">Ellis St &amp; Polk St</data>
+</node>
+<node id="n_5_2">
+  <data key="d0">5</data>
+  <data key="d1">2</data>
+  <data key="d2">37.78243093214721</data>
+  <data key="d3">-122.41652622852922</data>
+  <data key="d4">True</data>
+  <data key="d5">12.776462591205297</data>
+  <data key="d6">False</data>
+  <data key="d7">False</data>
+  <data key="d8"></data>
+  <data key="d9"></data>
+  <data key="d10">0</data>
+  <data key="d11"></data>
+  <data key="d12">Ellis St &amp; Larkin St</data>
+</node>
+<node id="n_5_3">
+  <data key="d0">5</data>
+  <data key="d1">3</data>
+  <data key="d2">37.78244557930768</data>
+  <data key="d3">-122.41438975281048</data>
+  <data key="d4">False</data>
+  <data key="d5">0.0</data>
+  <data key="d6">False</data>
+  <data key="d7">False</data>
+  <data key="d8"></data>
+  <data key="d9"></data>
+  <data key="d10">0</data>
+  <data key="d11"></data>
+  <data key="d12">Ellis St &amp; Hyde St</data>
+</node>
+<node id="n_5_4">
+  <data key="d0">5</data>
+  <data key="d1">4</data>
+  <data key="d2">37.78232435186889</data>
+  <data key="d3">-122.41257900129109</data>
+  <data key="d4">False</data>
+  <data key="d5">0.0</data>
+  <data key="d6">False</data>
+  <data key="d7">False</data>
+  <data key="d8"></data>
+  <data key="d9"></data>
+  <data key="d10">0</data>
+  <data key="d11"></data>
+  <data key="d12">Ellis St &amp; Leavenworth St</data>
+</node>
+<node id="n_5_5">
+  <data key="d0">5</data>
+  <data key="d1">5</data>
+  <data key="d2">37.78249497062903</data>
+  <data key="d3">-122.41061841657604</data>
+  <data key="d4">True</data>
+  <data key="d5">17.833009912693555</data>
+  <data key="d6">False</data>
+  <data key="d7">False</data>
+  <data key="d8"></data>
+  <data key="d9"></data>
+  <data key="d10">0</data>
+  <data key="d11"></data>
+  <data key="d12">Ellis St &amp; Jones St</data>
+</node>
+<node id="n_5_6">
+  <data key="d0">5</data>
+  <data key="d1">6</data>
+  <data key="d2">37.78229385197326</data>
+  <data key="d3">-122.40840260074286</data>
+  <data key="d4">True</data>
+  <data key="d5">4.316157989134279</data>
+  <data key="d6">False</data>
+  <data key="d7">False</data>
+  <data key="d8"></data>
+  <data key="d9"></data>
+  <data key="d10">0</data>
+  <data key="d11"></data>
+  <data key="d12">Ellis St &amp; Taylor St</data>
+</node>
+<node id="n_5_7">
+  <data key="d0">5</data>
+  <data key="d1">7</data>
+  <data key="d2">37.78252629114175</data>
+  <data key="d3">-122.40660034048318</data>
+  <data key="d4">True</data>
+  <data key="d5">4.608401855761759</data>
+  <data key="d6">False</data>
+  <data key="d7">False</data>
+  <data key="d8"></data>
+  <data key="d9"></data>
+  <data key="d10">0</data>
+  <data key="d11"></data>
+  <data key="d12">Ellis St &amp; Mason St</data>
+</node>
+<node id="n_5_8">
+  <data key="d0">5</data>
+  <data key="d1">8</data>
+  <data key="d2">37.782284647019104</data>
+  <data key="d3">-122.4046436555951</data>
+  <data key="d4">True</data>
+  <data key="d5">5.239244128075581</data>
+  <data key="d6">False</data>
+  <data key="d7">False</data>
+  <data key="d8"></data>
+  <data key="d9"></data>
+  <data key="d10">0</data>
+  <data key="d11"></data>
+  <data key="d12">Ellis St &amp; Powell St</data>
+</node>
+<node id="n_5_9">
+  <data key="d0">5</data>
+  <data key="d1">9</data>
+  <data key="d2">37.78226601457979</data>
+  <data key="d3">-122.40247265685517</data>
+  <data key="d4">False</data>
+  <data key="d5">0.0</data>
+  <data key="d6">False</data>
+  <data key="d7">False</data>
+  <data key="d8"></data>
+  <data key="d9"></data>
+  <data key="d10">0</data>
+  <data key="d11"></data>
+  <data key="d12">Ellis St &amp; Stockton St</data>
+</node>
+<node id="n_5_10">
+  <data key="d0">5</data>
+  <data key="d1">10</data>
+  <data key="d2">37.78236808913705</data>
+  <data key="d3">-122.40055460267091</data>
+  <data key="d4">False</data>
+  <data key="d5">0.0</data>
+  <data key="d6">False</data>
+  <data key="d7">False</data>
+  <data key="d8"></data>
+  <data key="d9"></data>
+  <data key="d10">0</data>
+  <data key="d11"></data>
+  <data key="d12">Ellis St &amp; Grant Ave</data>
+</node>
+<node id="n_5_11">
+  <data key="d0">5</data>
+  <data key="d1">11</data>
+  <data key="d2">37.78251250148267</data>
+  <data key="d3">-122.39839466051195</data>
+  <data key="d4">True</data>
+  <data key="d5">5.444952287895722</data>
+  <data key="d6">False</data>
+  <data key="d7">False</data>
+  <data key="d8"></data>
+  <data key="d9"></data>
+  <data key="d10">0</data>
+  <data key="d11"></data>
+  <data key="d12">Ellis St &amp; Kearny St</data>
+</node>
+<node id="n_5_12">
+  <data key="d0">5</data>
+  <data key="d1">12</data>
+  <data key="d2">37.782321023461336</data>
+  <data key="d3">-122.39657518372725</data>
+  <data key="d4">True</data>
+  <data key="d5">17.136979552283183</data>
+  <data key="d6">False</data>
+  <data key="d7">False</data>
+  <data key="d8"></data>
+  <data key="d9"></data>
+  <data key="d10">0</data>
+  <data key="d11"></data>
+  <data key="d12">Ellis St &amp; Montgomery St</data>
+</node>
+<node id="n_5_13">
+  <data key="d0">5</data>
+  <data key="d1">13</data>
+  <data key="d2">37.782374878727715</data>
+  <data key="d3">-122.39463522376401</data>
+  <data key="d4">True</data>
+  <data key="d5">15.712588461529117</data>
+  <data key="d6">False</data>
+  <data key="d7">False</data>
+  <data key="d8"></data>
+  <data key="d9"></data>
+  <data key="d10">0</data>
+  <data key="d11"></data>
+  <data key="d12">Ellis St &amp; Sansome St</data>
+</node>
+<node id="n_6_0">
+  <data key="d0">6</data>
+  <data key="d1">0</data>
+  <data key="d2">37.78068050157087</data>
+  <data key="d3">-122.42039996243386</data>
+  <data key="d4">True</data>
+  <data key="d5">1.5588559939531277</data>
+  <data key="d6">False</data>
+  <data key="d7">False</data>
+  <data key="d8"></data>
+  <data key="d9"></data>
+  <data key="d10">0</data>
+  <data key="d11"></data>
+  <data key="d12">Market St (Arterial) &amp; Van Ness Ave</data>
+</node>
+<node id="n_6_1">
+  <data key="d0">6</data>
+  <data key="d1">1</data>
+  <data key="d2">37.780927452560704</data>
+  <data key="d3">-122.41862026605752</data>
+  <data key="d4">True</data>
+  <data key="d5">25.307248547932584</data>
+  <data key="d6">False</data>
+  <data key="d7">False</data>
+  <data key="d8"></data>
+  <data key="d9"></data>
+  <data key="d10">0</data>
+  <data key="d11"></data>
+  <data key="d12">Market St (Arterial) &amp; Polk St</data>
+</node>
+<node id="n_6_2">
+  <data key="d0">6</data>
+  <data key="d1">2</data>
+  <data key="d2">37.780920795943175</data>
+  <data key="d3">-122.41635612879583</data>
+  <data key="d4">True</data>
+  <data key="d5">24.060776408207808</data>
+  <data key="d6">False</data>
+  <data key="d7">False</data>
+  <data key="d8"></data>
+  <data key="d9"></data>
+  <data key="d10">0</data>
+  <data key="d11"></data>
+  <data key="d12">Market St (Arterial) &amp; Larkin St</data>
+</node>
+<node id="n_6_3">
+  <data key="d0">6</data>
+  <data key="d1">3</data>
+  <data key="d2">37.78088384326223</data>
+  <data key="d3">-122.41445725501721</data>
+  <data key="d4">True</data>
+  <data key="d5">23.369890637343868</data>
+  <data key="d6">False</data>
+  <data key="d7">False</data>
+  <data key="d8"></data>
+  <data key="d9"></data>
+  <data key="d10">0</data>
+  <data key="d11"></data>
+  <data key="d12">Market St (Arterial) &amp; Hyde St</data>
+</node>
+<node id="n_6_4">
+  <data key="d0">6</data>
+  <data key="d1">4</data>
+  <data key="d2">37.78069036566252</data>
+  <data key="d3">-122.41248917958922</data>
+  <data key="d4">True</data>
+  <data key="d5">15.426686105712434</data>
+  <data key="d6">False</data>
+  <data key="d7">False</data>
+  <data key="d8"></data>
+  <data key="d9"></data>
+  <data key="d10">0</data>
+  <data key="d11"></data>
+  <data key="d12">Market St (Arterial) &amp; Leavenworth St</data>
+</node>
+<node id="n_6_5">
+  <data key="d0">6</data>
+  <data key="d1">5</data>
+  <data key="d2">37.78090727164324</data>
+  <data key="d3">-122.41051116019032</data>
+  <data key="d4">True</data>
+  <data key="d5">11.552684883010604</data>
+  <data key="d6">False</data>
+  <data key="d7">False</data>
+  <data key="d8"></data>
+  <data key="d9"></data>
+  <data key="d10">0</data>
+  <data key="d11"></data>
+  <data key="d12">Market St (Arterial) &amp; Jones St</data>
+</node>
+<node id="n_6_6">
+  <data key="d0">6</data>
+  <data key="d1">6</data>
+  <data key="d2">37.78084186898137</data>
+  <data key="d3">-122.40857006100475</data>
+  <data key="d4">True</data>
+  <data key="d5">4.193052328618706</data>
+  <data key="d6">False</data>
+  <data key="d7">False</data>
+  <data key="d8"></data>
+  <data key="d9"></data>
+  <data key="d10">0</data>
+  <data key="d11"></data>
+  <data key="d12">Market St (Arterial) &amp; Taylor St</data>
+</node>
+<node id="n_6_7">
+  <data key="d0">6</data>
+  <data key="d1">7</data>
+  <data key="d2">37.780793363182205</data>
+  <data key="d3">-122.40652493318942</data>
+  <data key="d4">True</data>
+  <data key="d5">6.977098215866211</data>
+  <data key="d6">False</data>
+  <data key="d7">False</data>
+  <data key="d8"></data>
+  <data key="d9"></data>
+  <data key="d10">0</data>
+  <data key="d11"></data>
+  <data key="d12">Market St (Arterial) &amp; Mason St</data>
+</node>
+<node id="n_6_8">
+  <data key="d0">6</data>
+  <data key="d1">8</data>
+  <data key="d2">37.780760253543036</data>
+  <data key="d3">-122.40454008226506</data>
+  <data key="d4">True</data>
+  <data key="d5">9.824866932376363</data>
+  <data key="d6">False</data>
+  <data key="d7">False</data>
+  <data key="d8"></data>
+  <data key="d9"></data>
+  <data key="d10">0</data>
+  <data key="d11"></data>
+  <data key="d12">Market St (Arterial) &amp; Powell St</data>
+</node>
+<node id="n_6_9">
+  <data key="d0">6</data>
+  <data key="d1">9</data>
+  <data key="d2">37.780763839223916</data>
+  <data key="d3">-122.40244427699636</data>
+  <data key="d4">True</data>
+  <data key="d5">8.906294237138559</data>
+  <data key="d6">False</data>
+  <data key="d7">False</data>
+  <data key="d8"></data>
+  <data key="d9"></data>
+  <data key="d10">0</data>
+  <data key="d11"></data>
+  <data key="d12">Market St (Arterial) &amp; Stockton St</data>
+</node>
+<node id="n_6_10">
+  <data key="d0">6</data>
+  <data key="d1">10</data>
+  <data key="d2">37.78093465737801</data>
+  <data key="d3">-122.40037509559413</data>
+  <data key="d4">True</data>
+  <data key="d5">14.427312849002357</data>
+  <data key="d6">False</data>
+  <data key="d7">False</data>
+  <data key="d8"></data>
+  <data key="d9"></data>
+  <data key="d10">0</data>
+  <data key="d11"></data>
+  <data key="d12">Market St (Arterial) &amp; Grant Ave</data>
+</node>
+<node id="n_6_11">
+  <data key="d0">6</data>
+  <data key="d1">11</data>
+  <data key="d2">37.7807485083615</data>
+  <data key="d3">-122.39848936956305</data>
+  <data key="d4">True</data>
+  <data key="d5">25.456814663208736</data>
+  <data key="d6">False</data>
+  <data key="d7">False</data>
+  <data key="d8"></data>
+  <data key="d9"></data>
+  <data key="d10">0</data>
+  <data key="d11"></data>
+  <data key="d12">Market St (Arterial) &amp; Kearny St</data>
+</node>
+<node id="n_6_12">
+  <data key="d0">6</data>
+  <data key="d1">12</data>
+  <data key="d2">37.78084577620217</data>
+  <data key="d3">-122.39640868245162</data>
+  <data key="d4">True</data>
+  <data key="d5">15.981668281972205</data>
+  <data key="d6">False</data>
+  <data key="d7">True</data>
+  <data key="d8">hosp_financial_dist</data>
+  <data key="d9">Financial District Urgent Trauma Center</data>
+  <data key="d10">19</data>
+  <data key="d11">cardiac,trauma,stroke</data>
+  <data key="d12">Market St (Arterial) &amp; Montgomery St</data>
+</node>
+<node id="n_6_13">
+  <data key="d0">6</data>
+  <data key="d1">13</data>
+  <data key="d2">37.78083987528878</data>
+  <data key="d3">-122.39456355331573</data>
+  <data key="d4">True</data>
+  <data key="d5">22.046794869308723</data>
+  <data key="d6">False</data>
+  <data key="d7">False</data>
+  <data key="d8"></data>
+  <data key="d9"></data>
+  <data key="d10">0</data>
+  <data key="d11"></data>
+  <data key="d12">Market St (Arterial) &amp; Sansome St</data>
+</node>
+<node id="n_7_0">
+  <data key="d0">7</data>
+  <data key="d1">0</data>
+  <data key="d2">37.77911072137794</data>
+  <data key="d3">-122.42044156056136</data>
+  <data key="d4">True</data>
+  <data key="d5">25.821572049776822</data>
+  <data key="d6">False</data>
+  <data key="d7">False</data>
+  <data key="d8"></data>
+  <data key="d9"></data>
+  <data key="d10">0</data>
+  <data key="d11"></data>
+  <data key="d12">Mission St &amp; Van Ness Ave</data>
+</node>
+<node id="n_7_1">
+  <data key="d0">7</data>
+  <data key="d1">1</data>
+  <data key="d2">37.779089630851196</data>
+  <data key="d3">-122.41846568607784</data>
+  <data key="d4">True</data>
+  <data key="d5">21.771468848142806</data>
+  <data key="d6">False</data>
+  <data key="d7">False</data>
+  <data key="d8"></data>
+  <data key="d9"></data>
+  <data key="d10">0</data>
+  <data key="d11"></data>
+  <data key="d12">Mission St &amp; Polk St</data>
+</node>
+<node id="n_7_2">
+  <data key="d0">7</data>
+  <data key="d1">2</data>
+  <data key="d2">37.77907534796565</data>
+  <data key="d3">-122.41636921805319</data>
+  <data key="d4">True</data>
+  <data key="d5">28.76640737727241</data>
+  <data key="d6">False</data>
+  <data key="d7">False</data>
+  <data key="d8"></data>
+  <data key="d9"></data>
+  <data key="d10">0</data>
+  <data key="d11"></data>
+  <data key="d12">Mission St &amp; Larkin St</data>
+</node>
+<node id="n_7_3">
+  <data key="d0">7</data>
+  <data key="d1">3</data>
+  <data key="d2">37.779290265252826</data>
+  <data key="d3">-122.41447189539866</data>
+  <data key="d4">False</data>
+  <data key="d5">0.0</data>
+  <data key="d6">False</data>
+  <data key="d7">False</data>
+  <data key="d8"></data>
+  <data key="d9"></data>
+  <data key="d10">0</data>
+  <data key="d11"></data>
+  <data key="d12">Mission St &amp; Hyde St</data>
+</node>
+<node id="n_7_4">
+  <data key="d0">7</data>
+  <data key="d1">4</data>
+  <data key="d2">37.779288534451695</data>
+  <data key="d3">-122.41236619188115</data>
+  <data key="d4">True</data>
+  <data key="d5">17.702276860749276</data>
+  <data key="d6">False</data>
+  <data key="d7">False</data>
+  <data key="d8"></data>
+  <data key="d9"></data>
+  <data key="d10">0</data>
+  <data key="d11"></data>
+  <data key="d12">Mission St &amp; Leavenworth St</data>
+</node>
+<node id="n_7_5">
+  <data key="d0">7</data>
+  <data key="d1">5</data>
+  <data key="d2">37.77907851475927</data>
+  <data key="d3">-122.41046515029</data>
+  <data key="d4">True</data>
+  <data key="d5">16.948518344173255</data>
+  <data key="d6">False</data>
+  <data key="d7">False</data>
+  <data key="d8"></data>
+  <data key="d9"></data>
+  <data key="d10">0</data>
+  <data key="d11"></data>
+  <data key="d12">Mission St &amp; Jones St</data>
+</node>
+<node id="n_7_6">
+  <data key="d0">7</data>
+  <data key="d1">6</data>
+  <data key="d2">37.779221729154216</data>
+  <data key="d3">-122.4085102044541</data>
+  <data key="d4">False</data>
+  <data key="d5">0.0</data>
+  <data key="d6">False</data>
+  <data key="d7">False</data>
+  <data key="d8"></data>
+  <data key="d9"></data>
+  <data key="d10">0</data>
+  <data key="d11"></data>
+  <data key="d12">Mission St &amp; Taylor St</data>
+</node>
+<node id="n_7_7">
+  <data key="d0">7</data>
+  <data key="d1">7</data>
+  <data key="d2">37.779279177017</data>
+  <data key="d3">-122.40641022658504</data>
+  <data key="d4">False</data>
+  <data key="d5">0.0</data>
+  <data key="d6">False</data>
+  <data key="d7">False</data>
+  <data key="d8"></data>
+  <data key="d9"></data>
+  <data key="d10">0</data>
+  <data key="d11"></data>
+  <data key="d12">Mission St &amp; Mason St</data>
+</node>
+<node id="n_7_8">
+  <data key="d0">7</data>
+  <data key="d1">8</data>
+  <data key="d2">37.77922987803246</data>
+  <data key="d3">-122.40437062912929</data>
+  <data key="d4">True</data>
+  <data key="d5">3.513106977003315</data>
+  <data key="d6">False</data>
+  <data key="d7">False</data>
+  <data key="d8"></data>
+  <data key="d9"></data>
+  <data key="d10">0</data>
+  <data key="d11"></data>
+  <data key="d12">Mission St &amp; Powell St</data>
+</node>
+<node id="n_7_9">
+  <data key="d0">7</data>
+  <data key="d1">9</data>
+  <data key="d2">37.77907631270357</data>
+  <data key="d3">-122.40245264101449</data>
+  <data key="d4">True</data>
+  <data key="d5">23.229642484255297</data>
+  <data key="d6">False</data>
+  <data key="d7">False</data>
+  <data key="d8"></data>
+  <data key="d9"></data>
+  <data key="d10">0</data>
+  <data key="d11"></data>
+  <data key="d12">Mission St &amp; Stockton St</data>
+</node>
+<node id="n_7_10">
+  <data key="d0">7</data>
+  <data key="d1">10</data>
+  <data key="d2">37.779251369423996</data>
+  <data key="d3">-122.4005499086725</data>
+  <data key="d4">False</data>
+  <data key="d5">0.0</data>
+  <data key="d6">False</data>
+  <data key="d7">False</data>
+  <data key="d8"></data>
+  <data key="d9"></data>
+  <data key="d10">0</data>
+  <data key="d11"></data>
+  <data key="d12">Mission St &amp; Grant Ave</data>
+</node>
+<node id="n_7_11">
+  <data key="d0">7</data>
+  <data key="d1">11</data>
+  <data key="d2">37.77927875964412</data>
+  <data key="d3">-122.39856883951772</data>
+  <data key="d4">True</data>
+  <data key="d5">9.433199406127887</data>
+  <data key="d6">False</data>
+  <data key="d7">False</data>
+  <data key="d8"></data>
+  <data key="d9"></data>
+  <data key="d10">0</data>
+  <data key="d11"></data>
+  <data key="d12">Mission St &amp; Kearny St</data>
+</node>
+<node id="n_7_12">
+  <data key="d0">7</data>
+  <data key="d1">12</data>
+  <data key="d2">37.77909728349459</data>
+  <data key="d3">-122.39660566498824</data>
+  <data key="d4">True</data>
+  <data key="d5">28.08382390127232</data>
+  <data key="d6">False</data>
+  <data key="d7">False</data>
+  <data key="d8"></data>
+  <data key="d9"></data>
+  <data key="d10">0</data>
+  <data key="d11"></data>
+  <data key="d12">Mission St &amp; Montgomery St</data>
+</node>
+<node id="n_7_13">
+  <data key="d0">7</data>
+  <data key="d1">13</data>
+  <data key="d2">37.779181371211166</data>
+  <data key="d3">-122.39453500405315</data>
+  <data key="d4">False</data>
+  <data key="d5">0.0</data>
+  <data key="d6">False</data>
+  <data key="d7">False</data>
+  <data key="d8"></data>
+  <data key="d9"></data>
+  <data key="d10">0</data>
+  <data key="d11"></data>
+  <data key="d12">Mission St &amp; Sansome St</data>
+</node>
+<node id="n_8_0">
+  <data key="d0">8</data>
+  <data key="d1">0</data>
+  <data key="d2">37.77751589791958</data>
+  <data key="d3">-122.42036915800395</data>
+  <data key="d4">True</data>
+  <data key="d5">23.409044817281767</data>
+  <data key="d6">False</data>
+  <data key="d7">False</data>
+  <data key="d8"></data>
+  <data key="d9"></data>
+  <data key="d10">0</data>
+  <data key="d11"></data>
+  <data key="d12">Howard St &amp; Van Ness Ave</data>
+</node>
+<node id="n_8_1">
+  <data key="d0">8</data>
+  <data key="d1">1</data>
+  <data key="d2">37.77749381086924</data>
+  <data key="d3">-122.41853709215795</data>
+  <data key="d4">False</data>
+  <data key="d5">0.0</data>
+  <data key="d6">False</data>
+  <data key="d7">False</data>
+  <data key="d8"></data>
+  <data key="d9"></data>
+  <data key="d10">0</data>
+  <data key="d11"></data>
+  <data key="d12">Howard St &amp; Polk St</data>
+</node>
+<node id="n_8_2">
+  <data key="d0">8</data>
+  <data key="d1">2</data>
+  <data key="d2">37.77756532807081</data>
+  <data key="d3">-122.416364641602</data>
+  <data key="d4">True</data>
+  <data key="d5">25.51601037572348</data>
+  <data key="d6">False</data>
+  <data key="d7">False</data>
+  <data key="d8"></data>
+  <data key="d9"></data>
+  <data key="d10">0</data>
+  <data key="d11"></data>
+  <data key="d12">Howard St &amp; Larkin St</data>
+</node>
+<node id="n_8_3">
+  <data key="d0">8</data>
+  <data key="d1">3</data>
+  <data key="d2">37.7775411221652</data>
+  <data key="d3">-122.4146134234965</data>
+  <data key="d4">False</data>
+  <data key="d5">0.0</data>
+  <data key="d6">False</data>
+  <data key="d7">False</data>
+  <data key="d8"></data>
+  <data key="d9"></data>
+  <data key="d10">0</data>
+  <data key="d11"></data>
+  <data key="d12">Howard St &amp; Hyde St</data>
+</node>
+<node id="n_8_4">
+  <data key="d0">8</data>
+  <data key="d1">4</data>
+  <data key="d2">37.777555828909534</data>
+  <data key="d3">-122.41264630919423</data>
+  <data key="d4">False</data>
+  <data key="d5">0.0</data>
+  <data key="d6">False</data>
+  <data key="d7">False</data>
+  <data key="d8"></data>
+  <data key="d9"></data>
+  <data key="d10">0</data>
+  <data key="d11"></data>
+  <data key="d12">Howard St &amp; Leavenworth St</data>
+</node>
+<node id="n_8_5">
+  <data key="d0">8</data>
+  <data key="d1">5</data>
+  <data key="d2">37.77759761985336</data>
+  <data key="d3">-122.4105613922924</data>
+  <data key="d4">False</data>
+  <data key="d5">0.0</data>
+  <data key="d6">False</data>
+  <data key="d7">False</data>
+  <data key="d8"></data>
+  <data key="d9"></data>
+  <data key="d10">0</data>
+  <data key="d11"></data>
+  <data key="d12">Howard St &amp; Jones St</data>
+</node>
+<node id="n_8_6">
+  <data key="d0">8</data>
+  <data key="d1">6</data>
+  <data key="d2">37.777482694238124</data>
+  <data key="d3">-122.40855942178257</data>
+  <data key="d4">False</data>
+  <data key="d5">0.0</data>
+  <data key="d6">False</data>
+  <data key="d7">False</data>
+  <data key="d8"></data>
+  <data key="d9"></data>
+  <data key="d10">0</data>
+  <data key="d11"></data>
+  <data key="d12">Howard St &amp; Taylor St</data>
+</node>
+<node id="n_8_7">
+  <data key="d0">8</data>
+  <data key="d1">7</data>
+  <data key="d2">37.777584388210634</data>
+  <data key="d3">-122.4066168234767</data>
+  <data key="d4">False</data>
+  <data key="d5">0.0</data>
+  <data key="d6">False</data>
+  <data key="d7">False</data>
+  <data key="d8"></data>
+  <data key="d9"></data>
+  <data key="d10">0</data>
+  <data key="d11"></data>
+  <data key="d12">Howard St &amp; Mason St</data>
+</node>
+<node id="n_8_8">
+  <data key="d0">8</data>
+  <data key="d1">8</data>
+  <data key="d2">37.7776137600073</data>
+  <data key="d3">-122.40456482746863</data>
+  <data key="d4">False</data>
+  <data key="d5">0.0</data>
+  <data key="d6">False</data>
+  <data key="d7">False</data>
+  <data key="d8"></data>
+  <data key="d9"></data>
+  <data key="d10">0</data>
+  <data key="d11"></data>
+  <data key="d12">Howard St &amp; Powell St</data>
+</node>
+<node id="n_8_9">
+  <data key="d0">8</data>
+  <data key="d1">9</data>
+  <data key="d2">37.777381925859565</data>
+  <data key="d3">-122.40235026858086</data>
+  <data key="d4">False</data>
+  <data key="d5">0.0</data>
+  <data key="d6">False</data>
+  <data key="d7">False</data>
+  <data key="d8"></data>
+  <data key="d9"></data>
+  <data key="d10">0</data>
+  <data key="d11"></data>
+  <data key="d12">Howard St &amp; Stockton St</data>
+</node>
+<node id="n_8_10">
+  <data key="d0">8</data>
+  <data key="d1">10</data>
+  <data key="d2">37.77754503750467</data>
+  <data key="d3">-122.4006228677819</data>
+  <data key="d4">False</data>
+  <data key="d5">0.0</data>
+  <data key="d6">False</data>
+  <data key="d7">False</data>
+  <data key="d8"></data>
+  <data key="d9"></data>
+  <data key="d10">0</data>
+  <data key="d11"></data>
+  <data key="d12">Howard St &amp; Grant Ave</data>
+</node>
+<node id="n_8_11">
+  <data key="d0">8</data>
+  <data key="d1">11</data>
+  <data key="d2">37.777358699850964</data>
+  <data key="d3">-122.3985777515826</data>
+  <data key="d4">True</data>
+  <data key="d5">23.303038220766556</data>
+  <data key="d6">False</data>
+  <data key="d7">False</data>
+  <data key="d8"></data>
+  <data key="d9"></data>
+  <data key="d10">0</data>
+  <data key="d11"></data>
+  <data key="d12">Howard St &amp; Kearny St</data>
+</node>
+<node id="n_8_12">
+  <data key="d0">8</data>
+  <data key="d1">12</data>
+  <data key="d2">37.77740946126817</data>
+  <data key="d3">-122.39637680853187</data>
+  <data key="d4">True</data>
+  <data key="d5">19.688071179824703</data>
+  <data key="d6">False</data>
+  <data key="d7">False</data>
+  <data key="d8"></data>
+  <data key="d9"></data>
+  <data key="d10">0</data>
+  <data key="d11"></data>
+  <data key="d12">Howard St &amp; Montgomery St</data>
+</node>
+<node id="n_8_13">
+  <data key="d0">8</data>
+  <data key="d1">13</data>
+  <data key="d2">37.77736084881315</data>
+  <data key="d3">-122.39464837104975</data>
+  <data key="d4">True</data>
+  <data key="d5">18.177755329431832</data>
+  <data key="d6">False</data>
+  <data key="d7">False</data>
+  <data key="d8"></data>
+  <data key="d9"></data>
+  <data key="d10">0</data>
+  <data key="d11"></data>
+  <data key="d12">Howard St &amp; Sansome St</data>
+</node>
+<node id="n_9_0">
+  <data key="d0">9</data>
+  <data key="d1">0</data>
+  <data key="d2">37.77589044454326</data>
+  <data key="d3">-122.42057843415381</data>
+  <data key="d4">True</data>
+  <data key="d5">25.48226528769219</data>
+  <data key="d6">False</data>
+  <data key="d7">False</data>
+  <data key="d8"></data>
+  <data key="d9"></data>
+  <data key="d10">0</data>
+  <data key="d11"></data>
+  <data key="d12">Folsom St &amp; Van Ness Ave</data>
+</node>
+<node id="n_9_1">
+  <data key="d0">9</data>
+  <data key="d1">1</data>
+  <data key="d2">37.77566716958204</data>
+  <data key="d3">-122.4184097108439</data>
+  <data key="d4">False</data>
+  <data key="d5">0.0</data>
+  <data key="d6">False</data>
+  <data key="d7">False</data>
+  <data key="d8"></data>
+  <data key="d9"></data>
+  <data key="d10">0</data>
+  <data key="d11"></data>
+  <data key="d12">Folsom St &amp; Polk St</data>
+</node>
+<node id="n_9_2">
+  <data key="d0">9</data>
+  <data key="d1">2</data>
+  <data key="d2">37.77588163251973</data>
+  <data key="d3">-122.41644056376481</data>
+  <data key="d4">False</data>
+  <data key="d5">0.0</data>
+  <data key="d6">False</data>
+  <data key="d7">False</data>
+  <data key="d8"></data>
+  <data key="d9"></data>
+  <data key="d10">0</data>
+  <data key="d11"></data>
+  <data key="d12">Folsom St &amp; Larkin St</data>
+</node>
+<node id="n_9_3">
+  <data key="d0">9</data>
+  <data key="d1">3</data>
+  <data key="d2">37.77566204538986</data>
+  <data key="d3">-122.41458946536679</data>
+  <data key="d4">True</data>
+  <data key="d5">15.135929705789597</data>
+  <data key="d6">False</data>
+  <data key="d7">False</data>
+  <data key="d8"></data>
+  <data key="d9"></data>
+  <data key="d10">0</data>
+  <data key="d11"></data>
+  <data key="d12">Folsom St &amp; Hyde St</data>
+</node>
+<node id="n_9_4">
+  <data key="d0">9</data>
+  <data key="d1">4</data>
+  <data key="d2">37.7758735564385</data>
+  <data key="d3">-122.41246099644663</data>
+  <data key="d4">False</data>
+  <data key="d5">0.0</data>
+  <data key="d6">False</data>
+  <data key="d7">False</data>
+  <data key="d8"></data>
+  <data key="d9"></data>
+  <data key="d10">0</data>
+  <data key="d11"></data>
+  <data key="d12">Folsom St &amp; Leavenworth St</data>
+</node>
+<node id="n_9_5">
+  <data key="d0">9</data>
+  <data key="d1">5</data>
+  <data key="d2">37.77569656389773</data>
+  <data key="d3">-122.41042961367242</data>
+  <data key="d4">True</data>
+  <data key="d5">8.122762539534008</data>
+  <data key="d6">False</data>
+  <data key="d7">False</data>
+  <data key="d8"></data>
+  <data key="d9"></data>
+  <data key="d10">0</data>
+  <data key="d11"></data>
+  <data key="d12">Folsom St &amp; Jones St</data>
+</node>
+<node id="n_9_6">
+  <data key="d0">9</data>
+  <data key="d1">6</data>
+  <data key="d2">37.77586297140918</data>
+  <data key="d3">-122.40835593856454</data>
+  <data key="d4">False</data>
+  <data key="d5">0.0</data>
+  <data key="d6">False</data>
+  <data key="d7">False</data>
+  <data key="d8"></data>
+  <data key="d9"></data>
+  <data key="d10">0</data>
+  <data key="d11"></data>
+  <data key="d12">Folsom St &amp; Taylor St</data>
+</node>
+<node id="n_9_7">
+  <data key="d0">9</data>
+  <data key="d1">7</data>
+  <data key="d2">37.7756663500945</data>
+  <data key="d3">-122.40646510730902</data>
+  <data key="d4">True</data>
+  <data key="d5">26.524371341004517</data>
+  <data key="d6">False</data>
+  <data key="d7">False</data>
+  <data key="d8"></data>
+  <data key="d9"></data>
+  <data key="d10">0</data>
+  <data key="d11"></data>
+  <data key="d12">Folsom St &amp; Mason St</data>
+</node>
+<node id="n_9_8">
+  <data key="d0">9</data>
+  <data key="d1">8</data>
+  <data key="d2">37.77586287348553</data>
+  <data key="d3">-122.40459806164607</data>
+  <data key="d4">True</data>
+  <data key="d5">5.5059968664095695</data>
+  <data key="d6">False</data>
+  <data key="d7">False</data>
+  <data key="d8"></data>
+  <data key="d9"></data>
+  <data key="d10">0</data>
+  <data key="d11"></data>
+  <data key="d12">Folsom St &amp; Powell St</data>
+</node>
+<node id="n_9_9">
+  <data key="d0">9</data>
+  <data key="d1">9</data>
+  <data key="d2">37.775944008153864</data>
+  <data key="d3">-122.40251243180727</data>
+  <data key="d4">False</data>
+  <data key="d5">0.0</data>
+  <data key="d6">False</data>
+  <data key="d7">False</data>
+  <data key="d8"></data>
+  <data key="d9"></data>
+  <data key="d10">0</data>
+  <data key="d11"></data>
+  <data key="d12">Folsom St &amp; Stockton St</data>
+</node>
+<node id="n_9_10">
+  <data key="d0">9</data>
+  <data key="d1">10</data>
+  <data key="d2">37.77584092250263</data>
+  <data key="d3">-122.40047827605501</data>
+  <data key="d4">True</data>
+  <data key="d5">28.38073360674285</data>
+  <data key="d6">False</data>
+  <data key="d7">False</data>
+  <data key="d8"></data>
+  <data key="d9"></data>
+  <data key="d10">0</data>
+  <data key="d11"></data>
+  <data key="d12">Folsom St &amp; Grant Ave</data>
+</node>
+<node id="n_9_11">
+  <data key="d0">9</data>
+  <data key="d1">11</data>
+  <data key="d2">37.77574040278975</data>
+  <data key="d3">-122.39847659483526</data>
+  <data key="d4">False</data>
+  <data key="d5">0.0</data>
+  <data key="d6">False</data>
+  <data key="d7">False</data>
+  <data key="d8"></data>
+  <data key="d9"></data>
+  <data key="d10">0</data>
+  <data key="d11"></data>
+  <data key="d12">Folsom St &amp; Kearny St</data>
+</node>
+<node id="n_9_12">
+  <data key="d0">9</data>
+  <data key="d1">12</data>
+  <data key="d2">37.77584476994657</data>
+  <data key="d3">-122.39636782167709</data>
+  <data key="d4">True</data>
+  <data key="d5">4.45316969760174</data>
+  <data key="d6">False</data>
+  <data key="d7">False</data>
+  <data key="d8"></data>
+  <data key="d9"></data>
+  <data key="d10">0</data>
+  <data key="d11"></data>
+  <data key="d12">Folsom St &amp; Montgomery St</data>
+</node>
+<node id="n_9_13">
+  <data key="d0">9</data>
+  <data key="d1">13</data>
+  <data key="d2">37.77580250582153</data>
+  <data key="d3">-122.39452878968277</data>
+  <data key="d4">False</data>
+  <data key="d5">0.0</data>
+  <data key="d6">False</data>
+  <data key="d7">False</data>
+  <data key="d8"></data>
+  <data key="d9"></data>
+  <data key="d10">0</data>
+  <data key="d11"></data>
+  <data key="d12">Folsom St &amp; Sansome St</data>
+</node>
+<node id="n_10_0">
+  <data key="d0">10</data>
+  <data key="d1">0</data>
+  <data key="d2">37.77388576525786</data>
+  <data key="d3">-122.42060977161704</data>
+  <data key="d4">True</data>
+  <data key="d5">8.34226637343772</data>
+  <data key="d6">False</data>
+  <data key="d7">False</data>
+  <data key="d8"></data>
+  <data key="d9"></data>
+  <data key="d10">0</data>
+  <data key="d11"></data>
+  <data key="d12">Harrison St &amp; Van Ness Ave</data>
+</node>
+<node id="n_10_1">
+  <data key="d0">10</data>
+  <data key="d1">1</data>
+  <data key="d2">37.77394141138113</data>
+  <data key="d3">-122.4185216290359</data>
+  <data key="d4">False</data>
+  <data key="d5">0.0</data>
+  <data key="d6">False</data>
+  <data key="d7">False</data>
+  <data key="d8"></data>
+  <data key="d9"></data>
+  <data key="d10">0</data>
+  <data key="d11"></data>
+  <data key="d12">Harrison St &amp; Polk St</data>
+</node>
+<node id="n_10_2">
+  <data key="d0">10</data>
+  <data key="d1">2</data>
+  <data key="d2">37.77404038873522</data>
+  <data key="d3">-122.41652645673102</data>
+  <data key="d4">True</data>
+  <data key="d5">6.528855800908859</data>
+  <data key="d6">False</data>
+  <data key="d7">False</data>
+  <data key="d8"></data>
+  <data key="d9"></data>
+  <data key="d10">0</data>
+  <data key="d11"></data>
+  <data key="d12">Harrison St &amp; Larkin St</data>
+</node>
+<node id="n_10_3">
+  <data key="d0">10</data>
+  <data key="d1">3</data>
+  <data key="d2">37.77402649187452</data>
+  <data key="d3">-122.41455488772661</data>
+  <data key="d4">True</data>
+  <data key="d5">12.552001324705811</data>
+  <data key="d6">False</data>
+  <data key="d7">True</data>
+  <data key="d8">hosp_soma_general</data>
+  <data key="d9">SoMa Emergency Medical Hub</data>
+  <data key="d10">16</data>
+  <data key="d11">trauma,stroke</data>
+  <data key="d12">Harrison St &amp; Hyde St</data>
+</node>
+<node id="n_10_4">
+  <data key="d0">10</data>
+  <data key="d1">4</data>
+  <data key="d2">37.77399223980253</data>
+  <data key="d3">-122.41258232213953</data>
+  <data key="d4">False</data>
+  <data key="d5">0.0</data>
+  <data key="d6">False</data>
+  <data key="d7">False</data>
+  <data key="d8"></data>
+  <data key="d9"></data>
+  <data key="d10">0</data>
+  <data key="d11"></data>
+  <data key="d12">Harrison St &amp; Leavenworth St</data>
+</node>
+<node id="n_10_5">
+  <data key="d0">10</data>
+  <data key="d1">5</data>
+  <data key="d2">37.77401973157013</data>
+  <data key="d3">-122.41043939934566</data>
+  <data key="d4">False</data>
+  <data key="d5">0.0</data>
+  <data key="d6">False</data>
+  <data key="d7">False</data>
+  <data key="d8"></data>
+  <data key="d9"></data>
+  <data key="d10">0</data>
+  <data key="d11"></data>
+  <data key="d12">Harrison St &amp; Jones St</data>
+</node>
+<node id="n_10_6">
+  <data key="d0">10</data>
+  <data key="d1">6</data>
+  <data key="d2">37.774045729916956</data>
+  <data key="d3">-122.40855513575445</data>
+  <data key="d4">False</data>
+  <data key="d5">0.0</data>
+  <data key="d6">False</data>
+  <data key="d7">False</data>
+  <data key="d8"></data>
+  <data key="d9"></data>
+  <data key="d10">0</data>
+  <data key="d11"></data>
+  <data key="d12">Harrison St &amp; Taylor St</data>
+</node>
+<node id="n_10_7">
+  <data key="d0">10</data>
+  <data key="d1">7</data>
+  <data key="d2">37.77401474331508</data>
+  <data key="d3">-122.40652057454145</data>
+  <data key="d4">False</data>
+  <data key="d5">0.0</data>
+  <data key="d6">False</data>
+  <data key="d7">False</data>
+  <data key="d8"></data>
+  <data key="d9"></data>
+  <data key="d10">0</data>
+  <data key="d11"></data>
+  <data key="d12">Harrison St &amp; Mason St</data>
+</node>
+<node id="n_10_8">
+  <data key="d0">10</data>
+  <data key="d1">8</data>
+  <data key="d2">37.773958197200336</data>
+  <data key="d3">-122.40449617822662</data>
+  <data key="d4">False</data>
+  <data key="d5">0.0</data>
+  <data key="d6">False</data>
+  <data key="d7">False</data>
+  <data key="d8"></data>
+  <data key="d9"></data>
+  <data key="d10">0</data>
+  <data key="d11"></data>
+  <data key="d12">Harrison St &amp; Powell St</data>
+</node>
+<node id="n_10_9">
+  <data key="d0">10</data>
+  <data key="d1">9</data>
+  <data key="d2">37.774115920866016</data>
+  <data key="d3">-122.40237368284082</data>
+  <data key="d4">False</data>
+  <data key="d5">0.0</data>
+  <data key="d6">False</data>
+  <data key="d7">False</data>
+  <data key="d8"></data>
+  <data key="d9"></data>
+  <data key="d10">0</data>
+  <data key="d11"></data>
+  <data key="d12">Harrison St &amp; Stockton St</data>
+</node>
+<node id="n_10_10">
+  <data key="d0">10</data>
+  <data key="d1">10</data>
+  <data key="d2">37.77400608253442</data>
+  <data key="d3">-122.40041003887677</data>
+  <data key="d4">True</data>
+  <data key="d5">25.121470870352056</data>
+  <data key="d6">False</data>
+  <data key="d7">False</data>
+  <data key="d8"></data>
+  <data key="d9"></data>
+  <data key="d10">0</data>
+  <data key="d11"></data>
+  <data key="d12">Harrison St &amp; Grant Ave</data>
+</node>
+<node id="n_10_11">
+  <data key="d0">10</data>
+  <data key="d1">11</data>
+  <data key="d2">37.77399824249395</data>
+  <data key="d3">-122.3986152429827</data>
+  <data key="d4">True</data>
+  <data key="d5">25.259796331183892</data>
+  <data key="d6">False</data>
+  <data key="d7">False</data>
+  <data key="d8"></data>
+  <data key="d9"></data>
+  <data key="d10">0</data>
+  <data key="d11"></data>
+  <data key="d12">Harrison St &amp; Kearny St</data>
+</node>
+<node id="n_10_12">
+  <data key="d0">10</data>
+  <data key="d1">12</data>
+  <data key="d2">37.77386667037507</data>
+  <data key="d3">-122.39656581656917</data>
+  <data key="d4">True</data>
+  <data key="d5">10.023901215046374</data>
+  <data key="d6">False</data>
+  <data key="d7">False</data>
+  <data key="d8"></data>
+  <data key="d9"></data>
+  <data key="d10">0</data>
+  <data key="d11"></data>
+  <data key="d12">Harrison St &amp; Montgomery St</data>
+</node>
+<node id="n_10_13">
+  <data key="d0">10</data>
+  <data key="d1">13</data>
+  <data key="d2">37.773901898333555</data>
+  <data key="d3">-122.39455583198905</data>
+  <data key="d4">False</data>
+  <data key="d5">0.0</data>
+  <data key="d6">False</data>
+  <data key="d7">False</data>
+  <data key="d8"></data>
+  <data key="d9"></data>
+  <data key="d10">0</data>
+  <data key="d11"></data>
+  <data key="d12">Harrison St &amp; Sansome St</data>
+</node>
+<node id="n_11_0">
+  <data key="d0">11</data>
+  <data key="d1">0</data>
+  <data key="d2">37.772054404853066</data>
+  <data key="d3">-122.42040184797264</data>
+  <data key="d4">True</data>
+  <data key="d5">25.696440707236746</data>
+  <data key="d6">False</data>
+  <data key="d7">False</data>
+  <data key="d8"></data>
+  <data key="d9"></data>
+  <data key="d10">0</data>
+  <data key="d11"></data>
+  <data key="d12">Bryant St &amp; Van Ness Ave</data>
+</node>
+<node id="n_11_1">
+  <data key="d0">11</data>
+  <data key="d1">1</data>
+  <data key="d2">37.77216167847195</data>
+  <data key="d3">-122.41860391613028</data>
+  <data key="d4">False</data>
+  <data key="d5">0.0</data>
+  <data key="d6">False</data>
+  <data key="d7">False</data>
+  <data key="d8"></data>
+  <data key="d9"></data>
+  <data key="d10">0</data>
+  <data key="d11"></data>
+  <data key="d12">Bryant St &amp; Polk St</data>
+</node>
+<node id="n_11_2">
+  <data key="d0">11</data>
+  <data key="d1">2</data>
+  <data key="d2">37.77208590176676</data>
+  <data key="d3">-122.41654052419167</data>
+  <data key="d4">False</data>
+  <data key="d5">0.0</data>
+  <data key="d6">False</data>
+  <data key="d7">False</data>
+  <data key="d8"></data>
+  <data key="d9"></data>
+  <data key="d10">0</data>
+  <data key="d11"></data>
+  <data key="d12">Bryant St &amp; Larkin St</data>
+</node>
+<node id="n_11_3">
+  <data key="d0">11</data>
+  <data key="d1">3</data>
+  <data key="d2">37.77234863934177</data>
+  <data key="d3">-122.4144183685326</data>
+  <data key="d4">True</data>
+  <data key="d5">20.629951474982775</data>
+  <data key="d6">False</data>
+  <data key="d7">False</data>
+  <data key="d8"></data>
+  <data key="d9"></data>
+  <data key="d10">0</data>
+  <data key="d11"></data>
+  <data key="d12">Bryant St &amp; Hyde St</data>
+</node>
+<node id="n_11_4">
+  <data key="d0">11</data>
+  <data key="d1">4</data>
+  <data key="d2">37.77226162190964</data>
+  <data key="d3">-122.41253364749144</data>
+  <data key="d4">False</data>
+  <data key="d5">0.0</data>
+  <data key="d6">False</data>
+  <data key="d7">False</data>
+  <data key="d8"></data>
+  <data key="d9"></data>
+  <data key="d10">0</data>
+  <data key="d11"></data>
+  <data key="d12">Bryant St &amp; Leavenworth St</data>
+</node>
+<node id="n_11_5">
+  <data key="d0">11</data>
+  <data key="d1">5</data>
+  <data key="d2">37.77205321829349</data>
+  <data key="d3">-122.41058728270242</data>
+  <data key="d4">False</data>
+  <data key="d5">0.0</data>
+  <data key="d6">False</data>
+  <data key="d7">False</data>
+  <data key="d8"></data>
+  <data key="d9"></data>
+  <data key="d10">0</data>
+  <data key="d11"></data>
+  <data key="d12">Bryant St &amp; Jones St</data>
+</node>
+<node id="n_11_6">
+  <data key="d0">11</data>
+  <data key="d1">6</data>
+  <data key="d2">37.77209912539128</data>
+  <data key="d3">-122.40860022793964</data>
+  <data key="d4">False</data>
+  <data key="d5">0.0</data>
+  <data key="d6">False</data>
+  <data key="d7">False</data>
+  <data key="d8"></data>
+  <data key="d9"></data>
+  <data key="d10">0</data>
+  <data key="d11"></data>
+  <data key="d12">Bryant St &amp; Taylor St</data>
+</node>
+<node id="n_11_7">
+  <data key="d0">11</data>
+  <data key="d1">7</data>
+  <data key="d2">37.772346739900804</data>
+  <data key="d3">-122.40648320917158</data>
+  <data key="d4">False</data>
+  <data key="d5">0.0</data>
+  <data key="d6">False</data>
+  <data key="d7">False</data>
+  <data key="d8"></data>
+  <data key="d9"></data>
+  <data key="d10">0</data>
+  <data key="d11"></data>
+  <data key="d12">Bryant St &amp; Mason St</data>
+</node>
+<node id="n_11_8">
+  <data key="d0">11</data>
+  <data key="d1">8</data>
+  <data key="d2">37.772347096499296</data>
+  <data key="d3">-122.40460752123343</data>
+  <data key="d4">False</data>
+  <data key="d5">0.0</data>
+  <data key="d6">False</data>
+  <data key="d7">False</data>
+  <data key="d8"></data>
+  <data key="d9"></data>
+  <data key="d10">0</data>
+  <data key="d11"></data>
+  <data key="d12">Bryant St &amp; Powell St</data>
+</node>
+<node id="n_11_9">
+  <data key="d0">11</data>
+  <data key="d1">9</data>
+  <data key="d2">37.77216777181475</data>
+  <data key="d3">-122.40262598521491</data>
+  <data key="d4">False</data>
+  <data key="d5">0.0</data>
+  <data key="d6">False</data>
+  <data key="d7">False</data>
+  <data key="d8"></data>
+  <data key="d9"></data>
+  <data key="d10">0</data>
+  <data key="d11"></data>
+  <data key="d12">Bryant St &amp; Stockton St</data>
+</node>
+<node id="n_11_10">
+  <data key="d0">11</data>
+  <data key="d1">10</data>
+  <data key="d2">37.7721801337082</data>
+  <data key="d3">-122.40050920191973</data>
+  <data key="d4">True</data>
+  <data key="d5">5.427799566926044</data>
+  <data key="d6">False</data>
+  <data key="d7">False</data>
+  <data key="d8"></data>
+  <data key="d9"></data>
+  <data key="d10">0</data>
+  <data key="d11"></data>
+  <data key="d12">Bryant St &amp; Grant Ave</data>
+</node>
+<node id="n_11_11">
+  <data key="d0">11</data>
+  <data key="d1">11</data>
+  <data key="d2">37.772322131086646</data>
+  <data key="d3">-122.39863660527331</data>
+  <data key="d4">True</data>
+  <data key="d5">8.76177990943585</data>
+  <data key="d6">False</data>
+  <data key="d7">False</data>
+  <data key="d8"></data>
+  <data key="d9"></data>
+  <data key="d10">0</data>
+  <data key="d11"></data>
+  <data key="d12">Bryant St &amp; Kearny St</data>
+</node>
+<node id="n_11_12">
+  <data key="d0">11</data>
+  <data key="d1">12</data>
+  <data key="d2">37.772197059262716</data>
+  <data key="d3">-122.39647406644809</data>
+  <data key="d4">True</data>
+  <data key="d5">14.798699275519997</data>
+  <data key="d6">False</data>
+  <data key="d7">False</data>
+  <data key="d8"></data>
+  <data key="d9"></data>
+  <data key="d10">0</data>
+  <data key="d11"></data>
+  <data key="d12">Bryant St &amp; Montgomery St</data>
+</node>
+<node id="n_11_13">
+  <data key="d0">11</data>
+  <data key="d1">13</data>
+  <data key="d2">37.772075234600365</data>
+  <data key="d3">-122.39457689976378</data>
+  <data key="d4">False</data>
+  <data key="d5">0.0</data>
+  <data key="d6">False</data>
+  <data key="d7">False</data>
+  <data key="d8"></data>
+  <data key="d9"></data>
+  <data key="d10">0</data>
+  <data key="d11"></data>
+  <data key="d12">Bryant St &amp; Sansome St</data>
+</node>
+<edge source="n_0_0" target="n_0_1">
+  <data key="d13">166.67755045825763</data>
+  <data key="d14">40.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">Bush St</data>
+</edge>
+<edge source="n_0_0" target="n_1_0">
+  <data key="d13">192.24415511542125</data>
+  <data key="d14">50.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">Van Ness Ave</data>
+</edge>
+<edge source="n_0_1" target="n_0_0">
+  <data key="d13">166.67755045825763</data>
+  <data key="d14">40.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">Bush St</data>
+</edge>
+<edge source="n_0_1" target="n_0_2">
+  <data key="d13">193.9958954115645</data>
+  <data key="d14">40.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">Bush St</data>
+</edge>
+<edge source="n_0_1" target="n_1_1">
+  <data key="d13">212.83386267569884</data>
+  <data key="d14">35.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">Polk St</data>
+</edge>
+<edge source="n_0_2" target="n_0_1">
+  <data key="d13">193.9958954115645</data>
+  <data key="d14">40.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">Bush St</data>
+</edge>
+<edge source="n_0_2" target="n_0_3">
+  <data key="d13">179.92591389813438</data>
+  <data key="d14">40.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">Bush St</data>
+</edge>
+<edge source="n_0_2" target="n_1_2">
+  <data key="d13">190.89864534219782</data>
+  <data key="d14">35.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">Larkin St</data>
+</edge>
+<edge source="n_0_3" target="n_0_2">
+  <data key="d13">179.92591389813438</data>
+  <data key="d14">40.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">Bush St</data>
+</edge>
+<edge source="n_0_3" target="n_0_4">
+  <data key="d13">163.6987876494081</data>
+  <data key="d14">40.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">Bush St</data>
+</edge>
+<edge source="n_0_3" target="n_1_3">
+  <data key="d13">183.60414636941107</data>
+  <data key="d14">30.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">Hyde St</data>
+</edge>
+<edge source="n_0_4" target="n_0_3">
+  <data key="d13">163.6987876494081</data>
+  <data key="d14">40.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">Bush St</data>
+</edge>
+<edge source="n_0_4" target="n_0_5">
+  <data key="d13">187.58999595717736</data>
+  <data key="d14">40.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">Bush St</data>
+</edge>
+<edge source="n_0_4" target="n_1_4">
+  <data key="d13">200.78808240693</data>
+  <data key="d14">30.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">Leavenworth St</data>
+</edge>
+<edge source="n_0_5" target="n_0_4">
+  <data key="d13">187.58999595717736</data>
+  <data key="d14">40.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">Bush St</data>
+</edge>
+<edge source="n_0_5" target="n_0_6">
+  <data key="d13">164.90762247170596</data>
+  <data key="d14">40.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">Bush St</data>
+</edge>
+<edge source="n_0_5" target="n_1_5">
+  <data key="d13">170.14044035551035</data>
+  <data key="d14">30.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">Jones St</data>
+</edge>
+<edge source="n_0_6" target="n_0_5">
+  <data key="d13">164.90762247170596</data>
+  <data key="d14">40.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">Bush St</data>
+</edge>
+<edge source="n_0_6" target="n_0_7">
+  <data key="d13">186.97270629493565</data>
+  <data key="d14">40.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">Bush St</data>
+</edge>
+<edge source="n_0_6" target="n_1_6">
+  <data key="d13">204.35896668042693</data>
+  <data key="d14">35.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">Taylor St</data>
+</edge>
+<edge source="n_0_7" target="n_0_6">
+  <data key="d13">186.97270629493565</data>
+  <data key="d14">40.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">Bush St</data>
+</edge>
+<edge source="n_0_7" target="n_0_8">
+  <data key="d13">161.79281125936365</data>
+  <data key="d14">40.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">Bush St</data>
+</edge>
+<edge source="n_0_7" target="n_1_7">
+  <data key="d13">211.89076312391745</data>
+  <data key="d14">35.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">Mason St</data>
+</edge>
+<edge source="n_0_8" target="n_0_7">
+  <data key="d13">161.79281125936365</data>
+  <data key="d14">40.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">Bush St</data>
+</edge>
+<edge source="n_0_8" target="n_0_9">
+  <data key="d13">198.56464292213647</data>
+  <data key="d14">40.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">Bush St</data>
+</edge>
+<edge source="n_0_8" target="n_1_8">
+  <data key="d13">182.70626052705745</data>
+  <data key="d14">40.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">Powell St</data>
+</edge>
+<edge source="n_0_9" target="n_0_8">
+  <data key="d13">198.56464292213647</data>
+  <data key="d14">40.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">Bush St</data>
+</edge>
+<edge source="n_0_9" target="n_0_10">
+  <data key="d13">155.50575421766274</data>
+  <data key="d14">40.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">Bush St</data>
+</edge>
+<edge source="n_0_9" target="n_1_9">
+  <data key="d13">192.09999709448226</data>
+  <data key="d14">40.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">Stockton St</data>
+</edge>
+<edge source="n_0_10" target="n_0_9">
+  <data key="d13">155.50575421766274</data>
+  <data key="d14">40.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">Bush St</data>
+</edge>
+<edge source="n_0_10" target="n_0_11">
+  <data key="d13">188.58164004202703</data>
+  <data key="d14">40.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">Bush St</data>
+</edge>
+<edge source="n_0_10" target="n_1_10">
+  <data key="d13">182.6241023286796</data>
+  <data key="d14">30.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">Grant Ave</data>
+</edge>
+<edge source="n_0_11" target="n_0_10">
+  <data key="d13">188.58164004202703</data>
+  <data key="d14">40.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">Bush St</data>
+</edge>
+<edge source="n_0_11" target="n_0_12">
+  <data key="d13">177.70048445307782</data>
+  <data key="d14">40.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">Bush St</data>
+</edge>
+<edge source="n_0_11" target="n_1_11">
+  <data key="d13">191.79092970648645</data>
+  <data key="d14">45.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">Kearny St</data>
+</edge>
+<edge source="n_0_12" target="n_0_11">
+  <data key="d13">177.70048445307782</data>
+  <data key="d14">40.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">Bush St</data>
+</edge>
+<edge source="n_0_12" target="n_0_13">
+  <data key="d13">178.49959867883683</data>
+  <data key="d14">40.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">Bush St</data>
+</edge>
+<edge source="n_0_12" target="n_1_12">
+  <data key="d13">201.9013354134121</data>
+  <data key="d14">45.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">Montgomery St</data>
+</edge>
+<edge source="n_0_13" target="n_0_12">
+  <data key="d13">178.49959867883683</data>
+  <data key="d14">40.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">Bush St</data>
+</edge>
+<edge source="n_0_13" target="n_1_13">
+  <data key="d13">211.73269627205366</data>
+  <data key="d14">40.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">Sansome St</data>
+</edge>
+<edge source="n_1_0" target="n_0_0">
+  <data key="d13">192.24415511542125</data>
+  <data key="d14">50.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">Van Ness Ave</data>
+</edge>
+<edge source="n_1_0" target="n_1_1">
+  <data key="d13">194.12106506117965</data>
+  <data key="d14">35.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">Sutter St</data>
+</edge>
+<edge source="n_1_0" target="n_2_0">
+  <data key="d13">188.01697245562661</data>
+  <data key="d14">50.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">Van Ness Ave</data>
+</edge>
+<edge source="n_1_1" target="n_0_1">
+  <data key="d13">212.83386267569884</data>
+  <data key="d14">35.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">Polk St</data>
+</edge>
+<edge source="n_1_1" target="n_1_0">
+  <data key="d13">194.12106506117965</data>
+  <data key="d14">35.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">Sutter St</data>
+</edge>
+<edge source="n_1_1" target="n_1_2">
+  <data key="d13">177.1221304124926</data>
+  <data key="d14">35.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">Sutter St</data>
+</edge>
+<edge source="n_1_1" target="n_2_1">
+  <data key="d13">167.10789957601907</data>
+  <data key="d14">35.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">Polk St</data>
+</edge>
+<edge source="n_1_2" target="n_0_2">
+  <data key="d13">190.89864534219782</data>
+  <data key="d14">35.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">Larkin St</data>
+</edge>
+<edge source="n_1_2" target="n_1_1">
+  <data key="d13">177.1221304124926</data>
+  <data key="d14">35.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">Sutter St</data>
+</edge>
+<edge source="n_1_2" target="n_1_3">
+  <data key="d13">158.91770105166427</data>
+  <data key="d14">35.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">Sutter St</data>
+</edge>
+<edge source="n_1_2" target="n_2_2">
+  <data key="d13">171.13958705701813</data>
+  <data key="d14">35.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">Larkin St</data>
+</edge>
+<edge source="n_1_3" target="n_0_3">
+  <data key="d13">183.60414636941107</data>
+  <data key="d14">30.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">Hyde St</data>
+</edge>
+<edge source="n_1_3" target="n_1_2">
+  <data key="d13">158.91770105166427</data>
+  <data key="d14">35.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">Sutter St</data>
+</edge>
+<edge source="n_1_3" target="n_1_4">
+  <data key="d13">186.99303608356342</data>
+  <data key="d14">35.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">Sutter St</data>
+</edge>
+<edge source="n_1_3" target="n_2_3">
+  <data key="d13">171.58208682682098</data>
+  <data key="d14">30.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">Hyde St</data>
+</edge>
+<edge source="n_1_4" target="n_0_4">
+  <data key="d13">200.78808240693</data>
+  <data key="d14">30.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">Leavenworth St</data>
+</edge>
+<edge source="n_1_4" target="n_1_3">
+  <data key="d13">186.99303608356342</data>
+  <data key="d14">35.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">Sutter St</data>
+</edge>
+<edge source="n_1_4" target="n_1_5">
+  <data key="d13">175.52664674913962</data>
+  <data key="d14">35.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">Sutter St</data>
+</edge>
+<edge source="n_1_4" target="n_2_4">
+  <data key="d13">184.9588162135476</data>
+  <data key="d14">30.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">Leavenworth St</data>
+</edge>
+<edge source="n_1_5" target="n_0_5">
+  <data key="d13">170.14044035551035</data>
+  <data key="d14">30.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">Jones St</data>
+</edge>
+<edge source="n_1_5" target="n_1_4">
+  <data key="d13">175.52664674913962</data>
+  <data key="d14">35.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">Sutter St</data>
+</edge>
+<edge source="n_1_5" target="n_1_6">
+  <data key="d13">162.3432906530628</data>
+  <data key="d14">35.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">Sutter St</data>
+</edge>
+<edge source="n_1_5" target="n_2_5">
+  <data key="d13">184.11407809189996</data>
+  <data key="d14">30.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">Jones St</data>
+</edge>
+<edge source="n_1_6" target="n_0_6">
+  <data key="d13">204.35896668042693</data>
+  <data key="d14">35.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">Taylor St</data>
+</edge>
+<edge source="n_1_6" target="n_1_5">
+  <data key="d13">162.3432906530628</data>
+  <data key="d14">35.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">Sutter St</data>
+</edge>
+<edge source="n_1_6" target="n_1_7">
+  <data key="d13">185.73055565246352</data>
+  <data key="d14">35.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">Sutter St</data>
+</edge>
+<edge source="n_1_6" target="n_2_6">
+  <data key="d13">183.4506465590521</data>
+  <data key="d14">35.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">Taylor St</data>
+</edge>
+<edge source="n_1_7" target="n_0_7">
+  <data key="d13">211.89076312391745</data>
+  <data key="d14">35.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">Mason St</data>
+</edge>
+<edge source="n_1_7" target="n_1_6">
+  <data key="d13">185.73055565246352</data>
+  <data key="d14">35.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">Sutter St</data>
+</edge>
+<edge source="n_1_7" target="n_1_8">
+  <data key="d13">166.5177533968598</data>
+  <data key="d14">35.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">Sutter St</data>
+</edge>
+<edge source="n_1_7" target="n_2_7">
+  <data key="d13">161.07110950140753</data>
+  <data key="d14">35.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">Mason St</data>
+</edge>
+<edge source="n_1_8" target="n_0_8">
+  <data key="d13">182.70626052705745</data>
+  <data key="d14">40.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">Powell St</data>
+</edge>
+<edge source="n_1_8" target="n_1_7">
+  <data key="d13">166.5177533968598</data>
+  <data key="d14">35.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">Sutter St</data>
+</edge>
+<edge source="n_1_8" target="n_1_9">
+  <data key="d13">189.43556559678754</data>
+  <data key="d14">35.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">Sutter St</data>
+</edge>
+<edge source="n_1_8" target="n_2_8">
+  <data key="d13">166.96101888917215</data>
+  <data key="d14">40.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">Powell St</data>
+</edge>
+<edge source="n_1_9" target="n_0_9">
+  <data key="d13">192.09999709448226</data>
+  <data key="d14">40.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">Stockton St</data>
+</edge>
+<edge source="n_1_9" target="n_1_8">
+  <data key="d13">189.43556559678754</data>
+  <data key="d14">35.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">Sutter St</data>
+</edge>
+<edge source="n_1_9" target="n_1_10">
+  <data key="d13">171.77763701060584</data>
+  <data key="d14">35.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">Sutter St</data>
+</edge>
+<edge source="n_1_9" target="n_2_9">
+  <data key="d13">198.6111781174816</data>
+  <data key="d14">40.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">Stockton St</data>
+</edge>
+<edge source="n_1_10" target="n_0_10">
+  <data key="d13">182.6241023286796</data>
+  <data key="d14">30.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">Grant Ave</data>
+</edge>
+<edge source="n_1_10" target="n_1_9">
+  <data key="d13">171.77763701060584</data>
+  <data key="d14">35.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">Sutter St</data>
+</edge>
+<edge source="n_1_10" target="n_1_11">
+  <data key="d13">166.4633885873937</data>
+  <data key="d14">35.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">Sutter St</data>
+</edge>
+<edge source="n_1_10" target="n_2_10">
+  <data key="d13">196.68106108691865</data>
+  <data key="d14">30.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">Grant Ave</data>
+</edge>
+<edge source="n_1_11" target="n_0_11">
+  <data key="d13">191.79092970648645</data>
+  <data key="d14">45.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">Kearny St</data>
+</edge>
+<edge source="n_1_11" target="n_1_10">
+  <data key="d13">166.4633885873937</data>
+  <data key="d14">35.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">Sutter St</data>
+</edge>
+<edge source="n_1_11" target="n_1_12">
+  <data key="d13">179.67151512780356</data>
+  <data key="d14">35.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">Sutter St</data>
+</edge>
+<edge source="n_1_11" target="n_2_11">
+  <data key="d13">164.3208928580061</data>
+  <data key="d14">45.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">Kearny St</data>
+</edge>
+<edge source="n_1_12" target="n_0_12">
+  <data key="d13">201.9013354134121</data>
+  <data key="d14">45.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">Montgomery St</data>
+</edge>
+<edge source="n_1_12" target="n_1_11">
+  <data key="d13">179.67151512780356</data>
+  <data key="d14">35.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">Sutter St</data>
+</edge>
+<edge source="n_1_12" target="n_1_13">
+  <data key="d13">190.13503023712497</data>
+  <data key="d14">35.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">Sutter St</data>
+</edge>
+<edge source="n_1_12" target="n_2_12">
+  <data key="d13">193.7024430613954</data>
+  <data key="d14">45.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">Montgomery St</data>
+</edge>
+<edge source="n_1_13" target="n_0_13">
+  <data key="d13">211.73269627205366</data>
+  <data key="d14">40.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">Sansome St</data>
+</edge>
+<edge source="n_1_13" target="n_1_12">
+  <data key="d13">190.13503023712497</data>
+  <data key="d14">35.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">Sutter St</data>
+</edge>
+<edge source="n_1_13" target="n_2_13">
+  <data key="d13">157.7136573470017</data>
+  <data key="d14">40.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">Sansome St</data>
+</edge>
+<edge source="n_2_0" target="n_1_0">
+  <data key="d13">188.01697245562661</data>
+  <data key="d14">50.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">Van Ness Ave</data>
+</edge>
+<edge source="n_2_0" target="n_2_1">
+  <data key="d13">170.11616455357938</data>
+  <data key="d14">35.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">Post St</data>
+</edge>
+<edge source="n_2_0" target="n_3_0">
+  <data key="d13">175.05854774829788</data>
+  <data key="d14">50.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">Van Ness Ave</data>
+</edge>
+<edge source="n_2_1" target="n_1_1">
+  <data key="d13">167.10789957601907</data>
+  <data key="d14">35.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">Polk St</data>
+</edge>
+<edge source="n_2_1" target="n_2_0">
+  <data key="d13">170.11616455357938</data>
+  <data key="d14">35.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">Post St</data>
+</edge>
+<edge source="n_2_1" target="n_2_2">
+  <data key="d13">192.75331607403837</data>
+  <data key="d14">35.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">Post St</data>
+</edge>
+<edge source="n_2_1" target="n_3_1">
+  <data key="d13">174.25065916612215</data>
+  <data key="d14">35.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">Polk St</data>
+</edge>
+<edge source="n_2_2" target="n_1_2">
+  <data key="d13">171.13958705701813</data>
+  <data key="d14">35.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">Larkin St</data>
+</edge>
+<edge source="n_2_2" target="n_2_1">
+  <data key="d13">192.75331607403837</data>
+  <data key="d14">35.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">Post St</data>
+</edge>
+<edge source="n_2_2" target="n_2_3">
+  <data key="d13">176.25886994227895</data>
+  <data key="d14">35.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">Post St</data>
+</edge>
+<edge source="n_2_2" target="n_3_2">
+  <data key="d13">194.40302655076584</data>
+  <data key="d14">35.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">Larkin St</data>
+</edge>
+<edge source="n_2_3" target="n_1_3">
+  <data key="d13">171.58208682682098</data>
+  <data key="d14">30.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">Hyde St</data>
+</edge>
+<edge source="n_2_3" target="n_2_2">
+  <data key="d13">176.25886994227895</data>
+  <data key="d14">35.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">Post St</data>
+</edge>
+<edge source="n_2_3" target="n_2_4">
+  <data key="d13">160.28774115866918</data>
+  <data key="d14">35.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">Post St</data>
+</edge>
+<edge source="n_2_3" target="n_3_3">
+  <data key="d13">174.65811476593493</data>
+  <data key="d14">30.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">Hyde St</data>
+</edge>
+<edge source="n_2_4" target="n_1_4">
+  <data key="d13">184.9588162135476</data>
+  <data key="d14">30.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">Leavenworth St</data>
+</edge>
+<edge source="n_2_4" target="n_2_3">
+  <data key="d13">160.28774115866918</data>
+  <data key="d14">35.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">Post St</data>
+</edge>
+<edge source="n_2_4" target="n_2_5">
+  <data key="d13">178.6516853563531</data>
+  <data key="d14">35.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">Post St</data>
+</edge>
+<edge source="n_2_4" target="n_3_4">
+  <data key="d13">183.9988773238131</data>
+  <data key="d14">30.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">Leavenworth St</data>
+</edge>
+<edge source="n_2_5" target="n_1_5">
+  <data key="d13">184.11407809189996</data>
+  <data key="d14">30.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">Jones St</data>
+</edge>
+<edge source="n_2_5" target="n_2_4">
+  <data key="d13">178.6516853563531</data>
+  <data key="d14">35.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">Post St</data>
+</edge>
+<edge source="n_2_5" target="n_2_6">
+  <data key="d13">193.22530199043194</data>
+  <data key="d14">35.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">Post St</data>
+</edge>
+<edge source="n_2_5" target="n_3_5">
+  <data key="d13">169.52309654661966</data>
+  <data key="d14">30.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">Jones St</data>
+</edge>
+<edge source="n_2_6" target="n_1_6">
+  <data key="d13">183.4506465590521</data>
+  <data key="d14">35.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">Taylor St</data>
+</edge>
+<edge source="n_2_6" target="n_2_5">
+  <data key="d13">193.22530199043194</data>
+  <data key="d14">35.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">Post St</data>
+</edge>
+<edge source="n_2_6" target="n_2_7">
+  <data key="d13">165.55408646710964</data>
+  <data key="d14">35.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">Post St</data>
+</edge>
+<edge source="n_2_6" target="n_3_6">
+  <data key="d13">177.44831806792075</data>
+  <data key="d14">35.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">Taylor St</data>
+</edge>
+<edge source="n_2_7" target="n_1_7">
+  <data key="d13">161.07110950140753</data>
+  <data key="d14">35.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">Mason St</data>
+</edge>
+<edge source="n_2_7" target="n_2_6">
+  <data key="d13">165.55408646710964</data>
+  <data key="d14">35.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">Post St</data>
+</edge>
+<edge source="n_2_7" target="n_2_8">
+  <data key="d13">181.54958001672097</data>
+  <data key="d14">35.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">Post St</data>
+</edge>
+<edge source="n_2_7" target="n_3_7">
+  <data key="d13">189.82843074767666</data>
+  <data key="d14">35.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">Mason St</data>
+</edge>
+<edge source="n_2_8" target="n_1_8">
+  <data key="d13">166.96101888917215</data>
+  <data key="d14">40.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">Powell St</data>
+</edge>
+<edge source="n_2_8" target="n_2_7">
+  <data key="d13">181.54958001672097</data>
+  <data key="d14">35.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">Post St</data>
+</edge>
+<edge source="n_2_8" target="n_2_9">
+  <data key="d13">172.59553440155332</data>
+  <data key="d14">35.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">Post St</data>
+</edge>
+<edge source="n_2_8" target="n_3_8">
+  <data key="d13">186.98799195469036</data>
+  <data key="d14">40.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">Powell St</data>
+</edge>
+<edge source="n_2_9" target="n_1_9">
+  <data key="d13">198.6111781174816</data>
+  <data key="d14">40.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">Stockton St</data>
+</edge>
+<edge source="n_2_9" target="n_2_8">
+  <data key="d13">172.59553440155332</data>
+  <data key="d14">35.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">Post St</data>
+</edge>
+<edge source="n_2_9" target="n_2_10">
+  <data key="d13">178.23411931646064</data>
+  <data key="d14">35.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">Post St</data>
+</edge>
+<edge source="n_2_9" target="n_3_9">
+  <data key="d13">171.15867368279027</data>
+  <data key="d14">40.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">Stockton St</data>
+</edge>
+<edge source="n_2_10" target="n_1_10">
+  <data key="d13">196.68106108691865</data>
+  <data key="d14">30.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">Grant Ave</data>
+</edge>
+<edge source="n_2_10" target="n_2_9">
+  <data key="d13">178.23411931646064</data>
+  <data key="d14">35.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">Post St</data>
+</edge>
+<edge source="n_2_10" target="n_2_11">
+  <data key="d13">170.15319042832388</data>
+  <data key="d14">35.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">Post St</data>
+</edge>
+<edge source="n_2_10" target="n_3_10">
+  <data key="d13">167.18790327260947</data>
+  <data key="d14">30.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">Grant Ave</data>
+</edge>
+<edge source="n_2_11" target="n_1_11">
+  <data key="d13">164.3208928580061</data>
+  <data key="d14">45.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">Kearny St</data>
+</edge>
+<edge source="n_2_11" target="n_2_10">
+  <data key="d13">170.15319042832388</data>
+  <data key="d14">35.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">Post St</data>
+</edge>
+<edge source="n_2_11" target="n_2_12">
+  <data key="d13">192.7805671994207</data>
+  <data key="d14">35.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">Post St</data>
+</edge>
+<edge source="n_2_11" target="n_3_11">
+  <data key="d13">172.91836477926378</data>
+  <data key="d14">45.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">Kearny St</data>
+</edge>
+<edge source="n_2_12" target="n_1_12">
+  <data key="d13">193.7024430613954</data>
+  <data key="d14">45.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">Montgomery St</data>
+</edge>
+<edge source="n_2_12" target="n_2_11">
+  <data key="d13">192.7805671994207</data>
+  <data key="d14">35.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">Post St</data>
+</edge>
+<edge source="n_2_12" target="n_2_13">
+  <data key="d13">154.753950243217</data>
+  <data key="d14">35.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">Post St</data>
+</edge>
+<edge source="n_2_12" target="n_3_12">
+  <data key="d13">162.25119264227004</data>
+  <data key="d14">45.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">Montgomery St</data>
+</edge>
+<edge source="n_2_13" target="n_1_13">
+  <data key="d13">157.7136573470017</data>
+  <data key="d14">40.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">Sansome St</data>
+</edge>
+<edge source="n_2_13" target="n_2_12">
+  <data key="d13">154.753950243217</data>
+  <data key="d14">35.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">Post St</data>
+</edge>
+<edge source="n_2_13" target="n_3_13">
+  <data key="d13">182.1123066165801</data>
+  <data key="d14">40.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">Sansome St</data>
+</edge>
+<edge source="n_3_0" target="n_2_0">
+  <data key="d13">175.05854774829788</data>
+  <data key="d14">50.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">Van Ness Ave</data>
+</edge>
+<edge source="n_3_0" target="n_3_1">
+  <data key="d13">158.07178459470742</data>
+  <data key="d14">45.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">Geary Blvd</data>
+</edge>
+<edge source="n_3_0" target="n_4_0">
+  <data key="d13">185.52583968276076</data>
+  <data key="d14">50.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">Van Ness Ave</data>
+</edge>
+<edge source="n_3_1" target="n_2_1">
+  <data key="d13">174.25065916612215</data>
+  <data key="d14">35.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">Polk St</data>
+</edge>
+<edge source="n_3_1" target="n_3_0">
+  <data key="d13">158.07178459470742</data>
+  <data key="d14">45.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">Geary Blvd</data>
+</edge>
+<edge source="n_3_1" target="n_3_2">
+  <data key="d13">169.29202406566435</data>
+  <data key="d14">45.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">Geary Blvd</data>
+</edge>
+<edge source="n_3_1" target="n_4_1">
+  <data key="d13">190.1941540420575</data>
+  <data key="d14">35.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">Polk St</data>
+</edge>
+<edge source="n_3_2" target="n_2_2">
+  <data key="d13">194.40302655076584</data>
+  <data key="d14">35.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">Larkin St</data>
+</edge>
+<edge source="n_3_2" target="n_3_1">
+  <data key="d13">169.29202406566435</data>
+  <data key="d14">45.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">Geary Blvd</data>
+</edge>
+<edge source="n_3_2" target="n_3_3">
+  <data key="d13">179.53340084237732</data>
+  <data key="d14">45.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">Geary Blvd</data>
+</edge>
+<edge source="n_3_2" target="n_4_2">
+  <data key="d13">174.01783084662415</data>
+  <data key="d14">35.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">Larkin St</data>
+</edge>
+<edge source="n_3_3" target="n_2_3">
+  <data key="d13">174.65811476593493</data>
+  <data key="d14">30.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">Hyde St</data>
+</edge>
+<edge source="n_3_3" target="n_3_2">
+  <data key="d13">179.53340084237732</data>
+  <data key="d14">45.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">Geary Blvd</data>
+</edge>
+<edge source="n_3_3" target="n_3_4">
+  <data key="d13">191.5917639889677</data>
+  <data key="d14">45.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">Geary Blvd</data>
+</edge>
+<edge source="n_3_3" target="n_4_3">
+  <data key="d13">183.18999288376807</data>
+  <data key="d14">30.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">Hyde St</data>
+</edge>
+<edge source="n_3_4" target="n_2_4">
+  <data key="d13">183.9988773238131</data>
+  <data key="d14">30.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">Leavenworth St</data>
+</edge>
+<edge source="n_3_4" target="n_3_3">
+  <data key="d13">191.5917639889677</data>
+  <data key="d14">45.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">Geary Blvd</data>
+</edge>
+<edge source="n_3_4" target="n_3_5">
+  <data key="d13">179.48787735037016</data>
+  <data key="d14">45.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">Geary Blvd</data>
+</edge>
+<edge source="n_3_4" target="n_4_4">
+  <data key="d13">177.5837169039827</data>
+  <data key="d14">30.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">Leavenworth St</data>
+</edge>
+<edge source="n_3_5" target="n_2_5">
+  <data key="d13">169.52309654661966</data>
+  <data key="d14">30.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">Jones St</data>
+</edge>
+<edge source="n_3_5" target="n_3_4">
+  <data key="d13">179.48787735037016</data>
+  <data key="d14">45.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">Geary Blvd</data>
+</edge>
+<edge source="n_3_5" target="n_3_6">
+  <data key="d13">157.35387706726416</data>
+  <data key="d14">45.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">Geary Blvd</data>
+</edge>
+<edge source="n_3_5" target="n_4_5">
+  <data key="d13">180.36556884722935</data>
+  <data key="d14">30.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">Jones St</data>
+</edge>
+<edge source="n_3_6" target="n_2_6">
+  <data key="d13">177.44831806792075</data>
+  <data key="d14">35.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">Taylor St</data>
+</edge>
+<edge source="n_3_6" target="n_3_5">
+  <data key="d13">157.35387706726416</data>
+  <data key="d14">45.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">Geary Blvd</data>
+</edge>
+<edge source="n_3_6" target="n_3_7">
+  <data key="d13">196.70271989812807</data>
+  <data key="d14">45.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">Geary Blvd</data>
+</edge>
+<edge source="n_3_6" target="n_4_6">
+  <data key="d13">163.06317576428597</data>
+  <data key="d14">35.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">Taylor St</data>
+</edge>
+<edge source="n_3_7" target="n_2_7">
+  <data key="d13">189.82843074767666</data>
+  <data key="d14">35.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">Mason St</data>
+</edge>
+<edge source="n_3_7" target="n_3_6">
+  <data key="d13">196.70271989812807</data>
+  <data key="d14">45.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">Geary Blvd</data>
+</edge>
+<edge source="n_3_7" target="n_3_8">
+  <data key="d13">179.0114151721165</data>
+  <data key="d14">45.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">Geary Blvd</data>
+</edge>
+<edge source="n_3_7" target="n_4_7">
+  <data key="d13">166.43761050408267</data>
+  <data key="d14">35.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">Mason St</data>
+</edge>
+<edge source="n_3_8" target="n_2_8">
+  <data key="d13">186.98799195469036</data>
+  <data key="d14">40.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">Powell St</data>
+</edge>
+<edge source="n_3_8" target="n_3_7">
+  <data key="d13">179.0114151721165</data>
+  <data key="d14">45.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">Geary Blvd</data>
+</edge>
+<edge source="n_3_8" target="n_3_9">
+  <data key="d13">175.32435841294404</data>
+  <data key="d14">45.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">Geary Blvd</data>
+</edge>
+<edge source="n_3_8" target="n_4_8">
+  <data key="d13">158.22784969077014</data>
+  <data key="d14">40.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">Powell St</data>
+</edge>
+<edge source="n_3_9" target="n_2_9">
+  <data key="d13">171.15867368279027</data>
+  <data key="d14">40.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">Stockton St</data>
+</edge>
+<edge source="n_3_9" target="n_3_8">
+  <data key="d13">175.32435841294404</data>
+  <data key="d14">45.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">Geary Blvd</data>
+</edge>
+<edge source="n_3_9" target="n_3_10">
+  <data key="d13">177.3426309241156</data>
+  <data key="d14">45.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">Geary Blvd</data>
+</edge>
+<edge source="n_3_9" target="n_4_9">
+  <data key="d13">164.3391579136265</data>
+  <data key="d14">40.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">Stockton St</data>
+</edge>
+<edge source="n_3_10" target="n_2_10">
+  <data key="d13">167.18790327260947</data>
+  <data key="d14">30.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">Grant Ave</data>
+</edge>
+<edge source="n_3_10" target="n_3_9">
+  <data key="d13">177.3426309241156</data>
+  <data key="d14">45.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">Geary Blvd</data>
+</edge>
+<edge source="n_3_10" target="n_3_11">
+  <data key="d13">173.39423944268123</data>
+  <data key="d14">45.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">Geary Blvd</data>
+</edge>
+<edge source="n_3_10" target="n_4_10">
+  <data key="d13">191.943138779051</data>
+  <data key="d14">30.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">Grant Ave</data>
+</edge>
+<edge source="n_3_11" target="n_2_11">
+  <data key="d13">172.91836477926378</data>
+  <data key="d14">45.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">Kearny St</data>
+</edge>
+<edge source="n_3_11" target="n_3_10">
+  <data key="d13">173.39423944268123</data>
+  <data key="d14">45.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">Geary Blvd</data>
+</edge>
+<edge source="n_3_11" target="n_3_12">
+  <data key="d13">160.78397204769328</data>
+  <data key="d14">45.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">Geary Blvd</data>
+</edge>
+<edge source="n_3_11" target="n_4_11">
+  <data key="d13">200.3311018731842</data>
+  <data key="d14">45.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">Kearny St</data>
+</edge>
+<edge source="n_3_12" target="n_2_12">
+  <data key="d13">162.25119264227004</data>
+  <data key="d14">45.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">Montgomery St</data>
+</edge>
+<edge source="n_3_12" target="n_3_11">
+  <data key="d13">160.78397204769328</data>
+  <data key="d14">45.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">Geary Blvd</data>
+</edge>
+<edge source="n_3_12" target="n_3_13">
+  <data key="d13">177.34256556519833</data>
+  <data key="d14">45.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">Geary Blvd</data>
+</edge>
+<edge source="n_3_12" target="n_4_12">
+  <data key="d13">176.09028768534725</data>
+  <data key="d14">45.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">Montgomery St</data>
+</edge>
+<edge source="n_3_13" target="n_2_13">
+  <data key="d13">182.1123066165801</data>
+  <data key="d14">40.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">Sansome St</data>
+</edge>
+<edge source="n_3_13" target="n_3_12">
+  <data key="d13">177.34256556519833</data>
+  <data key="d14">45.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">Geary Blvd</data>
+</edge>
+<edge source="n_3_13" target="n_4_13">
+  <data key="d13">184.7110105994406</data>
+  <data key="d14">40.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">Sansome St</data>
+</edge>
+<edge source="n_4_0" target="n_3_0">
+  <data key="d13">185.52583968276076</data>
+  <data key="d14">50.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">Van Ness Ave</data>
+</edge>
+<edge source="n_4_0" target="n_4_1">
+  <data key="d13">173.0368010713879</data>
+  <data key="d14">35.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">O'Farrell St</data>
+</edge>
+<edge source="n_4_0" target="n_5_0">
+  <data key="d13">159.04152332125366</data>
+  <data key="d14">50.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">Van Ness Ave</data>
+</edge>
+<edge source="n_4_1" target="n_3_1">
+  <data key="d13">190.1941540420575</data>
+  <data key="d14">35.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">Polk St</data>
+</edge>
+<edge source="n_4_1" target="n_4_0">
+  <data key="d13">173.0368010713879</data>
+  <data key="d14">35.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">O'Farrell St</data>
+</edge>
+<edge source="n_4_1" target="n_4_2">
+  <data key="d13">177.619163802985</data>
+  <data key="d14">35.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">O'Farrell St</data>
+</edge>
+<edge source="n_4_1" target="n_5_1">
+  <data key="d13">164.4083771653696</data>
+  <data key="d14">35.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">Polk St</data>
+</edge>
+<edge source="n_4_2" target="n_3_2">
+  <data key="d13">174.01783084662415</data>
+  <data key="d14">35.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">Larkin St</data>
+</edge>
+<edge source="n_4_2" target="n_4_1">
+  <data key="d13">177.619163802985</data>
+  <data key="d14">35.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">O'Farrell St</data>
+</edge>
+<edge source="n_4_2" target="n_4_3">
+  <data key="d13">178.42351806219077</data>
+  <data key="d14">35.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">O'Farrell St</data>
+</edge>
+<edge source="n_4_2" target="n_5_2">
+  <data key="d13">178.20437844037545</data>
+  <data key="d14">35.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">Larkin St</data>
+</edge>
+<edge source="n_4_3" target="n_3_3">
+  <data key="d13">183.18999288376807</data>
+  <data key="d14">30.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">Hyde St</data>
+</edge>
+<edge source="n_4_3" target="n_4_2">
+  <data key="d13">178.42351806219077</data>
+  <data key="d14">35.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">O'Farrell St</data>
+</edge>
+<edge source="n_4_3" target="n_4_4">
+  <data key="d13">151.9830521954595</data>
+  <data key="d14">35.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">O'Farrell St</data>
+</edge>
+<edge source="n_4_3" target="n_5_3">
+  <data key="d13">182.11827308141488</data>
+  <data key="d14">30.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">Hyde St</data>
+</edge>
+<edge source="n_4_4" target="n_3_4">
+  <data key="d13">177.5837169039827</data>
+  <data key="d14">30.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">Leavenworth St</data>
+</edge>
+<edge source="n_4_4" target="n_4_3">
+  <data key="d13">151.9830521954595</data>
+  <data key="d14">35.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">O'Farrell St</data>
+</edge>
+<edge source="n_4_4" target="n_4_5">
+  <data key="d13">179.49049705465973</data>
+  <data key="d14">35.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">O'Farrell St</data>
+</edge>
+<edge source="n_4_4" target="n_5_4">
+  <data key="d13">174.54333607900332</data>
+  <data key="d14">30.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">Leavenworth St</data>
+</edge>
+<edge source="n_4_5" target="n_3_5">
+  <data key="d13">180.36556884722935</data>
+  <data key="d14">30.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">Jones St</data>
+</edge>
+<edge source="n_4_5" target="n_4_4">
+  <data key="d13">179.49049705465973</data>
+  <data key="d14">35.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">O'Farrell St</data>
+</edge>
+<edge source="n_4_5" target="n_4_6">
+  <data key="d13">187.86978995167948</data>
+  <data key="d14">35.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">O'Farrell St</data>
+</edge>
+<edge source="n_4_5" target="n_5_5">
+  <data key="d13">173.27860310874908</data>
+  <data key="d14">30.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">Jones St</data>
+</edge>
+<edge source="n_4_6" target="n_3_6">
+  <data key="d13">163.06317576428597</data>
+  <data key="d14">35.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">Taylor St</data>
+</edge>
+<edge source="n_4_6" target="n_4_5">
+  <data key="d13">187.86978995167948</data>
+  <data key="d14">35.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">O'Farrell St</data>
+</edge>
+<edge source="n_4_6" target="n_4_7">
+  <data key="d13">179.92377493604224</data>
+  <data key="d14">35.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">O'Farrell St</data>
+</edge>
+<edge source="n_4_6" target="n_5_6">
+  <data key="d13">196.3003469843338</data>
+  <data key="d14">35.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">Taylor St</data>
+</edge>
+<edge source="n_4_7" target="n_3_7">
+  <data key="d13">166.43761050408267</data>
+  <data key="d14">35.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">Mason St</data>
+</edge>
+<edge source="n_4_7" target="n_4_6">
+  <data key="d13">179.92377493604224</data>
+  <data key="d14">35.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">O'Farrell St</data>
+</edge>
+<edge source="n_4_7" target="n_4_8">
+  <data key="d13">166.90955542014237</data>
+  <data key="d14">35.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">O'Farrell St</data>
+</edge>
+<edge source="n_4_7" target="n_5_7">
+  <data key="d13">171.7214360802152</data>
+  <data key="d14">35.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">Mason St</data>
+</edge>
+<edge source="n_4_8" target="n_3_8">
+  <data key="d13">158.22784969077014</data>
+  <data key="d14">40.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">Powell St</data>
+</edge>
+<edge source="n_4_8" target="n_4_7">
+  <data key="d13">166.90955542014237</data>
+  <data key="d14">35.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">O'Farrell St</data>
+</edge>
+<edge source="n_4_8" target="n_4_9">
+  <data key="d13">190.67718784532934</data>
+  <data key="d14">35.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">O'Farrell St</data>
+</edge>
+<edge source="n_4_8" target="n_5_8">
+  <data key="d13">205.24146832752257</data>
+  <data key="d14">40.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">Powell St</data>
+</edge>
+<edge source="n_4_9" target="n_3_9">
+  <data key="d13">164.3391579136265</data>
+  <data key="d14">40.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">Stockton St</data>
+</edge>
+<edge source="n_4_9" target="n_4_8">
+  <data key="d13">190.67718784532934</data>
+  <data key="d14">35.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">O'Farrell St</data>
+</edge>
+<edge source="n_4_9" target="n_4_10">
+  <data key="d13">166.5690500139149</data>
+  <data key="d14">35.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">O'Farrell St</data>
+</edge>
+<edge source="n_4_9" target="n_5_9">
+  <data key="d13">198.47603818855234</data>
+  <data key="d14">40.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">Stockton St</data>
+</edge>
+<edge source="n_4_10" target="n_3_10">
+  <data key="d13">191.943138779051</data>
+  <data key="d14">30.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">Grant Ave</data>
+</edge>
+<edge source="n_4_10" target="n_4_9">
+  <data key="d13">166.5690500139149</data>
+  <data key="d14">35.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">O'Farrell St</data>
+</edge>
+<edge source="n_4_10" target="n_4_11">
+  <data key="d13">164.84561171594407</data>
+  <data key="d14">35.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">O'Farrell St</data>
+</edge>
+<edge source="n_4_10" target="n_5_10">
+  <data key="d13">165.7282815705234</data>
+  <data key="d14">30.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">Grant Ave</data>
+</edge>
+<edge source="n_4_11" target="n_3_11">
+  <data key="d13">200.3311018731842</data>
+  <data key="d14">45.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">Kearny St</data>
+</edge>
+<edge source="n_4_11" target="n_4_10">
+  <data key="d13">164.84561171594407</data>
+  <data key="d14">35.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">O'Farrell St</data>
+</edge>
+<edge source="n_4_11" target="n_4_12">
+  <data key="d13">197.33753553687927</data>
+  <data key="d14">35.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">O'Farrell St</data>
+</edge>
+<edge source="n_4_11" target="n_5_11">
+  <data key="d13">153.40452211168653</data>
+  <data key="d14">45.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">Kearny St</data>
+</edge>
+<edge source="n_4_12" target="n_3_12">
+  <data key="d13">176.09028768534725</data>
+  <data key="d14">45.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">Montgomery St</data>
+</edge>
+<edge source="n_4_12" target="n_4_11">
+  <data key="d13">197.33753553687927</data>
+  <data key="d14">35.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">O'Farrell St</data>
+</edge>
+<edge source="n_4_12" target="n_4_13">
+  <data key="d13">171.90534594577366</data>
+  <data key="d14">35.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">O'Farrell St</data>
+</edge>
+<edge source="n_4_12" target="n_5_12">
+  <data key="d13">190.75092131109525</data>
+  <data key="d14">45.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">Montgomery St</data>
+</edge>
+<edge source="n_4_13" target="n_3_13">
+  <data key="d13">184.7110105994406</data>
+  <data key="d14">40.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">Sansome St</data>
+</edge>
+<edge source="n_4_13" target="n_4_12">
+  <data key="d13">171.90534594577366</data>
+  <data key="d14">35.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">O'Farrell St</data>
+</edge>
+<edge source="n_4_13" target="n_5_13">
+  <data key="d13">180.6608350686183</data>
+  <data key="d14">40.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">Sansome St</data>
+</edge>
+<edge source="n_5_0" target="n_4_0">
+  <data key="d13">159.04152332125366</data>
+  <data key="d14">50.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">Van Ness Ave</data>
+</edge>
+<edge source="n_5_0" target="n_5_1">
+  <data key="d13">171.02421802285312</data>
+  <data key="d14">30.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">Ellis St</data>
+</edge>
+<edge source="n_5_0" target="n_6_0">
+  <data key="d13">202.1910467538016</data>
+  <data key="d14">50.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">Van Ness Ave</data>
+</edge>
+<edge source="n_5_1" target="n_4_1">
+  <data key="d13">164.4083771653696</data>
+  <data key="d14">35.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">Polk St</data>
+</edge>
+<edge source="n_5_1" target="n_5_0">
+  <data key="d13">171.02421802285312</data>
+  <data key="d14">30.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">Ellis St</data>
+</edge>
+<edge source="n_5_1" target="n_5_2">
+  <data key="d13">170.68124144352836</data>
+  <data key="d14">30.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">Ellis St</data>
+</edge>
+<edge source="n_5_1" target="n_6_1">
+  <data key="d13">165.3073479289119</data>
+  <data key="d14">35.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">Polk St</data>
+</edge>
+<edge source="n_5_2" target="n_4_2">
+  <data key="d13">178.20437844037545</data>
+  <data key="d14">35.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">Larkin St</data>
+</edge>
+<edge source="n_5_2" target="n_5_1">
+  <data key="d13">170.68124144352836</data>
+  <data key="d14">30.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">Ellis St</data>
+</edge>
+<edge source="n_5_2" target="n_5_3">
+  <data key="d13">187.76506616933395</data>
+  <data key="d14">30.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">Ellis St</data>
+</edge>
+<edge source="n_5_2" target="n_6_2">
+  <data key="d13">168.58357634924226</data>
+  <data key="d14">35.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">Larkin St</data>
+</edge>
+<edge source="n_5_3" target="n_4_3">
+  <data key="d13">182.11827308141488</data>
+  <data key="d14">30.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">Hyde St</data>
+</edge>
+<edge source="n_5_3" target="n_5_2">
+  <data key="d13">187.76506616933395</data>
+  <data key="d14">30.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">Ellis St</data>
+</edge>
+<edge source="n_5_3" target="n_5_4">
+  <data key="d13">159.70269443937553</data>
+  <data key="d14">30.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">Ellis St</data>
+</edge>
+<edge source="n_5_3" target="n_6_3">
+  <data key="d13">173.7584220552659</data>
+  <data key="d14">30.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">Hyde St</data>
+</edge>
+<edge source="n_5_4" target="n_4_4">
+  <data key="d13">174.54333607900332</data>
+  <data key="d14">30.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">Leavenworth St</data>
+</edge>
+<edge source="n_5_4" target="n_5_3">
+  <data key="d13">159.70269443937553</data>
+  <data key="d14">30.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">Ellis St</data>
+</edge>
+<edge source="n_5_4" target="n_5_5">
+  <data key="d13">173.34174602687733</data>
+  <data key="d14">30.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">Ellis St</data>
+</edge>
+<edge source="n_5_4" target="n_6_4">
+  <data key="d13">181.862374586002</data>
+  <data key="d14">30.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">Leavenworth St</data>
+</edge>
+<edge source="n_5_5" target="n_4_5">
+  <data key="d13">173.27860310874908</data>
+  <data key="d14">30.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">Jones St</data>
+</edge>
+<edge source="n_5_5" target="n_5_4">
+  <data key="d13">173.34174602687733</data>
+  <data key="d14">30.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">Ellis St</data>
+</edge>
+<edge source="n_5_5" target="n_5_6">
+  <data key="d13">196.01062218808883</data>
+  <data key="d14">30.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">Ellis St</data>
+</edge>
+<edge source="n_5_5" target="n_6_5">
+  <data key="d13">176.79552921449636</data>
+  <data key="d14">30.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">Jones St</data>
+</edge>
+<edge source="n_5_6" target="n_4_6">
+  <data key="d13">196.3003469843338</data>
+  <data key="d14">35.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">Taylor St</data>
+</edge>
+<edge source="n_5_6" target="n_5_5">
+  <data key="d13">196.01062218808883</data>
+  <data key="d14">30.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">Ellis St</data>
+</edge>
+<edge source="n_5_6" target="n_5_7">
+  <data key="d13">160.4814710524749</data>
+  <data key="d14">30.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">Ellis St</data>
+</edge>
+<edge source="n_5_6" target="n_6_6">
+  <data key="d13">162.1225009935164</data>
+  <data key="d14">35.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">Taylor St</data>
+</edge>
+<edge source="n_5_7" target="n_4_7">
+  <data key="d13">171.7214360802152</data>
+  <data key="d14">35.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">Mason St</data>
+</edge>
+<edge source="n_5_7" target="n_5_6">
+  <data key="d13">160.4814710524749</data>
+  <data key="d14">30.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">Ellis St</data>
+</edge>
+<edge source="n_5_7" target="n_5_8">
+  <data key="d13">174.04430260456775</data>
+  <data key="d14">30.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">Ellis St</data>
+</edge>
+<edge source="n_5_7" target="n_6_7">
+  <data key="d13">192.80672076003728</data>
+  <data key="d14">35.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">Mason St</data>
+</edge>
+<edge source="n_5_8" target="n_4_8">
+  <data key="d13">205.24146832752257</data>
+  <data key="d14">40.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">Powell St</data>
+</edge>
+<edge source="n_5_8" target="n_5_7">
+  <data key="d13">174.04430260456775</data>
+  <data key="d14">30.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">Ellis St</data>
+</edge>
+<edge source="n_5_8" target="n_5_9">
+  <data key="d13">190.8036277647296</data>
+  <data key="d14">30.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">Ellis St</data>
+</edge>
+<edge source="n_5_8" target="n_6_8">
+  <data key="d13">169.7490416500652</data>
+  <data key="d14">40.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">Powell St</data>
+</edge>
+<edge source="n_5_9" target="n_4_9">
+  <data key="d13">198.47603818855234</data>
+  <data key="d14">40.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">Stockton St</data>
+</edge>
+<edge source="n_5_9" target="n_5_8">
+  <data key="d13">190.8036277647296</data>
+  <data key="d14">30.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">Ellis St</data>
+</edge>
+<edge source="n_5_9" target="n_5_10">
+  <data key="d13">168.94463196704996</data>
+  <data key="d14">30.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">Ellis St</data>
+</edge>
+<edge source="n_5_9" target="n_6_9">
+  <data key="d13">167.05289819574114</data>
+  <data key="d14">40.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">Stockton St</data>
+</edge>
+<edge source="n_5_10" target="n_4_10">
+  <data key="d13">165.7282815705234</data>
+  <data key="d14">30.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">Grant Ave</data>
+</edge>
+<edge source="n_5_10" target="n_5_9">
+  <data key="d13">168.94463196704996</data>
+  <data key="d14">30.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">Ellis St</data>
+</edge>
+<edge source="n_5_10" target="n_5_11">
+  <data key="d13">190.49827962455123</data>
+  <data key="d14">30.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">Ellis St</data>
+</edge>
+<edge source="n_5_10" target="n_6_10">
+  <data key="d13">160.1691316732158</data>
+  <data key="d14">30.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">Grant Ave</data>
+</edge>
+<edge source="n_5_11" target="n_4_11">
+  <data key="d13">153.40452211168653</data>
+  <data key="d14">45.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">Kearny St</data>
+</edge>
+<edge source="n_5_11" target="n_5_10">
+  <data key="d13">190.49827962455123</data>
+  <data key="d14">30.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">Ellis St</data>
+</edge>
+<edge source="n_5_11" target="n_5_12">
+  <data key="d13">161.3108090937374</data>
+  <data key="d14">30.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">Ellis St</data>
+</edge>
+<edge source="n_5_11" target="n_6_11">
+  <data key="d13">196.32360258326486</data>
+  <data key="d14">45.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">Kearny St</data>
+</edge>
+<edge source="n_5_12" target="n_4_12">
+  <data key="d13">190.75092131109525</data>
+  <data key="d14">45.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">Montgomery St</data>
+</edge>
+<edge source="n_5_12" target="n_5_11">
+  <data key="d13">161.3108090937374</data>
+  <data key="d14">30.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">Ellis St</data>
+</edge>
+<edge source="n_5_12" target="n_5_13">
+  <data key="d13">170.59313079897842</data>
+  <data key="d14">30.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">Ellis St</data>
+</edge>
+<edge source="n_5_12" target="n_6_12">
+  <data key="d13">164.69134668943477</data>
+  <data key="d14">45.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">Montgomery St</data>
+</edge>
+<edge source="n_5_13" target="n_4_13">
+  <data key="d13">180.6608350686183</data>
+  <data key="d14">40.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">Sansome St</data>
+</edge>
+<edge source="n_5_13" target="n_5_12">
+  <data key="d13">170.59313079897842</data>
+  <data key="d14">30.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">Ellis St</data>
+</edge>
+<edge source="n_5_13" target="n_6_13">
+  <data key="d13">170.8007714547695</data>
+  <data key="d14">40.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">Sansome St</data>
+</edge>
+<edge source="n_6_0" target="n_5_0">
+  <data key="d13">202.1910467538016</data>
+  <data key="d14">50.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">Van Ness Ave</data>
+</edge>
+<edge source="n_6_0" target="n_6_1">
+  <data key="d13">158.7991345889153</data>
+  <data key="d14">55.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">Market St (Arterial)</data>
+</edge>
+<edge source="n_6_0" target="n_7_0">
+  <data key="d13">174.58987384784504</data>
+  <data key="d14">50.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">Van Ness Ave</data>
+</edge>
+<edge source="n_6_1" target="n_5_1">
+  <data key="d13">165.3073479289119</data>
+  <data key="d14">35.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">Polk St</data>
+</edge>
+<edge source="n_6_1" target="n_6_0">
+  <data key="d13">158.7991345889153</data>
+  <data key="d14">55.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">Market St (Arterial)</data>
+</edge>
+<edge source="n_6_1" target="n_6_2">
+  <data key="d13">198.98262136620636</data>
+  <data key="d14">55.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">Market St (Arterial)</data>
+</edge>
+<edge source="n_6_1" target="n_7_1">
+  <data key="d13">204.8075146807345</data>
+  <data key="d14">35.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">Polk St</data>
+</edge>
+<edge source="n_6_2" target="n_5_2">
+  <data key="d13">168.58357634924226</data>
+  <data key="d14">35.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">Larkin St</data>
+</edge>
+<edge source="n_6_2" target="n_6_1">
+  <data key="d13">198.98262136620636</data>
+  <data key="d14">55.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">Market St (Arterial)</data>
+</edge>
+<edge source="n_6_2" target="n_6_3">
+  <data key="d13">166.9310871904478</data>
+  <data key="d14">55.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">Market St (Arterial)</data>
+</edge>
+<edge source="n_6_2" target="n_7_2">
+  <data key="d13">205.20767681706207</data>
+  <data key="d14">35.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">Larkin St</data>
+</edge>
+<edge source="n_6_3" target="n_5_3">
+  <data key="d13">173.7584220552659</data>
+  <data key="d14">30.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">Hyde St</data>
+</edge>
+<edge source="n_6_3" target="n_6_2">
+  <data key="d13">166.9310871904478</data>
+  <data key="d14">55.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">Market St (Arterial)</data>
+</edge>
+<edge source="n_6_3" target="n_6_4">
+  <data key="d13">174.2953364165328</data>
+  <data key="d14">55.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">Market St (Arterial)</data>
+</edge>
+<edge source="n_6_3" target="n_7_3">
+  <data key="d13">177.20246117566967</data>
+  <data key="d14">30.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">Hyde St</data>
+</edge>
+<edge source="n_6_4" target="n_5_4">
+  <data key="d13">181.862374586002</data>
+  <data key="d14">30.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">Leavenworth St</data>
+</edge>
+<edge source="n_6_4" target="n_6_3">
+  <data key="d13">174.2953364165328</data>
+  <data key="d14">55.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">Market St (Arterial)</data>
+</edge>
+<edge source="n_6_4" target="n_6_5">
+  <data key="d13">175.50158479598718</data>
+  <data key="d14">55.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">Market St (Arterial)</data>
+</edge>
+<edge source="n_6_4" target="n_7_4">
+  <data key="d13">156.2508199879764</data>
+  <data key="d14">30.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">Leavenworth St</data>
+</edge>
+<edge source="n_6_5" target="n_5_5">
+  <data key="d13">176.79552921449636</data>
+  <data key="d14">30.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">Jones St</data>
+</edge>
+<edge source="n_6_5" target="n_6_4">
+  <data key="d13">175.50158479598718</data>
+  <data key="d14">55.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">Market St (Arterial)</data>
+</edge>
+<edge source="n_6_5" target="n_6_6">
+  <data key="d13">170.74645302299112</data>
+  <data key="d14">55.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">Market St (Arterial)</data>
+</edge>
+<edge source="n_6_5" target="n_7_5">
+  <data key="d13">203.3886868589524</data>
+  <data key="d14">30.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">Jones St</data>
+</edge>
+<edge source="n_6_6" target="n_5_6">
+  <data key="d13">162.1225009935164</data>
+  <data key="d14">35.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">Taylor St</data>
+</edge>
+<edge source="n_6_6" target="n_6_5">
+  <data key="d13">170.74645302299112</data>
+  <data key="d14">55.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">Market St (Arterial)</data>
+</edge>
+<edge source="n_6_6" target="n_6_7">
+  <data key="d13">179.81500570840953</data>
+  <data key="d14">55.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">Market St (Arterial)</data>
+</edge>
+<edge source="n_6_6" target="n_7_6">
+  <data key="d13">180.2281171051762</data>
+  <data key="d14">35.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">Taylor St</data>
+</edge>
+<edge source="n_6_7" target="n_5_7">
+  <data key="d13">192.80672076003728</data>
+  <data key="d14">35.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">Mason St</data>
+</edge>
+<edge source="n_6_7" target="n_6_6">
+  <data key="d13">179.81500570840953</data>
+  <data key="d14">55.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">Market St (Arterial)</data>
+</edge>
+<edge source="n_6_7" target="n_6_8">
+  <data key="d13">174.47566328597637</data>
+  <data key="d14">55.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">Market St (Arterial)</data>
+</edge>
+<edge source="n_6_7" target="n_7_7">
+  <data key="d13">168.67134442035612</data>
+  <data key="d14">35.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">Mason St</data>
+</edge>
+<edge source="n_6_8" target="n_5_8">
+  <data key="d13">169.7490416500652</data>
+  <data key="d14">40.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">Powell St</data>
+</edge>
+<edge source="n_6_8" target="n_6_7">
+  <data key="d13">174.47566328597637</data>
+  <data key="d14">55.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">Market St (Arterial)</data>
+</edge>
+<edge source="n_6_8" target="n_6_9">
+  <data key="d13">184.1884056804661</data>
+  <data key="d14">55.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">Market St (Arterial)</data>
+</edge>
+<edge source="n_6_8" target="n_7_8">
+  <data key="d13">170.82040198394856</data>
+  <data key="d14">40.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">Powell St</data>
+</edge>
+<edge source="n_6_9" target="n_5_9">
+  <data key="d13">167.05289819574114</data>
+  <data key="d14">40.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">Stockton St</data>
+</edge>
+<edge source="n_6_9" target="n_6_8">
+  <data key="d13">184.1884056804661</data>
+  <data key="d14">55.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">Market St (Arterial)</data>
+</edge>
+<edge source="n_6_9" target="n_6_10">
+  <data key="d13">182.83722638746306</data>
+  <data key="d14">55.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">Market St (Arterial)</data>
+</edge>
+<edge source="n_6_9" target="n_7_9">
+  <data key="d13">187.6458274107217</data>
+  <data key="d14">40.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">Stockton St</data>
+</edge>
+<edge source="n_6_10" target="n_5_10">
+  <data key="d13">160.1691316732158</data>
+  <data key="d14">30.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">Grant Ave</data>
+</edge>
+<edge source="n_6_10" target="n_6_9">
+  <data key="d13">182.83722638746306</data>
+  <data key="d14">55.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">Market St (Arterial)</data>
+</edge>
+<edge source="n_6_10" target="n_6_11">
+  <data key="d13">167.01279371272588</data>
+  <data key="d14">55.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">Market St (Arterial)</data>
+</edge>
+<edge source="n_6_10" target="n_7_10">
+  <data key="d13">187.80254812005475</data>
+  <data key="d14">30.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">Grant Ave</data>
+</edge>
+<edge source="n_6_11" target="n_5_11">
+  <data key="d13">196.32360258326486</data>
+  <data key="d14">45.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">Kearny St</data>
+</edge>
+<edge source="n_6_11" target="n_6_10">
+  <data key="d13">167.01279371272588</data>
+  <data key="d14">55.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">Market St (Arterial)</data>
+</edge>
+<edge source="n_6_11" target="n_6_12">
+  <data key="d13">183.17882352046718</data>
+  <data key="d14">55.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">Market St (Arterial)</data>
+</edge>
+<edge source="n_6_11" target="n_7_11">
+  <data key="d13">163.57777002739613</data>
+  <data key="d14">45.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">Kearny St</data>
+</edge>
+<edge source="n_6_12" target="n_5_12">
+  <data key="d13">164.69134668943477</data>
+  <data key="d14">45.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">Montgomery St</data>
+</edge>
+<edge source="n_6_12" target="n_6_11">
+  <data key="d13">183.17882352046718</data>
+  <data key="d14">55.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">Market St (Arterial)</data>
+</edge>
+<edge source="n_6_12" target="n_6_13">
+  <data key="d13">162.15867640749835</data>
+  <data key="d14">55.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">Market St (Arterial)</data>
+</edge>
+<edge source="n_6_12" target="n_7_12">
+  <data key="d13">195.19273445142136</data>
+  <data key="d14">45.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">Montgomery St</data>
+</edge>
+<edge source="n_6_13" target="n_5_13">
+  <data key="d13">170.8007714547695</data>
+  <data key="d14">40.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">Sansome St</data>
+</edge>
+<edge source="n_6_13" target="n_6_12">
+  <data key="d13">162.15867640749835</data>
+  <data key="d14">55.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">Market St (Arterial)</data>
+</edge>
+<edge source="n_6_13" target="n_7_13">
+  <data key="d13">184.434306662654</data>
+  <data key="d14">40.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">Sansome St</data>
+</edge>
+<edge source="n_7_0" target="n_6_0">
+  <data key="d13">174.58987384784504</data>
+  <data key="d14">50.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">Van Ness Ave</data>
+</edge>
+<edge source="n_7_0" target="n_7_1">
+  <data key="d13">173.66770317811094</data>
+  <data key="d14">45.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">Mission St</data>
+</edge>
+<edge source="n_7_0" target="n_8_0">
+  <data key="d13">177.45040487430157</data>
+  <data key="d14">50.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">Van Ness Ave</data>
+</edge>
+<edge source="n_7_1" target="n_6_1">
+  <data key="d13">204.8075146807345</data>
+  <data key="d14">35.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">Polk St</data>
+</edge>
+<edge source="n_7_1" target="n_7_0">
+  <data key="d13">173.66770317811094</data>
+  <data key="d14">45.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">Mission St</data>
+</edge>
+<edge source="n_7_1" target="n_7_2">
+  <data key="d13">184.25725099793505</data>
+  <data key="d14">45.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">Mission St</data>
+</edge>
+<edge source="n_7_1" target="n_8_1">
+  <data key="d13">177.55802515032272</data>
+  <data key="d14">35.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">Polk St</data>
+</edge>
+<edge source="n_7_2" target="n_6_2">
+  <data key="d13">205.20767681706207</data>
+  <data key="d14">35.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">Larkin St</data>
+</edge>
+<edge source="n_7_2" target="n_7_1">
+  <data key="d13">184.25725099793505</data>
+  <data key="d14">45.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">Mission St</data>
+</edge>
+<edge source="n_7_2" target="n_7_3">
+  <data key="d13">168.45183069701915</data>
+  <data key="d14">45.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">Mission St</data>
+</edge>
+<edge source="n_7_2" target="n_8_2">
+  <data key="d13">167.90703317471517</data>
+  <data key="d14">35.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">Larkin St</data>
+</edge>
+<edge source="n_7_3" target="n_6_3">
+  <data key="d13">177.20246117566967</data>
+  <data key="d14">30.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">Hyde St</data>
+</edge>
+<edge source="n_7_3" target="n_7_2">
+  <data key="d13">168.45183069701915</data>
+  <data key="d14">45.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">Mission St</data>
+</edge>
+<edge source="n_7_3" target="n_7_4">
+  <data key="d13">185.06165983681018</data>
+  <data key="d14">45.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">Mission St</data>
+</edge>
+<edge source="n_7_3" target="n_8_3">
+  <data key="d13">194.89316599881394</data>
+  <data key="d14">30.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">Hyde St</data>
+</edge>
+<edge source="n_7_4" target="n_6_4">
+  <data key="d13">156.2508199879764</data>
+  <data key="d14">30.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">Leavenworth St</data>
+</edge>
+<edge source="n_7_4" target="n_7_3">
+  <data key="d13">185.06165983681018</data>
+  <data key="d14">45.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">Mission St</data>
+</edge>
+<edge source="n_7_4" target="n_7_5">
+  <data key="d13">168.69912271752247</data>
+  <data key="d14">45.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">Mission St</data>
+</edge>
+<edge source="n_7_4" target="n_8_4">
+  <data key="d13">194.23455129571738</data>
+  <data key="d14">30.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">Leavenworth St</data>
+</edge>
+<edge source="n_7_5" target="n_6_5">
+  <data key="d13">203.3886868589524</data>
+  <data key="d14">30.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">Jones St</data>
+</edge>
+<edge source="n_7_5" target="n_7_4">
+  <data key="d13">168.69912271752247</data>
+  <data key="d14">45.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">Mission St</data>
+</edge>
+<edge source="n_7_5" target="n_7_6">
+  <data key="d13">172.5488411452064</data>
+  <data key="d14">45.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">Mission St</data>
+</edge>
+<edge source="n_7_5" target="n_8_5">
+  <data key="d13">164.88509705608246</data>
+  <data key="d14">30.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">Jones St</data>
+</edge>
+<edge source="n_7_6" target="n_6_6">
+  <data key="d13">180.2281171051762</data>
+  <data key="d14">35.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">Taylor St</data>
+</edge>
+<edge source="n_7_6" target="n_7_5">
+  <data key="d13">172.5488411452064</data>
+  <data key="d14">45.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">Mission St</data>
+</edge>
+<edge source="n_7_6" target="n_7_7">
+  <data key="d13">184.66896911914316</data>
+  <data key="d14">45.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">Mission St</data>
+</edge>
+<edge source="n_7_6" target="n_8_6">
+  <data key="d13">193.4202334245885</data>
+  <data key="d14">35.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">Taylor St</data>
+</edge>
+<edge source="n_7_7" target="n_6_7">
+  <data key="d13">168.67134442035612</data>
+  <data key="d14">35.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">Mason St</data>
+</edge>
+<edge source="n_7_7" target="n_7_6">
+  <data key="d13">184.66896911914316</data>
+  <data key="d14">45.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">Mission St</data>
+</edge>
+<edge source="n_7_7" target="n_7_8">
+  <data key="d13">179.33565768207112</data>
+  <data key="d14">45.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">Mission St</data>
+</edge>
+<edge source="n_7_7" target="n_8_7">
+  <data key="d13">189.32460834278461</data>
+  <data key="d14">35.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">Mason St</data>
+</edge>
+<edge source="n_7_8" target="n_6_8">
+  <data key="d13">170.82040198394856</data>
+  <data key="d14">40.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">Powell St</data>
+</edge>
+<edge source="n_7_8" target="n_7_7">
+  <data key="d13">179.33565768207112</data>
+  <data key="d14">45.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">Mission St</data>
+</edge>
+<edge source="n_7_8" target="n_7_9">
+  <data key="d13">169.4270233133635</data>
+  <data key="d14">45.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">Mission St</data>
+</edge>
+<edge source="n_7_8" target="n_8_8">
+  <data key="d13">180.5128022569545</data>
+  <data key="d14">40.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">Powell St</data>
+</edge>
+<edge source="n_7_9" target="n_6_9">
+  <data key="d13">187.6458274107217</data>
+  <data key="d14">40.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">Stockton St</data>
+</edge>
+<edge source="n_7_9" target="n_7_8">
+  <data key="d13">169.4270233133635</data>
+  <data key="d14">45.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">Mission St</data>
+</edge>
+<edge source="n_7_9" target="n_7_10">
+  <data key="d13">168.35265822773238</data>
+  <data key="d14">45.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">Mission St</data>
+</edge>
+<edge source="n_7_9" target="n_8_9">
+  <data key="d13">188.6219255410727</data>
+  <data key="d14">40.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">Stockton St</data>
+</edge>
+<edge source="n_7_10" target="n_6_10">
+  <data key="d13">187.80254812005475</data>
+  <data key="d14">30.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">Grant Ave</data>
+</edge>
+<edge source="n_7_10" target="n_7_9">
+  <data key="d13">168.35265822773238</data>
+  <data key="d14">45.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">Mission St</data>
+</edge>
+<edge source="n_7_10" target="n_7_11">
+  <data key="d13">174.13465582330602</data>
+  <data key="d14">45.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">Mission St</data>
+</edge>
+<edge source="n_7_10" target="n_8_10">
+  <data key="d13">189.8437717088379</data>
+  <data key="d14">30.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">Grant Ave</data>
+</edge>
+<edge source="n_7_11" target="n_6_11">
+  <data key="d13">163.57777002739613</data>
+  <data key="d14">45.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">Kearny St</data>
+</edge>
+<edge source="n_7_11" target="n_7_10">
+  <data key="d13">174.13465582330602</data>
+  <data key="d14">45.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">Mission St</data>
+</edge>
+<edge source="n_7_11" target="n_7_12">
+  <data key="d13">173.71155634177987</data>
+  <data key="d14">45.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">Mission St</data>
+</edge>
+<edge source="n_7_11" target="n_8_11">
+  <data key="d13">213.50234458239734</data>
+  <data key="d14">45.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">Kearny St</data>
+</edge>
+<edge source="n_7_12" target="n_6_12">
+  <data key="d13">195.19273445142136</data>
+  <data key="d14">45.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">Montgomery St</data>
+</edge>
+<edge source="n_7_12" target="n_7_11">
+  <data key="d13">173.71155634177987</data>
+  <data key="d14">45.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">Mission St</data>
+</edge>
+<edge source="n_7_12" target="n_7_13">
+  <data key="d13">182.2222252610485</data>
+  <data key="d14">45.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">Mission St</data>
+</edge>
+<edge source="n_7_12" target="n_8_12">
+  <data key="d13">188.7519832294798</data>
+  <data key="d14">45.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">Montgomery St</data>
+</edge>
+<edge source="n_7_13" target="n_6_13">
+  <data key="d13">184.434306662654</data>
+  <data key="d14">40.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">Sansome St</data>
+</edge>
+<edge source="n_7_13" target="n_7_12">
+  <data key="d13">182.2222252610485</data>
+  <data key="d14">45.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">Mission St</data>
+</edge>
+<edge source="n_7_13" target="n_8_13">
+  <data key="d13">202.6779015437437</data>
+  <data key="d14">40.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">Sansome St</data>
+</edge>
+<edge source="n_8_0" target="n_7_0">
+  <data key="d13">177.45040487430157</data>
+  <data key="d14">50.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">Van Ness Ave</data>
+</edge>
+<edge source="n_8_0" target="n_8_1">
+  <data key="d13">161.03529451049997</data>
+  <data key="d14">40.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">Howard St</data>
+</edge>
+<edge source="n_8_0" target="n_9_0">
+  <data key="d13">181.675634566677</data>
+  <data key="d14">50.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">Van Ness Ave</data>
+</edge>
+<edge source="n_8_1" target="n_7_1">
+  <data key="d13">177.55802515032272</data>
+  <data key="d14">35.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">Polk St</data>
+</edge>
+<edge source="n_8_1" target="n_8_0">
+  <data key="d13">161.03529451049997</data>
+  <data key="d14">40.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">Howard St</data>
+</edge>
+<edge source="n_8_1" target="n_8_2">
+  <data key="d13">191.097762232738</data>
+  <data key="d14">40.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">Howard St</data>
+</edge>
+<edge source="n_8_1" target="n_9_1">
+  <data key="d13">203.42155105043142</data>
+  <data key="d14">35.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">Polk St</data>
+</edge>
+<edge source="n_8_2" target="n_7_2">
+  <data key="d13">167.90703317471517</data>
+  <data key="d14">35.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">Larkin St</data>
+</edge>
+<edge source="n_8_2" target="n_8_1">
+  <data key="d13">191.097762232738</data>
+  <data key="d14">40.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">Howard St</data>
+</edge>
+<edge source="n_8_2" target="n_8_3">
+  <data key="d13">153.93445318389942</data>
+  <data key="d14">40.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">Howard St</data>
+</edge>
+<edge source="n_8_2" target="n_9_2">
+  <data key="d13">187.33727784637247</data>
+  <data key="d14">35.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">Larkin St</data>
+</edge>
+<edge source="n_8_3" target="n_7_3">
+  <data key="d13">194.89316599881394</data>
+  <data key="d14">30.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">Hyde St</data>
+</edge>
+<edge source="n_8_3" target="n_8_2">
+  <data key="d13">153.93445318389942</data>
+  <data key="d14">40.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">Howard St</data>
+</edge>
+<edge source="n_8_3" target="n_8_4">
+  <data key="d13">172.89333322610008</data>
+  <data key="d14">40.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">Howard St</data>
+</edge>
+<edge source="n_8_3" target="n_9_3">
+  <data key="d13">208.9544139373863</data>
+  <data key="d14">30.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">Hyde St</data>
+</edge>
+<edge source="n_8_4" target="n_7_4">
+  <data key="d13">194.23455129571738</data>
+  <data key="d14">30.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">Leavenworth St</data>
+</edge>
+<edge source="n_8_4" target="n_8_3">
+  <data key="d13">172.89333322610008</data>
+  <data key="d14">40.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">Howard St</data>
+</edge>
+<edge source="n_8_4" target="n_8_5">
+  <data key="d13">183.29786928395453</data>
+  <data key="d14">40.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">Howard St</data>
+</edge>
+<edge source="n_8_4" target="n_9_4">
+  <data key="d13">187.76786007761092</data>
+  <data key="d14">30.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">Leavenworth St</data>
+</edge>
+<edge source="n_8_5" target="n_7_5">
+  <data key="d13">164.88509705608246</data>
+  <data key="d14">30.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">Jones St</data>
+</edge>
+<edge source="n_8_5" target="n_8_4">
+  <data key="d13">183.29786928395453</data>
+  <data key="d14">40.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">Howard St</data>
+</edge>
+<edge source="n_8_5" target="n_8_6">
+  <data key="d13">176.41252186352403</data>
+  <data key="d14">40.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">Howard St</data>
+</edge>
+<edge source="n_8_5" target="n_9_5">
+  <data key="d13">211.7048244371542</data>
+  <data key="d14">30.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">Jones St</data>
+</edge>
+<edge source="n_8_6" target="n_7_6">
+  <data key="d13">193.4202334245885</data>
+  <data key="d14">35.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">Taylor St</data>
+</edge>
+<edge source="n_8_6" target="n_8_5">
+  <data key="d13">176.41252186352403</data>
+  <data key="d14">40.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">Howard St</data>
+</edge>
+<edge source="n_8_6" target="n_8_7">
+  <data key="d13">171.10503470982118</data>
+  <data key="d14">40.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">Howard St</data>
+</edge>
+<edge source="n_8_6" target="n_9_6">
+  <data key="d13">180.9906958599161</data>
+  <data key="d14">35.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">Taylor St</data>
+</edge>
+<edge source="n_8_7" target="n_7_7">
+  <data key="d13">189.32460834278461</data>
+  <data key="d14">35.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">Mason St</data>
+</edge>
+<edge source="n_8_7" target="n_8_6">
+  <data key="d13">171.10503470982118</data>
+  <data key="d14">40.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">Howard St</data>
+</edge>
+<edge source="n_8_7" target="n_8_8">
+  <data key="d13">180.37512357311905</data>
+  <data key="d14">40.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">Howard St</data>
+</edge>
+<edge source="n_8_7" target="n_9_7">
+  <data key="d13">213.69253286298346</data>
+  <data key="d14">35.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">Mason St</data>
+</edge>
+<edge source="n_8_8" target="n_7_8">
+  <data key="d13">180.5128022569545</data>
+  <data key="d14">40.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">Powell St</data>
+</edge>
+<edge source="n_8_8" target="n_8_7">
+  <data key="d13">180.37512357311905</data>
+  <data key="d14">40.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">Howard St</data>
+</edge>
+<edge source="n_8_8" target="n_8_9">
+  <data key="d13">196.3328771134374</data>
+  <data key="d14">40.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">Howard St</data>
+</edge>
+<edge source="n_8_8" target="n_9_8">
+  <data key="d13">194.71160825281805</data>
+  <data key="d14">40.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">Powell St</data>
+</edge>
+<edge source="n_8_9" target="n_7_9">
+  <data key="d13">188.6219255410727</data>
+  <data key="d14">40.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">Stockton St</data>
+</edge>
+<edge source="n_8_9" target="n_8_8">
+  <data key="d13">196.3328771134374</data>
+  <data key="d14">40.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">Howard St</data>
+</edge>
+<edge source="n_8_9" target="n_8_10">
+  <data key="d13">152.897408016165</data>
+  <data key="d14">40.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">Howard St</data>
+</edge>
+<edge source="n_8_9" target="n_9_9">
+  <data key="d13">160.52311761154564</data>
+  <data key="d14">40.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">Stockton St</data>
+</edge>
+<edge source="n_8_10" target="n_7_10">
+  <data key="d13">189.8437717088379</data>
+  <data key="d14">30.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">Grant Ave</data>
+</edge>
+<edge source="n_8_10" target="n_8_9">
+  <data key="d13">152.897408016165</data>
+  <data key="d14">40.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">Howard St</data>
+</edge>
+<edge source="n_8_10" target="n_8_11">
+  <data key="d13">180.9315628525915</data>
+  <data key="d14">40.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">Howard St</data>
+</edge>
+<edge source="n_8_10" target="n_9_10">
+  <data key="d13">189.91459399374972</data>
+  <data key="d14">30.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">Grant Ave</data>
+</edge>
+<edge source="n_8_11" target="n_7_11">
+  <data key="d13">213.50234458239734</data>
+  <data key="d14">45.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">Kearny St</data>
+</edge>
+<edge source="n_8_11" target="n_8_10">
+  <data key="d13">180.9315628525915</data>
+  <data key="d14">40.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">Howard St</data>
+</edge>
+<edge source="n_8_11" target="n_8_12">
+  <data key="d13">193.5190868724552</data>
+  <data key="d14">40.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">Howard St</data>
+</edge>
+<edge source="n_8_11" target="n_9_11">
+  <data key="d13">180.1659166266539</data>
+  <data key="d14">45.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">Kearny St</data>
+</edge>
+<edge source="n_8_12" target="n_7_12">
+  <data key="d13">188.7519832294798</data>
+  <data key="d14">45.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">Montgomery St</data>
+</edge>
+<edge source="n_8_12" target="n_8_11">
+  <data key="d13">193.5190868724552</data>
+  <data key="d14">40.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">Howard St</data>
+</edge>
+<edge source="n_8_12" target="n_8_13">
+  <data key="d13">152.00526589834828</data>
+  <data key="d14">40.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">Howard St</data>
+</edge>
+<edge source="n_8_12" target="n_9_12">
+  <data key="d13">173.98752955528744</data>
+  <data key="d14">45.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">Montgomery St</data>
+</edge>
+<edge source="n_8_13" target="n_7_13">
+  <data key="d13">202.6779015437437</data>
+  <data key="d14">40.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">Sansome St</data>
+</edge>
+<edge source="n_8_13" target="n_8_12">
+  <data key="d13">152.00526589834828</data>
+  <data key="d14">40.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">Howard St</data>
+</edge>
+<edge source="n_8_13" target="n_9_13">
+  <data key="d13">173.59826901818977</data>
+  <data key="d14">40.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">Sansome St</data>
+</edge>
+<edge source="n_9_0" target="n_8_0">
+  <data key="d13">181.675634566677</data>
+  <data key="d14">50.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">Van Ness Ave</data>
+</edge>
+<edge source="n_9_0" target="n_9_1">
+  <data key="d13">192.219233846683</data>
+  <data key="d14">45.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">Folsom St</data>
+</edge>
+<edge source="n_9_0" target="n_10_0">
+  <data key="d13">222.9271814375759</data>
+  <data key="d14">50.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">Van Ness Ave</data>
+</edge>
+<edge source="n_9_1" target="n_8_1">
+  <data key="d13">203.42155105043142</data>
+  <data key="d14">35.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">Polk St</data>
+</edge>
+<edge source="n_9_1" target="n_9_0">
+  <data key="d13">192.219233846683</data>
+  <data key="d14">45.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">Folsom St</data>
+</edge>
+<edge source="n_9_1" target="n_9_2">
+  <data key="d13">174.70364239993677</data>
+  <data key="d14">45.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">Folsom St</data>
+</edge>
+<edge source="n_9_1" target="n_10_1">
+  <data key="d13">192.14750526499475</data>
+  <data key="d14">35.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">Polk St</data>
+</edge>
+<edge source="n_9_2" target="n_8_2">
+  <data key="d13">187.33727784637247</data>
+  <data key="d14">35.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">Larkin St</data>
+</edge>
+<edge source="n_9_2" target="n_9_1">
+  <data key="d13">174.70364239993677</data>
+  <data key="d14">45.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">Folsom St</data>
+</edge>
+<edge source="n_9_2" target="n_9_3">
+  <data key="d13">164.51515808277654</data>
+  <data key="d14">45.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">Folsom St</data>
+</edge>
+<edge source="n_9_2" target="n_10_2">
+  <data key="d13">204.8761005833279</data>
+  <data key="d14">35.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">Larkin St</data>
+</edge>
+<edge source="n_9_3" target="n_8_3">
+  <data key="d13">208.9544139373863</data>
+  <data key="d14">30.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">Hyde St</data>
+</edge>
+<edge source="n_9_3" target="n_9_2">
+  <data key="d13">164.51515808277654</data>
+  <data key="d14">45.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">Folsom St</data>
+</edge>
+<edge source="n_9_3" target="n_9_4">
+  <data key="d13">188.54385601727805</data>
+  <data key="d14">45.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">Folsom St</data>
+</edge>
+<edge source="n_9_3" target="n_10_3">
+  <data key="d13">181.89064363898626</data>
+  <data key="d14">30.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">Hyde St</data>
+</edge>
+<edge source="n_9_4" target="n_8_4">
+  <data key="d13">187.76786007761092</data>
+  <data key="d14">30.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">Leavenworth St</data>
+</edge>
+<edge source="n_9_4" target="n_9_3">
+  <data key="d13">188.54385601727805</data>
+  <data key="d14">45.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">Folsom St</data>
+</edge>
+<edge source="n_9_4" target="n_9_5">
+  <data key="d13">179.6197276206798</data>
+  <data key="d14">45.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">Folsom St</data>
+</edge>
+<edge source="n_9_4" target="n_10_4">
+  <data key="d13">209.46446925155718</data>
+  <data key="d14">30.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">Leavenworth St</data>
+</edge>
+<edge source="n_9_5" target="n_8_5">
+  <data key="d13">211.7048244371542</data>
+  <data key="d14">30.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">Jones St</data>
+</edge>
+<edge source="n_9_5" target="n_9_4">
+  <data key="d13">179.6197276206798</data>
+  <data key="d14">45.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">Folsom St</data>
+</edge>
+<edge source="n_9_5" target="n_9_6">
+  <data key="d13">183.19226238090434</data>
+  <data key="d14">45.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">Folsom St</data>
+</edge>
+<edge source="n_9_5" target="n_10_5">
+  <data key="d13">186.45723131091967</data>
+  <data key="d14">30.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">Jones St</data>
+</edge>
+<edge source="n_9_6" target="n_8_6">
+  <data key="d13">180.9906958599161</data>
+  <data key="d14">35.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">Taylor St</data>
+</edge>
+<edge source="n_9_6" target="n_9_5">
+  <data key="d13">183.19226238090434</data>
+  <data key="d14">45.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">Folsom St</data>
+</edge>
+<edge source="n_9_6" target="n_9_7">
+  <data key="d13">167.6172453992901</data>
+  <data key="d14">45.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">Folsom St</data>
+</edge>
+<edge source="n_9_6" target="n_10_6">
+  <data key="d13">202.8250676868392</data>
+  <data key="d14">35.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">Taylor St</data>
+</edge>
+<edge source="n_9_7" target="n_8_7">
+  <data key="d13">213.69253286298346</data>
+  <data key="d14">35.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">Mason St</data>
+</edge>
+<edge source="n_9_7" target="n_9_6">
+  <data key="d13">167.6172453992901</data>
+  <data key="d14">45.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">Folsom St</data>
+</edge>
+<edge source="n_9_7" target="n_9_8">
+  <data key="d13">165.5433753052553</data>
+  <data key="d14">45.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">Folsom St</data>
+</edge>
+<edge source="n_9_7" target="n_10_7">
+  <data key="d13">183.71498885288554</data>
+  <data key="d14">35.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">Mason St</data>
+</edge>
+<edge source="n_9_8" target="n_8_8">
+  <data key="d13">194.71160825281805</data>
+  <data key="d14">40.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">Powell St</data>
+</edge>
+<edge source="n_9_8" target="n_9_7">
+  <data key="d13">165.5433753052553</data>
+  <data key="d14">45.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">Folsom St</data>
+</edge>
+<edge source="n_9_8" target="n_9_9">
+  <data key="d13">183.52764086760934</data>
+  <data key="d14">45.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">Folsom St</data>
+</edge>
+<edge source="n_9_8" target="n_10_8">
+  <data key="d13">211.97955951813887</data>
+  <data key="d14">40.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">Powell St</data>
+</edge>
+<edge source="n_9_9" target="n_8_9">
+  <data key="d13">160.52311761154564</data>
+  <data key="d14">40.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">Stockton St</data>
+</edge>
+<edge source="n_9_9" target="n_9_8">
+  <data key="d13">183.52764086760934</data>
+  <data key="d14">45.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">Folsom St</data>
+</edge>
+<edge source="n_9_9" target="n_9_10">
+  <data key="d13">179.14882389083448</data>
+  <data key="d14">45.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">Folsom St</data>
+</edge>
+<edge source="n_9_9" target="n_10_9">
+  <data key="d13">203.63949656077224</data>
+  <data key="d14">40.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">Stockton St</data>
+</edge>
+<edge source="n_9_10" target="n_8_10">
+  <data key="d13">189.91459399374972</data>
+  <data key="d14">30.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">Grant Ave</data>
+</edge>
+<edge source="n_9_10" target="n_9_9">
+  <data key="d13">179.14882389083448</data>
+  <data key="d14">45.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">Folsom St</data>
+</edge>
+<edge source="n_9_10" target="n_9_11">
+  <data key="d13">176.28250453928564</data>
+  <data key="d14">45.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">Folsom St</data>
+</edge>
+<edge source="n_9_10" target="n_10_10">
+  <data key="d13">204.1130258094034</data>
+  <data key="d14">30.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">Grant Ave</data>
+</edge>
+<edge source="n_9_11" target="n_8_11">
+  <data key="d13">180.1659166266539</data>
+  <data key="d14">45.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">Kearny St</data>
+</edge>
+<edge source="n_9_11" target="n_9_10">
+  <data key="d13">176.28250453928564</data>
+  <data key="d14">45.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">Folsom St</data>
+</edge>
+<edge source="n_9_11" target="n_9_12">
+  <data key="d13">185.7030765974793</data>
+  <data key="d14">45.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">Folsom St</data>
+</edge>
+<edge source="n_9_11" target="n_10_11">
+  <data key="d13">194.10228684496965</data>
+  <data key="d14">45.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">Kearny St</data>
+</edge>
+<edge source="n_9_12" target="n_8_12">
+  <data key="d13">173.98752955528744</data>
+  <data key="d14">45.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">Montgomery St</data>
+</edge>
+<edge source="n_9_12" target="n_9_11">
+  <data key="d13">185.7030765974793</data>
+  <data key="d14">45.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">Folsom St</data>
+</edge>
+<edge source="n_9_12" target="n_9_13">
+  <data key="d13">161.70078841150686</data>
+  <data key="d14">45.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">Folsom St</data>
+</edge>
+<edge source="n_9_12" target="n_10_12">
+  <data key="d13">220.64195349439044</data>
+  <data key="d14">45.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">Montgomery St</data>
+</edge>
+<edge source="n_9_13" target="n_8_13">
+  <data key="d13">173.59826901818977</data>
+  <data key="d14">40.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">Sansome St</data>
+</edge>
+<edge source="n_9_13" target="n_9_12">
+  <data key="d13">161.70078841150686</data>
+  <data key="d14">45.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">Folsom St</data>
+</edge>
+<edge source="n_9_13" target="n_10_13">
+  <data key="d13">211.35127482028193</data>
+  <data key="d14">40.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">Sansome St</data>
+</edge>
+<edge source="n_10_0" target="n_9_0">
+  <data key="d13">222.9271814375759</data>
+  <data key="d14">50.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">Van Ness Ave</data>
+</edge>
+<edge source="n_10_0" target="n_10_1">
+  <data key="d13">183.63582115165053</data>
+  <data key="d14">50.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">Harrison St</data>
+</edge>
+<edge source="n_10_0" target="n_11_0">
+  <data key="d13">204.45637415080532</data>
+  <data key="d14">50.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">Van Ness Ave</data>
+</edge>
+<edge source="n_10_1" target="n_9_1">
+  <data key="d13">192.14750526499475</data>
+  <data key="d14">35.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">Polk St</data>
+</edge>
+<edge source="n_10_1" target="n_10_0">
+  <data key="d13">183.63582115165053</data>
+  <data key="d14">50.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">Harrison St</data>
+</edge>
+<edge source="n_10_1" target="n_10_2">
+  <data key="d13">175.70502499182322</data>
+  <data key="d14">50.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">Harrison St</data>
+</edge>
+<edge source="n_10_1" target="n_11_1">
+  <data key="d13">198.0293876744171</data>
+  <data key="d14">35.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">Polk St</data>
+</edge>
+<edge source="n_10_2" target="n_9_2">
+  <data key="d13">204.8761005833279</data>
+  <data key="d14">35.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">Larkin St</data>
+</edge>
+<edge source="n_10_2" target="n_10_1">
+  <data key="d13">175.70502499182322</data>
+  <data key="d14">50.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">Harrison St</data>
+</edge>
+<edge source="n_10_2" target="n_10_3">
+  <data key="d13">173.29224226109798</data>
+  <data key="d14">50.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">Harrison St</data>
+</edge>
+<edge source="n_10_2" target="n_11_2">
+  <data key="d13">217.33255223954106</data>
+  <data key="d14">35.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">Larkin St</data>
+</edge>
+<edge source="n_10_3" target="n_9_3">
+  <data key="d13">181.89064363898626</data>
+  <data key="d14">30.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">Hyde St</data>
+</edge>
+<edge source="n_10_3" target="n_10_2">
+  <data key="d13">173.29224226109798</data>
+  <data key="d14">50.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">Harrison St</data>
+</edge>
+<edge source="n_10_3" target="n_10_4">
+  <data key="d13">173.4148299465949</data>
+  <data key="d14">50.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">Harrison St</data>
+</edge>
+<edge source="n_10_3" target="n_11_3">
+  <data key="d13">186.95414986231052</data>
+  <data key="d14">30.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">Hyde St</data>
+</edge>
+<edge source="n_10_4" target="n_9_4">
+  <data key="d13">209.46446925155718</data>
+  <data key="d14">30.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">Leavenworth St</data>
+</edge>
+<edge source="n_10_4" target="n_10_3">
+  <data key="d13">173.4148299465949</data>
+  <data key="d14">50.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">Harrison St</data>
+</edge>
+<edge source="n_10_4" target="n_10_5">
+  <data key="d13">188.3708741311668</data>
+  <data key="d14">50.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">Harrison St</data>
+</edge>
+<edge source="n_10_4" target="n_11_4">
+  <data key="d13">192.48347917912733</data>
+  <data key="d14">30.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">Leavenworth St</data>
+</edge>
+<edge source="n_10_5" target="n_9_5">
+  <data key="d13">186.45723131091967</data>
+  <data key="d14">30.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">Jones St</data>
+</edge>
+<edge source="n_10_5" target="n_10_4">
+  <data key="d13">188.3708741311668</data>
+  <data key="d14">50.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">Harrison St</data>
+</edge>
+<edge source="n_10_5" target="n_10_6">
+  <data key="d13">165.63712684518504</data>
+  <data key="d14">50.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">Harrison St</data>
+</edge>
+<edge source="n_10_5" target="n_11_5">
+  <data key="d13">219.0522709047601</data>
+  <data key="d14">30.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">Jones St</data>
+</edge>
+<edge source="n_10_6" target="n_9_6">
+  <data key="d13">202.8250676868392</data>
+  <data key="d14">35.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">Taylor St</data>
+</edge>
+<edge source="n_10_6" target="n_10_5">
+  <data key="d13">165.63712684518504</data>
+  <data key="d14">50.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">Harrison St</data>
+</edge>
+<edge source="n_10_6" target="n_10_7">
+  <data key="d13">178.85506966475398</data>
+  <data key="d14">50.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">Harrison St</data>
+</edge>
+<edge source="n_10_6" target="n_11_6">
+  <data key="d13">216.48882887779138</data>
+  <data key="d14">35.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">Taylor St</data>
+</edge>
+<edge source="n_10_7" target="n_9_7">
+  <data key="d13">183.71498885288554</data>
+  <data key="d14">35.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">Mason St</data>
+</edge>
+<edge source="n_10_7" target="n_10_6">
+  <data key="d13">178.85506966475398</data>
+  <data key="d14">50.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">Harrison St</data>
+</edge>
+<edge source="n_10_7" target="n_10_8">
+  <data key="d13">178.03963083084736</data>
+  <data key="d14">50.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">Harrison St</data>
+</edge>
+<edge source="n_10_7" target="n_11_7">
+  <data key="d13">185.5025911327616</data>
+  <data key="d14">35.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">Mason St</data>
+</edge>
+<edge source="n_10_8" target="n_9_8">
+  <data key="d13">211.97955951813887</data>
+  <data key="d14">40.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">Powell St</data>
+</edge>
+<edge source="n_10_8" target="n_10_7">
+  <data key="d13">178.03963083084736</data>
+  <data key="d14">50.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">Harrison St</data>
+</edge>
+<edge source="n_10_8" target="n_10_9">
+  <data key="d13">187.373165637934</data>
+  <data key="d14">50.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">Harrison St</data>
+</edge>
+<edge source="n_10_8" target="n_11_8">
+  <data key="d13">179.41332476216</data>
+  <data key="d14">40.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">Powell St</data>
+</edge>
+<edge source="n_10_9" target="n_9_9">
+  <data key="d13">203.63949656077224</data>
+  <data key="d14">40.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">Stockton St</data>
+</edge>
+<edge source="n_10_9" target="n_10_8">
+  <data key="d13">187.373165637934</data>
+  <data key="d14">50.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">Harrison St</data>
+</edge>
+<edge source="n_10_9" target="n_10_10">
+  <data key="d13">173.0203508301422</data>
+  <data key="d14">50.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">Harrison St</data>
+</edge>
+<edge source="n_10_9" target="n_11_9">
+  <data key="d13">217.75638460878181</data>
+  <data key="d14">40.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">Stockton St</data>
+</edge>
+<edge source="n_10_10" target="n_9_10">
+  <data key="d13">204.1130258094034</data>
+  <data key="d14">30.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">Grant Ave</data>
+</edge>
+<edge source="n_10_10" target="n_10_9">
+  <data key="d13">173.0203508301422</data>
+  <data key="d14">50.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">Harrison St</data>
+</edge>
+<edge source="n_10_10" target="n_10_11">
+  <data key="d13">157.7508670913768</data>
+  <data key="d14">50.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">Harrison St</data>
+</edge>
+<edge source="n_10_10" target="n_11_10">
+  <data key="d13">203.22323087838876</data>
+  <data key="d14">30.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">Grant Ave</data>
+</edge>
+<edge source="n_10_11" target="n_9_11">
+  <data key="d13">194.10228684496965</data>
+  <data key="d14">45.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">Kearny St</data>
+</edge>
+<edge source="n_10_11" target="n_10_10">
+  <data key="d13">157.7508670913768</data>
+  <data key="d14">50.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">Harrison St</data>
+</edge>
+<edge source="n_10_11" target="n_10_12">
+  <data key="d13">180.72180826874467</data>
+  <data key="d14">50.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">Harrison St</data>
+</edge>
+<edge source="n_10_11" target="n_11_11">
+  <data key="d13">186.38454249272363</data>
+  <data key="d14">45.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">Kearny St</data>
+</edge>
+<edge source="n_10_12" target="n_9_12">
+  <data key="d13">220.64195349439044</data>
+  <data key="d14">45.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">Montgomery St</data>
+</edge>
+<edge source="n_10_12" target="n_10_11">
+  <data key="d13">180.72180826874467</data>
+  <data key="d14">50.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">Harrison St</data>
+</edge>
+<edge source="n_10_12" target="n_10_13">
+  <data key="d13">176.7055576052457</data>
+  <data key="d14">50.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">Harrison St</data>
+</edge>
+<edge source="n_10_12" target="n_11_12">
+  <data key="d13">185.82734632126486</data>
+  <data key="d14">45.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">Montgomery St</data>
+</edge>
+<edge source="n_10_13" target="n_9_13">
+  <data key="d13">211.35127482028193</data>
+  <data key="d14">40.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">Sansome St</data>
+</edge>
+<edge source="n_10_13" target="n_10_12">
+  <data key="d13">176.7055576052457</data>
+  <data key="d14">50.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">Harrison St</data>
+</edge>
+<edge source="n_10_13" target="n_11_13">
+  <data key="d13">203.1241802887772</data>
+  <data key="d14">40.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">Sansome St</data>
+</edge>
+<edge source="n_11_0" target="n_10_0">
+  <data key="d13">204.45637415080532</data>
+  <data key="d14">50.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">Van Ness Ave</data>
+</edge>
+<edge source="n_11_0" target="n_11_1">
+  <data key="d13">158.47767776856605</data>
+  <data key="d14">45.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">Bryant St</data>
+</edge>
+<edge source="n_11_1" target="n_10_1">
+  <data key="d13">198.0293876744171</data>
+  <data key="d14">35.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">Polk St</data>
+</edge>
+<edge source="n_11_1" target="n_11_0">
+  <data key="d13">158.47767776856605</data>
+  <data key="d14">45.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">Bryant St</data>
+</edge>
+<edge source="n_11_1" target="n_11_2">
+  <data key="d13">181.55617727151022</data>
+  <data key="d14">45.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">Bryant St</data>
+</edge>
+<edge source="n_11_2" target="n_10_2">
+  <data key="d13">217.33255223954106</data>
+  <data key="d14">35.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">Larkin St</data>
+</edge>
+<edge source="n_11_2" target="n_11_1">
+  <data key="d13">181.55617727151022</data>
+  <data key="d14">45.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">Bryant St</data>
+</edge>
+<edge source="n_11_2" target="n_11_3">
+  <data key="d13">188.79939993093777</data>
+  <data key="d14">45.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">Bryant St</data>
+</edge>
+<edge source="n_11_3" target="n_10_3">
+  <data key="d13">186.95414986231052</data>
+  <data key="d14">30.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">Hyde St</data>
+</edge>
+<edge source="n_11_3" target="n_11_2">
+  <data key="d13">188.79939993093777</data>
+  <data key="d14">45.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">Bryant St</data>
+</edge>
+<edge source="n_11_3" target="n_11_4">
+  <data key="d13">165.93831631211603</data>
+  <data key="d14">45.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">Bryant St</data>
+</edge>
+<edge source="n_11_4" target="n_10_4">
+  <data key="d13">192.48347917912733</data>
+  <data key="d14">30.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">Leavenworth St</data>
+</edge>
+<edge source="n_11_4" target="n_11_3">
+  <data key="d13">165.93831631211603</data>
+  <data key="d14">45.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">Bryant St</data>
+</edge>
+<edge source="n_11_4" target="n_11_5">
+  <data key="d13">172.63682164162157</data>
+  <data key="d14">45.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">Bryant St</data>
+</edge>
+<edge source="n_11_5" target="n_10_5">
+  <data key="d13">219.0522709047601</data>
+  <data key="d14">30.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">Jones St</data>
+</edge>
+<edge source="n_11_5" target="n_11_4">
+  <data key="d13">172.63682164162157</data>
+  <data key="d14">45.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">Bryant St</data>
+</edge>
+<edge source="n_11_5" target="n_11_6">
+  <data key="d13">174.72563404670873</data>
+  <data key="d14">45.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">Bryant St</data>
+</edge>
+<edge source="n_11_6" target="n_10_6">
+  <data key="d13">216.48882887779138</data>
+  <data key="d14">35.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">Taylor St</data>
+</edge>
+<edge source="n_11_6" target="n_11_5">
+  <data key="d13">174.72563404670873</data>
+  <data key="d14">45.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">Bryant St</data>
+</edge>
+<edge source="n_11_6" target="n_11_7">
+  <data key="d13">188.09983930576777</data>
+  <data key="d14">45.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">Bryant St</data>
+</edge>
+<edge source="n_11_7" target="n_10_7">
+  <data key="d13">185.5025911327616</data>
+  <data key="d14">35.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">Mason St</data>
+</edge>
+<edge source="n_11_7" target="n_11_6">
+  <data key="d13">188.09983930576777</data>
+  <data key="d14">45.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">Bryant St</data>
+</edge>
+<edge source="n_11_7" target="n_11_8">
+  <data key="d13">164.8619289374848</data>
+  <data key="d14">45.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">Bryant St</data>
+</edge>
+<edge source="n_11_8" target="n_10_8">
+  <data key="d13">179.41332476216</data>
+  <data key="d14">40.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">Powell St</data>
+</edge>
+<edge source="n_11_8" target="n_11_7">
+  <data key="d13">164.8619289374848</data>
+  <data key="d14">45.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">Bryant St</data>
+</edge>
+<edge source="n_11_8" target="n_11_9">
+  <data key="d13">175.30329421579646</data>
+  <data key="d14">45.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">Bryant St</data>
+</edge>
+<edge source="n_11_9" target="n_10_9">
+  <data key="d13">217.75638460878181</data>
+  <data key="d14">40.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">Stockton St</data>
+</edge>
+<edge source="n_11_9" target="n_11_8">
+  <data key="d13">175.30329421579646</data>
+  <data key="d14">45.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">Bryant St</data>
+</edge>
+<edge source="n_11_9" target="n_11_10">
+  <data key="d13">186.05829921297138</data>
+  <data key="d14">45.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">Bryant St</data>
+</edge>
+<edge source="n_11_10" target="n_10_10">
+  <data key="d13">203.22323087838876</data>
+  <data key="d14">30.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">Grant Ave</data>
+</edge>
+<edge source="n_11_10" target="n_11_9">
+  <data key="d13">186.05829921297138</data>
+  <data key="d14">45.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">Bryant St</data>
+</edge>
+<edge source="n_11_10" target="n_11_11">
+  <data key="d13">165.346045521803</data>
+  <data key="d14">45.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">Bryant St</data>
+</edge>
+<edge source="n_11_11" target="n_10_11">
+  <data key="d13">186.38454249272363</data>
+  <data key="d14">45.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">Kearny St</data>
+</edge>
+<edge source="n_11_11" target="n_11_10">
+  <data key="d13">165.346045521803</data>
+  <data key="d14">45.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">Bryant St</data>
+</edge>
+<edge source="n_11_11" target="n_11_12">
+  <data key="d13">190.58275875695324</data>
+  <data key="d14">45.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">Bryant St</data>
+</edge>
+<edge source="n_11_12" target="n_10_12">
+  <data key="d13">185.82734632126486</data>
+  <data key="d14">45.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">Montgomery St</data>
+</edge>
+<edge source="n_11_12" target="n_11_11">
+  <data key="d13">190.58275875695324</data>
+  <data key="d14">45.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">Bryant St</data>
+</edge>
+<edge source="n_11_12" target="n_11_13">
+  <data key="d13">167.2995794975805</data>
+  <data key="d14">45.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">Bryant St</data>
+</edge>
+<edge source="n_11_13" target="n_10_13">
+  <data key="d13">203.1241802887772</data>
+  <data key="d14">40.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">Sansome St</data>
+</edge>
+<edge source="n_11_13" target="n_11_12">
+  <data key="d13">167.2995794975805</data>
+  <data key="d14">45.0</data>
+  <data key="d15">0.0</data>
+  <data key="d16">Bryant St</data>
+</edge>
+</graph></graphml>
