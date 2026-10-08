@@ -1,0 +1,90 @@
+@import "tailwindcss";
+@import "leaflet/dist/leaflet.css";
+
+/* Base styles for Fast-Aid Emergency Command Center */
+html, body, #root {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #0b0f19;
+  color: #f1f5f9;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+}
+
+/* Custom scrollbars */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: rgba(15, 23, 42, 0.6);
+}
+::-webkit-scrollbar-thumb {
+  background: #334155;
+  border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #475569;
+}
+
+/* Leaflet dark theme tweaks */
+.leaflet-container {
+  width: 100%;
+  height: 100%;
+  background: #0f172a !important;
+}
+
+/* Animated glowing pulse for Smart Route */
+@keyframes dash-pulse {
+  to {
+    stroke-dashoffset: -40;
+  }
+}
+
+.smart-route-glow {
+  stroke-dasharray: 10, 10;
+  animation: dash-pulse 1.2s linear infinite;
+  filter: drop-shadow(0 0 8px rgba(0, 229, 160, 0.8));
+}
+
+/* Siren Flashing Beacon */
+@keyframes siren-flash {
+  0%, 100% {
+    box-shadow: 0 0 15px 4px rgba(239, 68, 68, 0.8);
+    transform: scale(1);
+  }
+  50% {
+    box-shadow: 0 0 20px 8px rgba(59, 130, 246, 0.9);
+    transform: scale(1.15);
+  }
+}
+
+.siren-active {
+  animation: siren-flash 0.6s infinite alternate;
+}
+
+/* Preemption Green Wave Ripple */
+@keyframes green-wave-ripple {
+  0% {
+    transform: scale(0.8);
+    opacity: 0.9;
+  }
+  100% {
+    transform: scale(2.2);
+    opacity: 0;
+  }
+}
+
+.green-wave-beacon::after {
+  content: '';
+  position: absolute;
+  top: -4px;
+  left: -4px;
+  right: -4px;
+  bottom: -4px;
+  border-radius: 50%;
+  border: 2px solid #10b981;
+  animation: green-wave-ripple 1.5s infinite ease-out;
+}
