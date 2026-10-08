@@ -46,6 +46,30 @@ Emergency call → Pick hospital → Compute route (Dijkstra / A*)
 - Interactive Streamlit dashboard with animated ambulance runs
 - Benchmark experiments with CSV and charts
 
+## Quickstart: 1-Day Showcase Demo (React + FastAPI + Real Map)
+
+To run the interactive React emergency command center with animated ambulance playback and real street map:
+
+```bash
+# 1. Start FastAPI backend (Port 8000)
+uvicorn backend.main:app --host 127.0.0.1 --port 8000
+
+# 2. In a separate terminal, start Vite React frontend (Port 5173)
+cd frontend
+npm run dev
+```
+
+Then open [http://localhost:5173](http://localhost:5173) in your browser.
+
+- **Real Street Map:** Downtown San Francisco street network with real coordinates and road segments.
+- **Interactive Dispatch:** Select origin on map or dropdown, target hospital (or auto-best), and scenario.
+- **Animated Ambulance Replay:** Vehicle animates with flashing siren beacon, heading rotation, and speed gauge.
+- **3 Route Overlays:** Glowing Emerald Fast-Aid corridor, Amber Traffic-Aware, and Cobalt Baseline.
+- **Green Wave V2X:** Upcoming 3 traffic signals light up green as the ambulance advances.
+- **3-Mode Performance Matrix & Benchmark Suite:** Live comparison table and 100-trial experimental charts.
+
+---
+
 ## Tech Stack
 
 Python 3.10+, NetworkX, NumPy, Pandas, Matplotlib, Plotly, Streamlit, pytest
