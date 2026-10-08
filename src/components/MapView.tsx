@@ -4,6 +4,17 @@ import type { Map as MapLibreMap, Marker as MapLibreMarker } from 'maplibre-gl';
 import 'maplibre-gl/dist/maplibre-gl.css';
 import { Hospital, TrafficSignal, DispatchRoutes, Coordinates, GeoJSONLineString, GeoJSONFeatureCollection } from '../types';
 import { AmbulanceMarkerElement } from './AmbulanceMarker';
+import workerCode from 'maplibre-gl/dist/maplibre-gl-worker.mjs?raw';
+
+// Configure MapLibre Web Worker globally before any map instance initializes
+if (typeof window !== 'undefined') {
+  try {
+    const blob = new Blob([workerCode], { type: 'application/javascript' });
+    maplibregl.config.WORKER_URL = URL.createObjectURL(blob);
+  } catch {
+    maplibregl.config.WORKER_URL = '/maplibre-gl-worker.mjs';
+  }
+}
 
 interface MapViewProps {
   currentLat: number;

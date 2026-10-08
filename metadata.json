@@ -1,0 +1,6 @@
+{
+  "name": "Fast-Aid - Live Ambulance Tracking & Dispatch",
+  "description": "Minimal dark-themed live ambulance tracking dashboard with animated trajectory, traffic-aware dispatch, and signal preemption.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
