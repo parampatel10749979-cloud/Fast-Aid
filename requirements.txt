@@ -1,7 +1,22 @@
-networkx
-numpy
-pandas
-matplotlib
-plotly
-streamlit
-pytest
+# Fast-Aid Backend & Simulation Dependencies
+
+# Core API & Server
+fastapi>=0.110.0
+uvicorn[standard]>=0.28.0
+pydantic>=2.6.0
+
+# Graph Routing & Simulation Engine
+networkx>=3.2.0
+numpy>=1.24.0
+pandas>=2.0.0
+
+# Analytics & Benchmark Visualizations
+matplotlib>=3.8.0
+plotly>=5.18.0
+
+# Interactive Dashboard / Demo (Optional)
+streamlit>=1.30.0
+
+# Testing & TestClient
+pytest>=8.0.0
+httpx>=0.27.0
